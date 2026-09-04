@@ -1,0 +1,1001 @@
+Applicant_ID,Gender,Age,Marital_Status,Dependents,Education,Employment_Status,Occupation_Type,Residential_Status,City/Town,Annual_Income,Monthly_Expenses,Credit_Score,Existing_Loans,Total_Existing_Loan_Amount,Outstanding_Debt,Loan_History,Loan_Amount_Requested,Loan_Term,Loan_Purpose,Interest_Rate,Loan_Type,Co-Applicant,Bank_Account_History,Transaction_Frequency,Default_Risk,Loan_Approval_Status
+1,Female,25,Married,2,Graduate,Employed,Business,Own,Urban,139901,2533,743,0,10942,19822,0,24535,209,Home,4.27,Secured,Yes,8,20,0.81,1
+2,Male,36,Married,2,High School,Employed,Business,Own,Suburban,21162,4041,468,1,48731,18321,0,8288,33,Home,14.78,Unsecured,Yes,9,9,0.17,0
+3,Male,43,Single,0,Postgraduate,Self-Employed,Freelancer,Own,Urban,27815,3453,389,2,6925,13851,0,10308,159,Vehicle,12.33,Secured,Yes,7,27,0.25,0
+4,Female,28,Married,0,High School,Self-Employed,Freelancer,Rent,Suburban,137853,2732,778,0,42016,28608,1,33937,39,Personal,8.77,Secured,No,9,16,0.27,1
+5,Female,32,Single,0,Graduate,Employed,Salaried,Rent,Suburban,81753,1648,752,2,31747,8780,1,23360,34,Home,9.04,Unsecured,No,1,17,0.32,1
+6,Male,49,Single,2,Postgraduate,Employed,Freelancer,Own,Urban,149372,2976,793,0,2635,4453,0,30056,111,Education,4.98,Unsecured,Yes,4,14,0.99,1
+7,Female,41,Married,0,High School,Employed,Salaried,Own,Rural,123266,1118,707,0,15843,28872,0,34707,192,Personal,7.35,Unsecured,Yes,2,13,0.56,1
+8,Female,52,Single,2,Postgraduate,Employed,Business,Own,Urban,59889,4622,349,2,12436,29440,0,10583,81,Vehicle,13.49,Unsecured,No,4,21,0.45,0
+9,Male,27,Single,1,Graduate,Self-Employed,Freelancer,Rent,Urban,121626,2511,803,0,9919,13940,0,20239,101,Home,13.53,Secured,Yes,4,18,0.54,0
+10,Male,61,Single,3,Postgraduate,Employed,Freelancer,Own,Urban,38330,4523,599,2,4325,19381,0,15084,164,Personal,14.07,Secured,No,4,19,0.22,1
+11,Female,32,Married,3,Postgraduate,Self-Employed,Salaried,Rent,Suburban,54670,4969,772,1,28940,22104,0,20000,158,Home,6.74,Unsecured,No,6,8,0.68,1
+12,Female,38,Married,2,Postgraduate,Employed,Professional,Rent,Suburban,45368,1746,311,2,4949,24498,0,15496,226,Vehicle,8.6,Secured,Yes,7,7,0.83,0
+13,Male,54,Married,3,Graduate,Employed,Business,Own,Suburban,39362,2534,332,2,40843,9411,0,13170,203,Education,5.31,Secured,Yes,9,5,0.63,1
+14,Male,39,Single,2,Postgraduate,Self-Employed,Salaried,Rent,Urban,114706,3895,789,0,27122,1043,0,31437,234,Education,5.81,Unsecured,Yes,3,27,0.13,1
+15,Male,32,Divorced,0,High School,Employed,Freelancer,Own,Urban,83938,3444,756,1,43969,14421,0,22519,44,Personal,13.39,Unsecured,No,5,9,0.29,1
+16,Female,37,Single,2,High School,Employed,Salaried,Own,Urban,126106,3076,826,0,46817,24028,0,36921,83,Vehicle,10.61,Unsecured,No,5,14,0.54,1
+17,Female,46,Single,0,Postgraduate,Self-Employed,Salaried,Rent,Urban,141776,2887,745,1,16401,28232,1,25115,175,Home,13.17,Unsecured,No,9,14,0.33,1
+18,Male,30,Single,0,High School,Employed,Salaried,Other,Urban,73388,1024,821,0,39869,21641,0,20347,157,Education,8.56,Secured,No,0,25,0.09,1
+19,Female,47,Married,2,Graduate,Employed,Salaried,Own,Suburban,136354,3703,806,1,26560,6546,0,20651,70,Home,12.51,Unsecured,Yes,3,6,0.69,1
+20,Female,34,Married,2,Postgraduate,Employed,Freelancer,Rent,Suburban,98808,2975,843,0,9826,19231,0,22547,51,Home,8.72,Secured,Yes,1,29,0.28,1
+21,Male,25,Married,1,Graduate,Employed,Salaried,Rent,Rural,76173,1323,752,2,3851,29337,0,21185,122,Education,9.65,Unsecured,No,6,25,0.48,0
+22,Female,33,Single,0,Graduate,Employed,Professional,Rent,Urban,112335,2636,815,2,19895,24735,0,20804,39,Personal,12.47,Secured,No,3,11,0.26,0
+23,Female,29,Married,2,Postgraduate,Employed,Freelancer,Own,Suburban,59576,1966,748,2,2901,16499,0,20000,111,Education,8.27,Unsecured,No,3,8,0.72,1
+24,Female,48,Married,1,High School,Self-Employed,Freelancer,Own,Urban,75902,4412,808,2,38696,4475,0,21091,133,Home,14.43,Unsecured,No,0,22,0.06,0
+25,Female,36,Married,0,High School,Unemployed,Salaried,Own,Suburban,76130,3789,808,0,19161,10197,0,22559,119,Home,12.62,Unsecured,Yes,4,24,0.76,1
+26,Male,62,Single,3,Postgraduate,Employed,Freelancer,Own,Suburban,25512,3437,444,1,49345,1466,1,5605,44,Home,8.03,Unsecured,Yes,8,14,0.47,1
+27,Female,30,Married,3,Graduate,Employed,Business,Own,Urban,83447,3687,794,2,2841,19771,0,21241,161,Education,5.4,Unsecured,Yes,7,23,0.51,1
+28,Male,40,Single,0,Postgraduate,Employed,Professional,Own,Urban,73963,4692,741,1,34053,3495,0,20696,41,Home,6.44,Unsecured,No,8,16,0.64,1
+29,Female,36,Single,1,High School,Self-Employed,Business,Rent,Urban,127788,4444,784,0,41825,1942,0,35810,100,Home,10.02,Unsecured,Yes,5,28,0.46,1
+30,Female,46,Divorced,1,Postgraduate,Self-Employed,Business,Own,Urban,104806,4972,839,2,47381,1269,1,23447,42,Home,5.99,Unsecured,No,7,8,0.06,1
+31,Male,28,Divorced,2,High School,Employed,Salaried,Rent,Urban,67933,1594,742,0,23309,13179,1,20249,45,Personal,13.17,Secured,No,8,9,0.24,0
+32,Female,27,Married,0,High School,Self-Employed,Professional,Own,Suburban,111334,4928,842,2,28057,7520,0,32288,184,Home,9.19,Secured,No,1,25,0.37,1
+33,Female,26,Single,1,Graduate,Employed,Freelancer,Rent,Urban,99270,3883,712,0,14504,13508,0,26828,192,Personal,6.6,Secured,No,6,9,0.93,1
+34,Female,59,Married,0,Graduate,Employed,Freelancer,Other,Urban,42620,4689,391,1,27323,20923,0,14659,196,Home,5.03,Unsecured,No,7,20,0.08,0
+35,Female,29,Married,3,Graduate,Employed,Freelancer,Other,Suburban,39883,2928,510,1,47837,19322,0,9056,44,Home,14.16,Secured,Yes,1,21,0.24,0
+36,Female,53,Married,0,Graduate,Self-Employed,Freelancer,Own,Suburban,66047,849,482,0,42842,16363,0,24795,124,Education,3.97,Secured,Yes,9,26,0.71,0
+37,Female,39,Single,0,High School,Employed,Freelancer,Own,Urban,140024,3496,825,1,30144,21141,1,34924,87,Home,7.29,Unsecured,Yes,7,28,0.94,1
+38,Female,38,Married,1,High School,Unemployed,Business,Own,Urban,56434,4714,760,1,44072,14797,0,20000,47,Home,10.47,Secured,Yes,9,28,0.12,1
+39,Male,37,Married,3,Postgraduate,Self-Employed,Salaried,Own,Suburban,88355,3157,752,0,39101,26645,0,23097,229,Education,14.68,Unsecured,Yes,8,28,0.67,1
+40,Male,41,Married,0,High School,Self-Employed,Business,Own,Rural,138057,4469,726,1,49996,8323,0,31869,74,Home,7.27,Secured,No,2,27,0.23,1
+41,Male,46,Married,1,Graduate,Employed,Professional,Own,Urban,51249,1891,815,2,20168,22824,0,20000,120,Home,4.78,Unsecured,Yes,0,5,0.78,1
+42,Female,47,Single,2,Postgraduate,Self-Employed,Freelancer,Own,Urban,67520,4023,843,1,34107,5958,0,20017,54,Home,5.07,Secured,Yes,0,19,0.55,1
+43,Male,29,Married,1,High School,Self-Employed,Professional,Own,Suburban,122670,3948,723,0,47607,19881,0,24781,143,Vehicle,10.66,Unsecured,No,3,9,0.95,1
+44,Female,59,Married,1,Graduate,Self-Employed,Freelancer,Own,Urban,67367,1815,418,1,40511,27294,0,13580,156,Home,8.52,Secured,No,6,8,0.16,0
+45,Female,34,Married,1,Graduate,Self-Employed,Freelancer,Rent,Suburban,134031,3080,812,0,20736,28911,1,36100,85,Personal,11.24,Unsecured,No,6,12,0.76,0
+46,Male,41,Married,3,Graduate,Self-Employed,Business,Rent,Rural,116852,3954,741,1,38210,17280,0,23742,149,Home,4.12,Unsecured,Yes,7,28,0.39,0
+47,Female,43,Married,1,Graduate,Self-Employed,Salaried,Own,Urban,122278,4560,828,0,20248,5386,0,20342,197,Vehicle,13.13,Secured,No,1,22,0.75,1
+48,Male,46,Married,3,Graduate,Self-Employed,Business,Own,Suburban,52600,2669,794,1,32961,28914,0,20000,81,Education,3.87,Secured,No,6,17,0.41,1
+49,Male,47,Single,3,High School,Self-Employed,Salaried,Own,Urban,60103,1176,847,0,35354,788,0,20000,41,Personal,11.67,Unsecured,No,5,17,0.9,1
+50,Male,49,Divorced,1,Graduate,Employed,Business,Own,Urban,64215,549,782,1,20182,19492,0,20000,81,Home,4.5,Unsecured,Yes,2,18,0.89,0
+51,Male,61,Single,1,Postgraduate,Employed,Salaried,Own,Suburban,24428,1093,548,0,9292,17323,0,6342,181,Home,13.78,Secured,No,3,19,0.86,0
+52,Female,45,Single,0,Graduate,Employed,Salaried,Own,Urban,33432,1751,357,0,17881,13599,0,6055,190,Home,9.67,Secured,Yes,7,18,0.25,0
+53,Male,19,Married,2,Graduate,Unemployed,Salaried,Own,Urban,32418,1717,587,0,37560,22349,0,11224,73,Education,7.35,Unsecured,No,4,19,0.2,1
+54,Male,20,Single,1,Postgraduate,Employed,Business,Other,Urban,41190,2918,511,2,41654,18678,1,9663,74,Home,13.35,Unsecured,Yes,8,17,0.6,0
+55,Female,39,Single,3,Graduate,Self-Employed,Business,Rent,Suburban,63611,1868,846,0,16021,285,0,20000,54,Home,12.79,Unsecured,Yes,6,9,0.47,1
+56,Male,30,Single,0,Graduate,Employed,Professional,Own,Urban,43060,1835,306,1,17048,4879,0,9244,160,Education,9.76,Unsecured,No,1,8,0.9,0
+57,Female,28,Single,0,High School,Employed,Business,Own,Urban,120324,3705,720,0,41166,10525,0,29625,32,Education,5.63,Secured,Yes,9,28,0.12,1
+58,Male,45,Married,1,Graduate,Employed,Freelancer,Own,Urban,126335,3783,756,0,16291,14334,1,20464,40,Home,5.93,Unsecured,No,6,21,0.44,1
+59,Male,38,Married,0,High School,Employed,Freelancer,Own,Suburban,143063,2401,788,1,22407,10490,0,32776,224,Education,8.41,Unsecured,No,9,17,0.22,1
+60,Female,37,Married,3,High School,Self-Employed,Professional,Rent,Urban,106339,3492,827,1,38747,3190,0,28112,193,Vehicle,4.73,Secured,Yes,7,19,0.22,0
+61,Male,31,Married,1,High School,Employed,Business,Other,Urban,127737,4816,777,0,29781,8134,1,32997,213,Personal,13.95,Unsecured,No,7,15,0.13,1
+62,Male,38,Married,2,High School,Employed,Professional,Rent,Suburban,148537,1408,849,1,15771,18477,1,24363,40,Personal,14.11,Secured,No,1,14,0.82,1
+63,Female,55,Divorced,1,Graduate,Employed,Freelancer,Own,Urban,32920,2753,385,1,35987,7125,1,6749,26,Home,14.18,Unsecured,No,2,23,0.47,0
+64,Male,29,Married,3,Postgraduate,Employed,Business,Rent,Suburban,64093,2296,807,2,32765,4132,0,20000,147,Education,3.74,Unsecured,Yes,5,27,0.37,1
+65,Male,37,Married,0,Graduate,Employed,Professional,Own,Suburban,104510,3578,772,1,42942,21722,0,22924,89,Vehicle,9.26,Unsecured,Yes,8,25,0.62,1
+66,Female,30,Single,2,Graduate,Self-Employed,Professional,Own,Rural,94133,2377,795,0,31882,29162,0,22170,200,Education,12.69,Unsecured,Yes,5,9,0.88,1
+67,Male,41,Single,2,Graduate,Unemployed,Professional,Other,Urban,122542,1907,744,2,35412,9871,0,24127,198,Education,10.94,Unsecured,Yes,2,16,0.56,1
+68,Female,57,Single,2,High School,Self-Employed,Professional,Own,Suburban,57570,4022,473,2,19301,13054,0,13185,93,Home,8.37,Secured,No,3,29,0.75,0
+69,Female,31,Divorced,2,Postgraduate,Self-Employed,Salaried,Own,Urban,69760,1179,753,0,12975,20200,0,20122,123,Personal,5.99,Secured,Yes,0,6,0.96,0
+70,Male,63,Single,2,High School,Employed,Business,Own,Rural,69578,2278,578,1,19872,15772,0,26182,76,Home,12.44,Secured,No,1,10,0.07,0
+71,Female,52,Single,3,High School,Self-Employed,Professional,Other,Urban,36908,2117,486,2,32759,3811,0,6651,142,Education,3.67,Unsecured,Yes,8,27,0.22,0
+72,Male,42,Married,1,High School,Employed,Freelancer,Own,Urban,57231,4387,776,2,48420,27872,0,20000,186,Home,6.36,Secured,No,0,25,0.69,1
+73,Female,49,Single,1,Postgraduate,Employed,Freelancer,Rent,Urban,73735,1623,795,2,36627,22058,0,20335,164,Education,5.67,Secured,No,7,11,0.95,1
+74,Male,38,Married,0,Graduate,Unemployed,Salaried,Own,Urban,32625,2006,393,0,20021,11026,0,11885,53,Education,4.49,Secured,Yes,9,20,0.18,0
+75,Male,42,Married,0,Graduate,Employed,Business,Own,Urban,55882,1855,343,1,33737,6135,1,19530,67,Education,4.95,Unsecured,No,3,21,0.67,1
+76,Female,48,Single,3,Postgraduate,Employed,Salaried,Rent,Urban,43008,2442,364,1,43328,177,1,12571,236,Vehicle,11.8,Secured,Yes,0,24,0.63,1
+77,Female,32,Divorced,3,Postgraduate,Employed,Professional,Rent,Rural,25233,2157,500,0,29026,5905,0,8567,58,Home,7.34,Unsecured,Yes,5,21,0.08,0
+78,Male,39,Single,0,Postgraduate,Employed,Business,Own,Urban,96440,3063,773,1,24091,11162,0,25540,56,Home,7.65,Secured,No,8,15,0.22,1
+79,Male,49,Single,2,Postgraduate,Self-Employed,Freelancer,Own,Urban,109631,2318,744,2,17351,1826,0,24384,132,Vehicle,10.88,Secured,Yes,2,6,0.23,1
+80,Male,43,Married,0,Graduate,Self-Employed,Freelancer,Rent,Suburban,142307,4963,754,0,23783,3183,0,21258,211,Education,11.72,Unsecured,Yes,6,24,0.44,1
+81,Male,68,Single,3,High School,Unemployed,Salaried,Own,Urban,37539,2887,336,1,49896,19749,0,12023,193,Education,14.14,Unsecured,No,0,12,0.07,0
+82,Female,37,Married,0,High School,Self-Employed,Salaried,Rent,Urban,129380,1557,783,2,40693,4720,0,32699,200,Personal,14.74,Secured,No,7,7,0.26,1
+83,Female,38,Married,2,Graduate,Self-Employed,Salaried,Own,Urban,149375,4464,817,1,45074,1686,0,23706,98,Vehicle,8.45,Unsecured,No,9,5,0.02,1
+84,Male,49,Single,0,Graduate,Employed,Salaried,Own,Suburban,71260,902,728,1,19517,12570,1,20910,78,Vehicle,8.11,Unsecured,No,9,23,0.16,1
+85,Male,43,Single,1,High School,Employed,Salaried,Own,Suburban,135220,3057,823,1,43294,25786,0,38280,44,Personal,14.15,Secured,No,8,12,0.31,1
+86,Male,47,Married,1,High School,Unemployed,Business,Rent,Urban,70684,878,785,2,5830,27409,0,20953,35,Education,9.14,Secured,Yes,7,5,0.12,1
+87,Female,36,Married,3,Postgraduate,Self-Employed,Business,Own,Urban,67283,4000,568,0,3935,200,1,11245,21,Personal,8.49,Secured,Yes,4,21,0.37,0
+88,Male,41,Married,2,Graduate,Employed,Salaried,Other,Rural,88507,4612,841,0,4480,17424,0,25515,132,Vehicle,12.96,Unsecured,Yes,5,15,0.26,1
+89,Male,61,Married,0,High School,Employed,Freelancer,Rent,Urban,44493,4989,593,0,27009,10449,1,13470,136,Personal,5.79,Unsecured,Yes,6,28,0.32,0
+90,Female,40,Single,2,Graduate,Self-Employed,Salaried,Rent,Urban,88124,3425,727,0,19694,29696,0,20682,208,Home,6.41,Unsecured,Yes,5,29,0.49,1
+91,Male,43,Single,2,High School,Employed,Professional,Own,Urban,131192,2215,823,2,25467,23923,1,23590,223,Personal,9.53,Unsecured,Yes,8,16,0.53,1
+92,Male,62,Married,3,Postgraduate,Employed,Business,Own,Urban,50569,3826,518,1,39389,2280,0,6504,28,Home,11.2,Secured,Yes,3,10,0.8,0
+93,Female,27,Married,0,Postgraduate,Self-Employed,Business,Own,Urban,57948,4743,561,1,8069,17606,0,12598,76,Vehicle,10.89,Secured,No,9,5,0.83,1
+94,Male,32,Divorced,3,Graduate,Self-Employed,Freelancer,Other,Suburban,103775,3036,765,0,32188,23664,0,26779,227,Home,5.85,Secured,No,2,24,0.84,0
+95,Male,66,Married,3,High School,Self-Employed,Professional,Own,Suburban,63742,4367,455,2,26135,11287,0,5005,94,Vehicle,11.49,Secured,No,4,23,0.6,0
+96,Female,37,Married,0,High School,Self-Employed,Professional,Own,Rural,123775,2700,773,2,3150,18475,0,21760,121,Home,8.97,Secured,Yes,5,29,0.97,1
+97,Male,26,Single,2,Graduate,Unemployed,Professional,Own,Suburban,56089,3386,823,0,26096,9860,0,20000,177,Vehicle,9.74,Secured,Yes,0,16,0.94,1
+98,Female,49,Divorced,0,High School,Employed,Business,Rent,Suburban,102144,4368,770,2,6393,20072,1,22702,108,Vehicle,10.4,Secured,No,6,10,0.59,1
+99,Female,36,Single,1,Postgraduate,Self-Employed,Business,Own,Suburban,118209,3259,796,1,30979,3438,1,21339,23,Education,9.19,Unsecured,No,0,6,0.25,1
+100,Female,48,Single,2,Graduate,Unemployed,Professional,Own,Urban,112560,2852,802,0,318,3543,0,22315,229,Education,10.75,Secured,No,7,26,0.94,0
+101,Male,42,Single,1,Graduate,Self-Employed,Freelancer,Own,Suburban,143783,3379,725,1,33778,12932,0,39683,237,Education,9.19,Secured,Yes,4,18,0.15,1
+102,Female,43,Married,1,High School,Self-Employed,Salaried,Own,Suburban,74599,4776,798,0,32177,8876,0,20034,132,Personal,6.4,Unsecured,Yes,4,9,0.91,1
+103,Female,48,Married,1,Graduate,Self-Employed,Freelancer,Other,Urban,52665,4472,793,2,49387,20339,0,20000,82,Education,4.35,Secured,No,9,20,0.76,1
+104,Male,40,Single,2,Graduate,Employed,Business,Own,Suburban,139214,2602,713,0,44270,18648,0,35421,44,Personal,7.51,Secured,No,1,26,0.28,0
+105,Male,37,Married,1,Graduate,Self-Employed,Business,Rent,Urban,57629,3078,432,2,11317,15767,1,16929,175,Home,13.26,Secured,Yes,4,19,0.28,0
+106,Male,26,Married,0,Postgraduate,Self-Employed,Salaried,Own,Rural,108143,4118,708,2,30703,17413,0,22765,107,Home,8.44,Unsecured,No,0,6,0.85,0
+107,Female,44,Married,3,Graduate,Employed,Professional,Own,Suburban,105508,4244,730,0,15382,21345,0,25968,12,Home,12.63,Secured,Yes,6,10,0.14,1
+108,Male,55,Single,2,High School,Unemployed,Freelancer,Own,Urban,34907,3184,463,0,2470,5040,0,12034,103,Home,8.74,Secured,Yes,5,28,0.17,1
+109,Male,38,Married,2,Graduate,Employed,Professional,Own,Urban,96672,4210,709,0,42088,1878,0,21819,31,Home,14.3,Secured,Yes,6,16,0.03,1
+110,Female,48,Single,2,Postgraduate,Employed,Business,Own,Urban,106180,4531,809,0,5592,22604,1,27308,78,Home,5.56,Secured,Yes,4,28,0.3,1
+111,Female,27,Single,3,Postgraduate,Employed,Professional,Own,Urban,126601,952,833,2,39783,17915,0,37201,79,Home,13.06,Secured,No,6,24,0.71,1
+112,Female,45,Married,0,High School,Employed,Business,Other,Urban,87378,2256,773,2,39599,29728,0,24418,28,Education,13.77,Secured,Yes,1,14,0.61,1
+113,Male,36,Married,1,High School,Self-Employed,Salaried,Rent,Urban,61410,3344,475,0,5019,16937,0,12388,134,Personal,6.97,Unsecured,No,7,23,0.53,0
+114,Female,25,Single,2,Graduate,Self-Employed,Professional,Rent,Rural,37979,2481,440,0,47153,7678,0,7467,227,Education,10.89,Unsecured,Yes,3,17,0.05,0
+115,Male,32,Single,0,Graduate,Employed,Freelancer,Own,Urban,136706,4303,721,1,2100,997,0,23620,204,Vehicle,5.21,Unsecured,Yes,4,6,0.4,0
+116,Female,23,Single,1,High School,Self-Employed,Professional,Rent,Urban,43332,3274,398,1,35830,27813,0,17202,137,Vehicle,3.57,Unsecured,Yes,8,8,0.31,0
+117,Male,59,Married,3,Graduate,Unemployed,Professional,Other,Urban,63314,1285,342,0,36400,25674,0,5904,217,Education,7.36,Secured,No,8,10,0.67,0
+118,Female,35,Divorced,0,High School,Self-Employed,Professional,Rent,Urban,137955,1298,734,2,30053,4107,0,38046,86,Personal,4.21,Unsecured,No,6,11,0.24,1
+119,Female,66,Married,2,High School,Self-Employed,Freelancer,Own,Urban,51222,990,440,1,25771,2849,0,19370,197,Home,11.98,Secured,Yes,4,28,0.92,1
+120,Male,35,Married,3,Graduate,Self-Employed,Salaried,Own,Urban,60565,3416,745,1,12168,9521,0,20000,169,Vehicle,6.09,Secured,No,9,19,0.39,1
+121,Female,68,Married,2,Postgraduate,Self-Employed,Business,Other,Urban,64584,2712,554,0,17296,28858,0,13538,152,Home,13.37,Unsecured,No,7,14,0.58,0
+122,Female,30,Married,0,Graduate,Employed,Business,Own,Suburban,36440,2633,461,2,672,27216,0,14435,119,Vehicle,12.54,Secured,Yes,9,18,0.35,0
+123,Female,48,Single,0,Graduate,Employed,Business,Rent,Urban,101200,4098,786,2,10311,16307,1,20803,237,Vehicle,4.41,Secured,No,0,19,0.72,1
+124,Female,27,Single,2,High School,Employed,Professional,Own,Suburban,57752,1516,715,0,1830,22695,0,20000,66,Home,11.69,Secured,No,1,15,0.38,0
+125,Female,30,Married,0,Graduate,Unemployed,Salaried,Own,Suburban,100814,2452,720,1,46635,12786,0,27299,200,Home,14.53,Secured,No,0,7,0.72,0
+126,Male,26,Married,3,Postgraduate,Self-Employed,Business,Own,Urban,106351,1504,762,0,46686,20418,1,22578,33,Personal,7.5,Unsecured,Yes,0,22,0.31,0
+127,Female,50,Single,3,Postgraduate,Self-Employed,Salaried,Own,Urban,35323,2279,572,2,21650,28767,0,7048,223,Personal,10.4,Unsecured,Yes,6,21,0.74,1
+128,Female,33,Married,0,High School,Unemployed,Salaried,Rent,Urban,61427,3911,569,1,47060,12497,0,14612,102,Education,12.23,Secured,Yes,3,5,0.21,0
+129,Female,49,Single,1,High School,Unemployed,Professional,Own,Urban,94491,2017,739,2,4693,5617,1,23742,239,Home,5.35,Secured,No,9,26,0.9,1
+130,Female,33,Single,1,Postgraduate,Employed,Professional,Own,Urban,137815,3570,791,2,48380,10900,1,36366,144,Education,5.22,Unsecured,Yes,2,25,0.65,1
+131,Male,45,Single,2,Postgraduate,Unemployed,Salaried,Rent,Suburban,98424,1983,700,0,6612,28709,0,22124,82,Personal,13.74,Secured,Yes,7,29,0.34,1
+132,Male,25,Single,3,Postgraduate,Employed,Professional,Own,Urban,126974,1508,808,0,436,7037,1,22495,188,Personal,14.34,Secured,Yes,7,16,0.08,1
+133,Male,42,Married,2,High School,Employed,Salaried,Rent,Urban,115813,1134,835,0,15016,29279,0,31837,36,Vehicle,6.14,Unsecured,Yes,6,23,0.07,1
+134,Male,41,Married,0,Graduate,Employed,Professional,Own,Urban,122024,2461,780,1,26735,14350,0,26740,61,Personal,7.51,Secured,No,1,18,0.15,0
+135,Male,33,Married,3,High School,Self-Employed,Professional,Own,Urban,50850,620,555,1,12972,11561,0,9424,231,Vehicle,13.05,Unsecured,No,3,26,0.18,1
+136,Male,30,Divorced,2,Graduate,Unemployed,Salaried,Own,Urban,90036,2226,772,1,520,25737,0,26096,186,Home,7.87,Unsecured,Yes,2,20,0.43,1
+137,Female,42,Married,1,High School,Self-Employed,Business,Other,Urban,111979,3132,761,1,46628,7447,0,31920,163,Education,7.69,Secured,No,6,16,0.52,1
+138,Female,31,Divorced,3,Graduate,Employed,Professional,Own,Urban,63263,3560,502,1,7817,20390,0,13416,191,Home,6.43,Unsecured,No,7,22,0.07,0
+139,Female,41,Single,3,High School,Unemployed,Business,Own,Urban,71974,2612,843,0,30660,2822,0,20116,205,Vehicle,4.68,Secured,Yes,9,13,0.14,1
+140,Female,43,Single,2,High School,Unemployed,Salaried,Rent,Urban,63774,3393,595,2,40933,13116,0,20768,104,Education,3.67,Unsecured,No,7,20,0.35,1
+141,Male,23,Single,3,High School,Self-Employed,Salaried,Own,Urban,34831,1857,556,0,103,28649,0,12852,102,Home,5.35,Unsecured,Yes,5,10,1.0,0
+142,Male,35,Married,2,High School,Self-Employed,Salaried,Other,Suburban,68641,2898,800,2,24655,1123,0,20120,193,Vehicle,5.35,Unsecured,No,2,16,0.29,0
+143,Male,26,Married,1,Postgraduate,Employed,Business,Own,Suburban,58453,2391,760,0,15398,5486,0,20000,30,Education,13.58,Secured,Yes,7,23,0.25,0
+144,Male,49,Married,0,Graduate,Self-Employed,Professional,Other,Suburban,144508,2472,787,0,42460,1546,0,28073,110,Home,11.37,Unsecured,Yes,3,20,0.85,1
+145,Male,27,Married,3,High School,Unemployed,Business,Other,Urban,122800,635,820,2,15993,15219,0,22208,50,Education,7.37,Secured,Yes,7,28,0.94,1
+146,Male,32,Married,0,Graduate,Employed,Salaried,Own,Suburban,85163,4310,774,2,14033,16914,0,22311,191,Personal,6.14,Secured,No,4,22,0.78,1
+147,Male,33,Single,2,Graduate,Unemployed,Salaried,Own,Urban,105542,2681,837,1,34765,14222,0,20138,142,Home,11.72,Secured,No,0,28,0.37,1
+148,Female,34,Married,3,Postgraduate,Employed,Salaried,Rent,Suburban,65320,1759,760,1,1533,11448,0,20000,146,Vehicle,11.93,Secured,No,9,15,0.12,1
+149,Male,45,Married,2,Graduate,Employed,Freelancer,Own,Urban,138556,708,726,0,28473,10845,0,23002,175,Education,8.1,Unsecured,Yes,8,12,0.9,1
+150,Male,46,Single,0,Postgraduate,Employed,Salaried,Own,Urban,104709,957,785,2,22637,16999,0,30063,46,Home,8.83,Secured,Yes,4,11,1.0,1
+151,Female,62,Single,0,High School,Employed,Professional,Own,Rural,47014,3228,301,0,2800,18034,1,11812,138,Home,5.78,Secured,Yes,7,13,0.45,0
+152,Male,36,Single,3,Graduate,Unemployed,Salaried,Own,Suburban,93025,4361,841,2,14055,684,0,23291,33,Education,13.88,Unsecured,No,0,12,0.99,1
+153,Female,34,Single,2,High School,Employed,Business,Own,Urban,75135,1319,767,0,34856,586,0,20230,14,Home,7.96,Secured,No,1,5,0.87,1
+154,Male,45,Married,2,Graduate,Employed,Salaried,Rent,Urban,57086,1322,720,1,38022,23817,0,20000,74,Vehicle,4.05,Unsecured,Yes,8,20,0.1,0
+155,Female,47,Single,0,Graduate,Employed,Professional,Rent,Suburban,68787,3370,476,2,22922,1856,0,7627,102,Education,12.09,Unsecured,Yes,0,15,0.26,0
+156,Female,38,Married,0,Graduate,Employed,Freelancer,Own,Rural,113970,642,752,1,23882,13430,0,23109,99,Personal,8.04,Unsecured,Yes,4,11,0.49,1
+157,Male,30,Single,1,Graduate,Employed,Business,Own,Suburban,84867,1834,843,0,5139,15634,0,20247,114,Personal,12.59,Unsecured,No,2,16,0.38,1
+158,Female,44,Married,3,High School,Employed,Salaried,Own,Urban,39218,3424,535,1,34136,4201,0,13668,176,Personal,6.09,Unsecured,Yes,6,10,0.86,0
+159,Female,26,Single,1,High School,Unemployed,Professional,Own,Urban,144086,3605,782,2,34382,22836,0,41482,43,Home,7.51,Unsecured,Yes,2,15,0.16,1
+160,Female,32,Married,1,High School,Employed,Business,Rent,Suburban,51312,1315,306,0,4279,20091,0,5532,49,Vehicle,11.41,Unsecured,Yes,7,8,0.32,0
+161,Female,49,Married,3,High School,Employed,Business,Rent,Urban,78213,1958,707,1,31238,5212,0,21868,102,Home,3.52,Unsecured,No,7,23,0.58,1
+162,Male,47,Married,1,High School,Unemployed,Professional,Own,Rural,135699,914,785,0,40493,20525,1,31162,181,Education,13.9,Unsecured,Yes,8,21,0.73,1
+163,Female,46,Single,3,Graduate,Self-Employed,Freelancer,Other,Suburban,147765,3373,782,0,31657,21790,0,29890,105,Home,13.43,Secured,Yes,1,21,0.78,1
+164,Female,39,Married,2,High School,Employed,Business,Rent,Urban,56923,936,747,0,47433,22154,0,20000,115,Home,9.85,Secured,Yes,3,21,0.42,1
+165,Male,28,Married,3,Graduate,Employed,Freelancer,Own,Urban,110507,2019,817,2,31255,15717,0,25551,82,Home,6.38,Unsecured,No,6,6,0.24,1
+166,Male,60,Single,1,Graduate,Self-Employed,Salaried,Own,Urban,35894,2862,500,0,34274,2027,0,7191,181,Education,7.88,Unsecured,Yes,9,24,0.58,0
+167,Female,31,Married,1,Postgraduate,Employed,Freelancer,Own,Suburban,140078,3105,704,2,17459,20409,0,32266,99,Vehicle,4.72,Secured,Yes,0,8,0.1,1
+168,Female,39,Married,1,Postgraduate,Employed,Business,Own,Suburban,79460,1691,768,2,21615,27646,0,22653,75,Home,5.9,Secured,Yes,6,23,0.18,0
+169,Male,44,Married,3,Graduate,Employed,Freelancer,Own,Suburban,112370,1470,826,0,16792,9182,1,31502,45,Vehicle,12.42,Secured,No,8,21,0.87,1
+170,Male,43,Divorced,0,Graduate,Employed,Salaried,Own,Urban,117974,713,772,0,17521,9083,0,25546,60,Home,4.57,Unsecured,Yes,7,19,0.3,0
+171,Female,38,Married,1,Postgraduate,Self-Employed,Professional,Own,Urban,50689,1930,800,1,23732,769,0,20000,71,Home,13.95,Unsecured,Yes,2,23,0.83,1
+172,Male,34,Single,2,Graduate,Employed,Business,Own,Urban,80943,2181,736,2,4963,16649,1,21963,198,Education,6.7,Secured,No,3,11,0.5,1
+173,Female,48,Single,2,Graduate,Employed,Professional,Rent,Suburban,125788,4147,799,1,43474,17507,1,21163,42,Education,9.19,Secured,Yes,1,16,0.92,1
+174,Female,30,Married,2,High School,Unemployed,Business,Own,Urban,102705,2406,738,2,33917,4709,0,26269,60,Personal,7.22,Secured,No,0,16,0.78,1
+175,Male,26,Single,3,Postgraduate,Self-Employed,Freelancer,Own,Suburban,117481,1036,759,2,22458,14403,0,26412,48,Home,3.79,Secured,No,0,10,1.0,1
+176,Female,31,Married,0,Graduate,Unemployed,Freelancer,Own,Urban,143256,3898,829,0,33195,21590,0,42430,130,Education,12.25,Secured,No,6,21,0.15,1
+177,Male,48,Single,3,Graduate,Employed,Freelancer,Own,Urban,76537,4094,762,2,28917,21635,0,21028,223,Education,11.08,Secured,Yes,9,24,0.43,0
+178,Male,45,Single,2,High School,Employed,Business,Rent,Urban,144065,2930,789,2,34839,15850,0,37995,70,Home,8.87,Unsecured,Yes,0,6,0.75,1
+179,Male,52,Single,1,High School,Self-Employed,Business,Own,Urban,54157,1144,541,0,30084,19967,0,8752,61,Personal,11.81,Unsecured,Yes,0,17,0.12,0
+180,Male,32,Married,3,Graduate,Unemployed,Business,Rent,Suburban,100970,2491,719,2,17516,17743,0,26881,226,Personal,5.83,Secured,No,6,19,0.35,1
+181,Female,42,Married,0,Postgraduate,Self-Employed,Freelancer,Own,Urban,110982,2403,823,0,803,5625,0,27695,12,Education,8.96,Unsecured,No,6,8,0.07,1
+182,Female,39,Single,2,High School,Unemployed,Freelancer,Own,Suburban,125086,1192,836,0,11541,12500,0,25631,214,Home,13.25,Secured,Yes,2,19,0.56,1
+183,Female,60,Married,3,Postgraduate,Employed,Freelancer,Other,Urban,50150,2651,571,1,48885,6024,0,11583,194,Education,14.93,Secured,Yes,6,6,0.82,0
+184,Female,39,Single,0,High School,Employed,Business,Own,Urban,25986,810,507,0,9380,27972,0,10102,190,Education,5.72,Secured,No,7,9,0.71,1
+185,Female,47,Married,1,Graduate,Unemployed,Business,Rent,Urban,82393,2513,831,0,32464,23196,0,22935,209,Home,9.65,Unsecured,No,9,24,0.88,0
+186,Male,34,Married,2,Graduate,Self-Employed,Salaried,Own,Suburban,68259,3836,812,0,5727,12445,0,20167,149,Personal,6.74,Unsecured,Yes,7,5,0.98,1
+187,Female,42,Married,3,Graduate,Unemployed,Freelancer,Own,Urban,24373,3589,531,0,24276,29827,0,6717,99,Vehicle,13.56,Unsecured,No,3,28,0.23,0
+188,Female,45,Married,3,Graduate,Employed,Salaried,Rent,Urban,59997,2239,803,0,47983,13060,0,20000,37,Home,14.26,Unsecured,No,3,26,0.34,1
+189,Male,41,Married,1,Postgraduate,Unemployed,Professional,Own,Urban,55260,4860,841,1,36115,10298,0,20000,202,Personal,4.93,Unsecured,Yes,6,8,0.96,1
+190,Male,42,Single,0,Graduate,Employed,Freelancer,Rent,Urban,123670,2323,727,1,48833,3510,0,31729,28,Home,11.2,Secured,No,8,16,0.42,1
+191,Male,48,Divorced,0,Graduate,Self-Employed,Freelancer,Own,Rural,136482,4387,767,2,10493,23115,0,24072,231,Personal,5.22,Secured,Yes,0,17,0.94,1
+192,Male,18,Married,2,Postgraduate,Employed,Professional,Own,Rural,64246,1715,308,1,14192,24090,1,10274,88,Home,7.02,Unsecured,Yes,8,28,0.47,0
+193,Female,19,Married,0,High School,Employed,Business,Rent,Urban,29750,2458,430,1,42859,14940,0,6648,88,Vehicle,7.96,Unsecured,Yes,5,22,0.08,0
+194,Male,29,Divorced,0,Postgraduate,Employed,Professional,Other,Urban,119597,4072,753,2,4854,4069,0,33694,28,Home,9.61,Unsecured,Yes,0,10,0.47,1
+195,Female,34,Single,2,Postgraduate,Unemployed,Freelancer,Rent,Suburban,136534,2237,769,1,43757,22134,0,20182,146,Home,12.56,Unsecured,No,1,15,0.91,1
+196,Male,36,Married,2,Graduate,Unemployed,Salaried,Other,Urban,58480,3286,764,1,42982,27581,0,20000,155,Education,14.59,Unsecured,No,6,13,0.34,1
+197,Male,30,Married,3,Graduate,Employed,Freelancer,Own,Suburban,23885,3442,303,0,38626,1076,0,5775,208,Home,10.97,Unsecured,No,4,22,0.24,0
+198,Male,65,Single,1,High School,Employed,Business,Rent,Urban,26732,2017,571,0,43051,23512,0,8804,197,Home,7.7,Secured,No,2,7,0.38,0
+199,Female,46,Single,0,Graduate,Unemployed,Business,Own,Urban,56075,4795,395,0,3907,11089,1,20652,158,Personal,11.88,Secured,Yes,4,5,0.82,0
+200,Female,20,Single,1,Postgraduate,Unemployed,Salaried,Own,Urban,55390,1815,530,1,29123,19688,0,20471,116,Home,12.85,Unsecured,No,6,24,0.97,0
+201,Female,28,Single,2,Graduate,Unemployed,Freelancer,Own,Urban,121118,2044,774,2,34966,27650,0,24858,186,Education,6.02,Secured,No,1,11,0.25,1
+202,Male,40,Divorced,1,High School,Unemployed,Business,Rent,Rural,127683,2198,833,2,10229,9962,0,31016,126,Education,11.58,Unsecured,No,7,24,0.96,1
+203,Female,34,Single,1,Graduate,Employed,Freelancer,Rent,Rural,88183,3765,745,0,23971,23485,0,23173,152,Home,13.34,Unsecured,No,0,22,0.47,1
+204,Male,31,Married,3,Graduate,Unemployed,Freelancer,Own,Rural,34034,3455,490,0,42010,27489,0,7318,130,Education,8.4,Unsecured,Yes,1,24,0.01,0
+205,Female,45,Married,3,Postgraduate,Unemployed,Freelancer,Rent,Suburban,121084,4242,787,2,30758,9234,1,31594,112,Personal,13.03,Unsecured,No,7,22,0.11,1
+206,Male,43,Married,1,High School,Self-Employed,Professional,Rent,Urban,147787,546,708,1,10522,2585,0,29716,172,Vehicle,8.32,Secured,No,1,17,0.31,1
+207,Female,29,Married,0,High School,Unemployed,Professional,Own,Suburban,100891,3520,765,1,12593,13093,0,22066,29,Vehicle,6.8,Secured,Yes,8,15,0.41,1
+208,Female,43,Single,0,Postgraduate,Employed,Freelancer,Own,Suburban,115437,1890,750,1,40422,27377,1,27064,218,Vehicle,14.59,Unsecured,Yes,4,20,0.67,1
+209,Male,35,Married,0,Graduate,Employed,Business,Own,Urban,115211,2539,797,0,45299,6348,0,29134,166,Home,13.13,Secured,Yes,1,21,0.24,1
+210,Male,41,Single,3,Postgraduate,Employed,Professional,Own,Suburban,124657,3250,782,0,8911,21675,0,20561,224,Home,5.27,Unsecured,No,3,10,0.57,1
+211,Female,31,Married,3,Graduate,Self-Employed,Business,Own,Suburban,80776,3592,765,1,37355,24260,0,23764,156,Personal,5.31,Secured,No,1,9,0.86,1
+212,Female,28,Married,1,High School,Self-Employed,Freelancer,Rent,Urban,119745,1322,757,2,4051,11888,1,21978,238,Home,11.18,Unsecured,No,3,23,0.64,1
+213,Female,39,Single,1,Graduate,Employed,Salaried,Rent,Suburban,119916,4804,758,1,5699,23462,0,25432,195,Vehicle,4.21,Secured,Yes,2,21,0.56,1
+214,Male,48,Divorced,0,Postgraduate,Unemployed,Freelancer,Rent,Urban,101629,952,807,1,2779,27929,1,24638,175,Vehicle,5.93,Secured,Yes,3,7,0.24,1
+215,Male,53,Single,1,Graduate,Employed,Business,Own,Suburban,50362,2504,387,0,48803,11865,0,17634,171,Vehicle,7.19,Unsecured,No,6,17,0.6,0
+216,Female,40,Married,0,Graduate,Employed,Business,Rent,Suburban,51467,4268,829,0,32192,5771,0,20000,221,Home,4.76,Unsecured,Yes,8,29,0.56,0
+217,Female,47,Married,1,Postgraduate,Employed,Salaried,Rent,Urban,73543,650,703,1,44170,8282,1,20847,95,Personal,5.97,Secured,No,4,18,0.82,1
+218,Female,36,Divorced,2,Graduate,Employed,Freelancer,Other,Rural,60597,4268,408,1,13664,3612,0,14216,127,Home,6.91,Unsecured,Yes,6,24,0.71,0
+219,Male,26,Single,0,Postgraduate,Employed,Freelancer,Rent,Urban,101998,4123,715,0,19664,6566,0,24880,104,Vehicle,7.25,Unsecured,Yes,8,5,0.35,0
+220,Male,28,Married,0,High School,Unemployed,Freelancer,Other,Urban,49839,1136,461,1,20613,750,0,5935,116,Vehicle,4.09,Secured,No,8,13,0.79,0
+221,Male,43,Married,0,Graduate,Self-Employed,Freelancer,Rent,Suburban,77896,2951,754,0,6477,7457,0,23104,78,Home,4.55,Unsecured,Yes,4,21,0.4,1
+222,Male,47,Single,2,Postgraduate,Employed,Business,Other,Suburban,85861,991,709,1,14530,455,0,25407,221,Vehicle,3.94,Unsecured,Yes,3,26,0.84,1
+223,Male,38,Single,1,Graduate,Employed,Freelancer,Own,Rural,97998,1757,720,2,29903,18679,0,24878,127,Personal,8.64,Unsecured,Yes,9,8,0.52,0
+224,Male,36,Married,2,High School,Self-Employed,Freelancer,Own,Urban,101076,1909,712,1,19132,4447,0,27746,166,Home,12.8,Secured,No,4,10,0.02,1
+225,Male,43,Single,2,High School,Employed,Professional,Own,Suburban,81932,4568,813,2,1392,20956,0,23317,195,Home,5.92,Secured,Yes,9,17,0.91,1
+226,Male,34,Single,2,Graduate,Self-Employed,Salaried,Rent,Urban,132170,2598,836,1,39240,12186,0,28996,38,Vehicle,7.47,Unsecured,No,1,10,0.92,1
+227,Female,57,Married,3,Graduate,Unemployed,Business,Own,Suburban,53850,2879,522,1,20043,20537,0,19138,50,Vehicle,4.52,Secured,Yes,7,28,0.08,1
+228,Female,48,Married,2,Graduate,Unemployed,Salaried,Rent,Suburban,126222,4291,821,1,6874,26093,0,35768,198,Home,6.42,Unsecured,No,4,16,0.91,1
+229,Male,66,Married,2,High School,Unemployed,Freelancer,Rent,Suburban,28232,1594,413,1,42933,16370,0,10892,216,Education,3.95,Secured,No,5,9,0.21,0
+230,Male,47,Single,3,High School,Employed,Freelancer,Own,Rural,82403,975,713,1,43598,28026,0,23715,76,Home,3.59,Unsecured,No,5,14,0.08,1
+231,Male,25,Married,0,Postgraduate,Unemployed,Business,Own,Urban,50634,791,591,0,39586,7056,0,20010,115,Vehicle,13.51,Unsecured,Yes,4,8,0.03,0
+232,Male,33,Married,0,High School,Self-Employed,Professional,Rent,Urban,114550,3244,773,1,40711,27669,0,33687,89,Home,4.18,Secured,Yes,1,25,0.98,0
+233,Female,48,Single,1,Graduate,Self-Employed,Professional,Rent,Suburban,64992,916,765,2,40265,18177,0,20000,57,Personal,12.46,Secured,No,5,19,0.89,1
+234,Female,38,Married,3,High School,Employed,Professional,Rent,Suburban,105075,1975,748,2,31391,22513,0,27536,122,Personal,12.91,Unsecured,Yes,2,12,0.19,1
+235,Female,39,Single,1,Graduate,Self-Employed,Business,Own,Rural,147521,2621,833,2,16966,2652,0,30888,218,Personal,10.36,Unsecured,No,4,18,0.61,1
+236,Female,65,Single,3,High School,Employed,Freelancer,Own,Rural,64614,4056,345,0,11188,27321,0,8191,171,Home,12.87,Unsecured,No,7,23,0.84,0
+237,Female,46,Married,2,Postgraduate,Employed,Business,Other,Urban,117790,831,846,2,49518,2349,0,25478,29,Education,8.1,Unsecured,Yes,8,16,0.2,1
+238,Male,32,Married,2,Graduate,Unemployed,Business,Own,Urban,72244,2252,770,2,11123,29058,0,20526,231,Personal,12.06,Unsecured,No,1,5,0.51,1
+239,Male,27,Single,2,Graduate,Employed,Business,Own,Urban,70066,3468,788,2,45994,17161,0,20191,19,Personal,3.87,Unsecured,No,5,15,0.41,0
+240,Male,26,Married,1,Postgraduate,Self-Employed,Business,Own,Urban,124014,3379,750,2,39550,28666,1,20506,41,Vehicle,4.27,Unsecured,No,0,28,0.22,1
+241,Male,18,Married,0,High School,Employed,Professional,Own,Suburban,67858,3516,391,1,14727,12061,0,20817,207,Education,11.81,Unsecured,No,7,29,0.72,0
+242,Female,49,Single,3,Graduate,Employed,Salaried,Own,Suburban,30642,1701,373,1,17247,8152,0,6627,159,Personal,5.59,Unsecured,Yes,0,25,0.79,0
+243,Female,25,Married,3,Postgraduate,Employed,Salaried,Own,Urban,43155,2615,569,1,43290,14939,0,12231,167,Education,5.74,Secured,No,1,14,0.85,0
+244,Female,47,Married,1,Postgraduate,Unemployed,Business,Own,Urban,123304,990,839,2,43441,23800,0,31140,110,Home,7.22,Unsecured,Yes,5,14,0.03,0
+245,Male,30,Married,1,Graduate,Employed,Business,Own,Urban,84825,2177,728,0,37360,3513,0,24465,60,Home,8.63,Secured,Yes,5,8,0.94,1
+246,Female,60,Single,0,High School,Employed,Freelancer,Own,Urban,51231,2200,479,1,49542,12490,0,16738,191,Vehicle,10.6,Unsecured,Yes,4,16,0.54,0
+247,Male,27,Married,0,Postgraduate,Employed,Professional,Own,Rural,115371,961,721,2,46923,4542,1,27869,183,Personal,6.42,Unsecured,Yes,0,9,0.17,1
+248,Female,63,Married,0,Graduate,Self-Employed,Professional,Own,Urban,60846,3334,493,2,25569,4823,0,15948,146,Education,13.71,Secured,No,0,28,0.09,0
+249,Female,39,Single,0,High School,Unemployed,Professional,Own,Urban,68568,3426,330,1,38614,6457,0,25145,229,Personal,7.88,Unsecured,No,9,27,0.87,0
+250,Female,54,Single,3,High School,Unemployed,Professional,Rent,Suburban,44252,2107,587,2,43386,11258,0,5126,168,Personal,9.05,Unsecured,No,4,28,0.11,0
+251,Male,45,Married,1,High School,Unemployed,Freelancer,Own,Suburban,69126,573,842,0,10534,3969,0,20473,103,Home,7.17,Unsecured,No,9,26,0.82,1
+252,Female,44,Single,0,High School,Employed,Salaried,Own,Suburban,130748,1618,765,1,28999,1327,0,27285,137,Home,13.52,Secured,Yes,9,23,0.5,1
+253,Male,46,Married,2,Postgraduate,Employed,Professional,Own,Urban,39096,1656,475,1,12193,17962,0,12157,193,Vehicle,13.55,Secured,No,6,19,0.22,0
+254,Male,37,Married,3,High School,Unemployed,Freelancer,Other,Urban,91013,2470,725,2,20124,3813,0,26978,14,Home,3.68,Secured,Yes,5,21,0.23,1
+255,Male,45,Married,0,High School,Employed,Salaried,Own,Urban,53348,1820,715,1,8318,9410,0,20000,172,Education,7.82,Unsecured,Yes,3,7,0.49,1
+256,Female,29,Single,1,Graduate,Unemployed,Salaried,Rent,Urban,118407,1602,797,0,37596,18235,1,35289,98,Personal,9.34,Unsecured,Yes,7,24,0.74,1
+257,Female,54,Single,0,High School,Employed,Business,Other,Suburban,53457,4125,519,2,32281,27101,0,5448,42,Education,11.12,Secured,No,1,29,0.07,0
+258,Female,34,Divorced,1,Postgraduate,Employed,Professional,Other,Urban,91153,1712,759,0,16298,2759,0,23462,40,Vehicle,11.86,Unsecured,No,8,29,0.31,1
+259,Female,37,Married,2,Postgraduate,Self-Employed,Business,Own,Urban,92652,1482,782,1,13079,9086,0,25431,218,Personal,11.86,Unsecured,No,4,19,0.86,1
+260,Male,34,Single,1,High School,Unemployed,Business,Rent,Urban,146468,527,792,2,27712,14532,0,37489,234,Education,9.54,Unsecured,No,0,14,0.52,1
+261,Female,32,Single,0,High School,Self-Employed,Freelancer,Rent,Urban,82820,628,745,2,32805,3919,1,20018,144,Home,7.92,Unsecured,Yes,4,6,0.33,1
+262,Male,51,Single,3,Graduate,Unemployed,Freelancer,Rent,Urban,30731,959,422,0,6349,497,1,8104,206,Vehicle,6.76,Unsecured,Yes,7,24,0.24,0
+263,Male,26,Single,0,Graduate,Employed,Business,Own,Rural,107722,2755,746,0,46234,21270,0,20017,27,Personal,12.04,Secured,No,5,19,0.15,1
+264,Female,46,Married,0,High School,Self-Employed,Business,Own,Urban,113841,3853,811,0,19632,18838,0,20024,109,Personal,7.67,Unsecured,Yes,9,18,0.36,1
+265,Male,68,Married,3,High School,Employed,Salaried,Own,Suburban,51139,3896,307,1,4790,25286,0,12066,87,Home,6.58,Secured,No,1,14,0.61,0
+266,Male,27,Single,3,Graduate,Employed,Salaried,Own,Urban,42867,2046,405,1,7096,5184,1,16329,189,Vehicle,3.9,Secured,Yes,6,19,0.11,0
+267,Female,39,Single,3,High School,Self-Employed,Freelancer,Rent,Urban,85429,2645,814,1,48405,12125,0,20175,230,Education,9.36,Unsecured,Yes,5,20,0.6,0
+268,Male,44,Married,3,Graduate,Unemployed,Professional,Own,Urban,42608,3206,369,1,14007,5200,0,12789,73,Home,11.69,Secured,Yes,7,16,0.35,0
+269,Female,40,Married,0,High School,Self-Employed,Salaried,Own,Suburban,98534,1521,784,2,30201,20437,1,26586,222,Home,11.38,Secured,Yes,5,16,0.85,0
+270,Female,34,Single,0,Graduate,Employed,Freelancer,Own,Urban,139333,4026,754,0,24232,6468,0,22456,151,Personal,6.15,Secured,No,9,12,0.68,0
+271,Male,59,Single,3,Postgraduate,Employed,Business,Rent,Urban,31928,3237,476,0,45844,21871,0,5372,118,Education,13.21,Unsecured,Yes,0,12,0.51,0
+272,Female,43,Married,3,Postgraduate,Employed,Freelancer,Own,Urban,32773,1994,372,1,47927,8634,0,7065,48,Personal,13.23,Unsecured,No,4,27,0.28,0
+273,Male,69,Single,2,Postgraduate,Employed,Freelancer,Own,Urban,43297,2054,344,2,20497,22324,0,15731,85,Home,14.22,Secured,No,3,26,0.54,1
+274,Female,44,Single,0,High School,Self-Employed,Freelancer,Rent,Urban,42874,4433,450,0,9255,27737,0,12959,82,Vehicle,11.02,Unsecured,No,2,29,0.3,0
+275,Female,43,Single,3,Postgraduate,Unemployed,Freelancer,Own,Urban,130989,881,819,2,23163,10611,0,20759,143,Vehicle,12.05,Secured,Yes,4,17,0.37,1
+276,Female,28,Married,0,High School,Employed,Professional,Own,Urban,109935,2763,768,2,4995,5626,0,22154,30,Education,3.98,Secured,No,2,27,0.3,1
+277,Female,51,Divorced,3,High School,Employed,Business,Rent,Urban,58130,1972,308,0,7661,27821,0,18582,59,Home,6.35,Unsecured,No,2,17,0.57,0
+278,Female,33,Married,3,High School,Unemployed,Professional,Rent,Urban,138764,3829,722,0,2728,19627,0,33931,88,Personal,13.96,Unsecured,No,8,15,0.81,1
+279,Male,28,Single,2,High School,Unemployed,Business,Rent,Suburban,54487,577,493,1,45090,25917,1,19871,33,Home,5.91,Unsecured,No,5,6,0.92,0
+280,Female,20,Divorced,0,High School,Self-Employed,Salaried,Other,Urban,59629,1811,580,0,1914,5231,0,9854,233,Home,8.94,Secured,No,9,12,0.16,0
+281,Male,56,Single,3,Graduate,Employed,Salaried,Rent,Urban,43311,3194,316,2,25746,22090,1,13096,213,Education,5.79,Secured,No,4,16,0.39,0
+282,Female,49,Single,3,High School,Self-Employed,Salaried,Rent,Urban,95718,789,766,1,9067,16923,1,25471,187,Home,5.28,Secured,No,4,20,0.15,1
+283,Male,49,Single,3,High School,Unemployed,Business,Own,Urban,106610,2213,822,1,8835,7736,0,23073,123,Personal,12.16,Unsecured,No,9,18,0.13,1
+284,Male,30,Married,0,Graduate,Self-Employed,Salaried,Own,Suburban,86996,642,721,1,15771,24561,0,25882,136,Home,7.49,Secured,No,0,13,0.04,1
+285,Male,25,Married,1,High School,Unemployed,Business,Own,Suburban,95113,3381,708,0,24978,14558,1,24267,56,Vehicle,6.84,Unsecured,Yes,8,27,0.08,1
+286,Male,36,Single,0,Postgraduate,Employed,Business,Rent,Urban,149579,4498,747,2,39962,16601,0,33169,73,Vehicle,6.99,Unsecured,Yes,5,23,0.46,1
+287,Male,42,Single,3,High School,Self-Employed,Freelancer,Own,Rural,89445,2051,775,2,3381,9388,1,21415,175,Education,7.69,Secured,Yes,6,12,0.51,1
+288,Female,33,Divorced,0,High School,Employed,Business,Own,Urban,133930,4181,820,2,2414,10042,0,29013,67,Education,9.74,Secured,No,4,21,0.12,1
+289,Male,29,Married,0,Graduate,Unemployed,Freelancer,Own,Urban,85646,2901,838,1,29677,19779,0,24195,130,Vehicle,4.47,Secured,Yes,3,13,0.58,1
+290,Male,37,Married,3,High School,Self-Employed,Salaried,Own,Suburban,88369,2314,815,1,15420,25908,1,20093,80,Home,9.71,Secured,Yes,8,8,0.41,1
+291,Male,42,Single,2,Postgraduate,Self-Employed,Salaried,Rent,Suburban,98524,3865,785,2,40699,6922,1,24143,14,Personal,11.7,Secured,Yes,3,21,0.9,1
+292,Female,39,Married,2,Graduate,Employed,Professional,Rent,Urban,70039,4326,793,1,13903,28021,0,20230,166,Home,12.85,Unsecured,Yes,7,10,0.19,1
+293,Female,64,Married,0,High School,Self-Employed,Freelancer,Rent,Urban,57852,2135,411,1,32716,23651,0,10479,116,Education,9.6,Unsecured,Yes,4,28,0.11,0
+294,Female,30,Single,0,High School,Self-Employed,Freelancer,Own,Urban,149849,3228,748,1,19474,13892,0,26445,50,Personal,8.86,Secured,Yes,2,11,0.07,1
+295,Female,31,Single,0,High School,Self-Employed,Professional,Other,Rural,63776,4364,779,0,39999,22988,0,20000,135,Home,7.27,Unsecured,Yes,1,21,0.65,1
+296,Male,37,Single,0,Graduate,Unemployed,Salaried,Other,Suburban,88716,1906,783,2,15362,25102,1,23405,75,Education,11.4,Unsecured,No,5,22,0.97,1
+297,Female,29,Married,3,Postgraduate,Employed,Professional,Own,Suburban,39267,1685,435,1,10183,8596,1,5807,62,Education,8.38,Secured,Yes,9,11,0.03,0
+298,Female,34,Single,0,High School,Unemployed,Freelancer,Own,Urban,113371,1919,720,2,10238,21308,0,30789,146,Home,13.63,Unsecured,Yes,5,7,0.62,1
+299,Female,46,Married,2,High School,Self-Employed,Salaried,Own,Urban,90226,2119,788,0,23618,307,0,22572,142,Home,9.35,Secured,No,9,10,0.85,1
+300,Male,25,Married,3,Graduate,Employed,Business,Own,Urban,148061,801,828,0,23530,9201,0,31776,173,Home,5.11,Secured,No,4,14,0.72,1
+301,Female,35,Single,1,Graduate,Employed,Business,Rent,Urban,54774,2846,739,1,36621,14943,1,20000,49,Education,10.24,Secured,Yes,0,21,0.57,1
+302,Male,40,Married,0,Graduate,Self-Employed,Business,Rent,Urban,54760,4938,719,2,11022,24869,1,20000,79,Home,6.69,Unsecured,No,1,20,0.76,1
+303,Female,25,Married,2,High School,Unemployed,Salaried,Rent,Rural,69468,3513,823,1,45778,26679,0,20391,138,Vehicle,12.76,Unsecured,Yes,2,22,0.31,1
+304,Male,42,Married,2,Postgraduate,Unemployed,Freelancer,Rent,Urban,89534,4938,702,0,3885,1064,1,22952,169,Vehicle,8.4,Unsecured,No,1,21,0.57,1
+305,Female,60,Single,2,Graduate,Employed,Freelancer,Own,Urban,62818,4980,487,0,43774,8821,0,18230,177,Personal,7.6,Secured,Yes,1,28,0.91,1
+306,Male,58,Married,3,Postgraduate,Employed,Business,Other,Urban,29425,4664,581,2,35314,25518,0,8954,17,Home,11.94,Unsecured,No,6,13,0.84,1
+307,Male,38,Single,3,High School,Self-Employed,Professional,Own,Suburban,54775,4685,762,1,22522,7332,0,20000,115,Education,5.86,Unsecured,Yes,8,27,0.09,1
+308,Male,35,Single,0,High School,Employed,Business,Own,Suburban,83296,1272,768,2,34828,11556,1,22506,128,Home,5.51,Unsecured,No,5,23,0.26,1
+309,Female,18,Married,2,High School,Self-Employed,Professional,Rent,Suburban,50677,1300,472,1,28365,19780,0,19702,66,Education,10.18,Unsecured,Yes,5,18,0.19,1
+310,Male,35,Single,2,High School,Unemployed,Salaried,Other,Urban,107003,4017,723,0,28130,8775,0,27990,12,Home,11.3,Secured,Yes,4,21,0.19,1
+311,Female,33,Married,3,High School,Employed,Salaried,Own,Suburban,103794,1477,701,1,48402,7112,0,27489,137,Home,9.71,Unsecured,No,8,6,0.63,1
+312,Female,46,Married,0,High School,Employed,Business,Own,Suburban,67788,599,721,1,46958,21196,1,20302,37,Education,4.67,Secured,Yes,6,13,0.06,0
+313,Male,26,Married,0,High School,Unemployed,Freelancer,Own,Urban,105075,3603,768,0,44240,26950,0,27171,178,Home,7.72,Unsecured,No,5,15,0.89,1
+314,Male,59,Divorced,2,High School,Self-Employed,Business,Own,Urban,25072,4788,373,0,32282,11801,1,8539,183,Home,7.15,Secured,Yes,2,9,0.95,0
+315,Female,20,Married,0,High School,Self-Employed,Freelancer,Rent,Urban,46160,3318,435,2,32799,495,0,9191,76,Personal,4.83,Unsecured,Yes,2,24,0.21,0
+316,Female,49,Single,0,Graduate,Self-Employed,Professional,Rent,Urban,131369,559,809,2,48616,18566,0,21767,91,Personal,9.15,Secured,Yes,4,27,0.22,1
+317,Male,37,Married,1,Postgraduate,Employed,Professional,Own,Urban,71393,3610,794,2,46160,10333,0,21106,95,Home,14.2,Unsecured,No,4,16,0.74,1
+318,Female,35,Married,0,Postgraduate,Employed,Business,Own,Urban,89872,2939,807,0,19701,7977,0,20415,147,Personal,7.93,Unsecured,Yes,3,29,0.21,1
+319,Male,42,Single,0,Postgraduate,Unemployed,Professional,Own,Suburban,146349,2360,724,1,43486,14642,0,22997,86,Home,4.85,Unsecured,No,7,8,0.85,1
+320,Male,38,Single,2,Graduate,Employed,Professional,Own,Urban,127561,3387,779,0,14018,23540,0,36169,148,Education,6.87,Secured,No,1,15,0.24,1
+321,Female,29,Married,2,Postgraduate,Employed,Salaried,Own,Suburban,118201,841,798,1,30610,7572,0,22180,126,Home,12.1,Secured,No,7,22,0.27,1
+322,Female,25,Single,3,Graduate,Self-Employed,Professional,Own,Urban,50318,2933,368,1,2121,12071,1,8502,22,Personal,6.47,Secured,Yes,1,8,0.82,0
+323,Female,34,Married,3,Postgraduate,Employed,Freelancer,Own,Urban,80613,3563,834,1,26415,6183,0,21487,59,Education,11.57,Secured,Yes,7,13,0.32,0
+324,Male,30,Married,0,Graduate,Employed,Business,Own,Suburban,56699,4881,790,2,35855,8243,0,20000,64,Vehicle,12.24,Secured,No,6,14,0.58,1
+325,Female,32,Married,3,High School,Employed,Freelancer,Rent,Urban,20449,1049,319,2,35243,6393,0,6484,118,Home,12.61,Unsecured,Yes,9,20,0.53,0
+326,Male,25,Single,3,Postgraduate,Employed,Business,Own,Urban,63567,3340,391,1,2129,5332,0,11181,15,Personal,7.23,Unsecured,Yes,5,5,0.57,0
+327,Male,46,Married,1,High School,Self-Employed,Business,Rent,Rural,65523,1859,751,2,47043,25091,0,20000,232,Home,9.31,Secured,No,6,7,0.65,1
+328,Male,28,Single,3,Graduate,Employed,Salaried,Rent,Urban,133621,3977,733,2,5833,9974,0,22195,207,Education,14.29,Unsecured,No,4,14,0.34,1
+329,Female,48,Married,2,Graduate,Self-Employed,Business,Own,Urban,145748,3977,701,2,31929,12889,0,37321,182,Education,9.95,Secured,No,3,6,0.61,1
+330,Female,33,Married,3,Postgraduate,Self-Employed,Professional,Own,Urban,129593,2241,709,0,2773,2838,0,31816,226,Vehicle,14.28,Secured,Yes,9,18,0.49,0
+331,Female,29,Single,0,High School,Unemployed,Salaried,Own,Urban,58222,1816,831,0,26023,9712,0,20000,139,Vehicle,4.34,Secured,Yes,8,7,0.83,1
+332,Male,36,Single,1,High School,Unemployed,Salaried,Rent,Urban,64881,3625,327,0,25828,13637,0,5677,193,Home,13.21,Secured,Yes,1,8,0.91,1
+333,Female,41,Single,3,Graduate,Employed,Professional,Rent,Rural,92157,938,788,2,2404,898,0,20443,123,Home,5.83,Unsecured,No,7,27,0.6,1
+334,Male,26,Married,0,High School,Employed,Salaried,Own,Urban,132101,4059,806,2,32622,22453,0,31934,79,Home,14.96,Unsecured,No,3,20,0.25,1
+335,Female,37,Divorced,3,Graduate,Unemployed,Business,Rent,Urban,77264,4768,802,0,48318,24922,0,23064,139,Education,6.12,Secured,Yes,6,21,0.05,1
+336,Female,41,Married,2,Postgraduate,Employed,Salaried,Own,Urban,87751,3804,704,1,19833,24218,0,23359,145,Education,10.72,Secured,Yes,3,14,0.01,1
+337,Male,42,Single,0,Graduate,Unemployed,Business,Own,Suburban,35717,1561,336,2,3049,9363,0,7509,227,Home,4.81,Unsecured,Yes,5,9,0.97,0
+338,Male,31,Single,0,High School,Unemployed,Business,Rent,Suburban,32464,2008,591,1,518,20790,0,12008,178,Education,9.52,Secured,Yes,0,6,0.22,0
+339,Male,35,Married,2,Postgraduate,Employed,Salaried,Own,Urban,141939,4176,837,0,34840,508,0,34371,117,Vehicle,5.22,Unsecured,Yes,8,18,0.95,1
+340,Female,31,Single,2,High School,Employed,Business,Own,Urban,106797,3348,793,2,14916,22431,1,26708,204,Education,3.83,Unsecured,Yes,5,26,0.6,0
+341,Male,26,Married,3,Postgraduate,Self-Employed,Business,Own,Urban,148643,2098,799,0,45799,9611,0,44125,118,Vehicle,14.6,Unsecured,No,1,15,0.03,1
+342,Female,27,Divorced,0,Postgraduate,Unemployed,Business,Own,Urban,97805,652,769,0,10619,18579,0,20329,142,Education,5.36,Secured,Yes,6,17,0.12,1
+343,Female,35,Married,3,High School,Employed,Business,Own,Suburban,138045,2332,847,2,43573,20398,0,35194,159,Education,8.22,Unsecured,No,4,24,0.82,1
+344,Female,27,Divorced,1,Graduate,Employed,Freelancer,Rent,Urban,91137,1129,805,0,32740,3223,0,24315,228,Home,4.65,Secured,No,9,20,0.41,1
+345,Female,25,Married,2,High School,Unemployed,Freelancer,Rent,Urban,101601,2231,749,0,27213,29319,0,25655,178,Vehicle,5.16,Unsecured,Yes,5,27,0.36,1
+346,Male,43,Married,2,Graduate,Employed,Freelancer,Own,Urban,55772,4560,787,2,29776,29505,1,20000,178,Vehicle,14.63,Unsecured,Yes,4,5,0.95,1
+347,Female,38,Single,1,High School,Employed,Business,Own,Suburban,82016,1097,773,1,45566,17026,1,20186,142,Vehicle,5.94,Secured,Yes,9,29,0.92,1
+348,Male,41,Single,1,High School,Employed,Professional,Own,Suburban,61283,2974,717,1,22413,13628,0,20000,149,Home,6.85,Secured,No,2,6,0.77,1
+349,Female,43,Single,0,Postgraduate,Employed,Business,Other,Urban,77588,1594,817,1,24744,18856,0,20006,35,Home,8.31,Secured,No,5,16,0.36,1
+350,Male,43,Married,1,Postgraduate,Self-Employed,Salaried,Own,Rural,51301,4972,712,1,24433,1365,0,20000,186,Education,8.15,Secured,Yes,0,22,0.91,1
+351,Female,45,Married,0,High School,Unemployed,Professional,Own,Urban,145207,2425,768,1,14177,25629,0,27224,199,Education,4.65,Secured,Yes,6,26,0.4,1
+352,Female,68,Single,0,High School,Employed,Business,Own,Suburban,57837,4502,510,1,26288,14622,0,9182,71,Personal,10.32,Secured,No,7,5,0.51,0
+353,Female,43,Divorced,3,Graduate,Self-Employed,Business,Own,Urban,120031,3961,742,0,36660,22404,0,27744,232,Vehicle,4.39,Secured,Yes,5,16,0.59,0
+354,Male,25,Married,1,High School,Employed,Freelancer,Own,Urban,69754,4179,845,0,45049,23363,1,20612,86,Home,5.89,Unsecured,Yes,7,29,0.22,1
+355,Female,49,Married,2,Graduate,Unemployed,Salaried,Own,Urban,121101,1413,738,2,29720,2623,0,33843,102,Home,14.43,Unsecured,No,0,26,0.12,1
+356,Male,35,Married,3,Graduate,Unemployed,Business,Rent,Urban,140922,1717,775,0,24431,2505,0,25953,118,Vehicle,13.52,Secured,Yes,2,9,0.4,1
+357,Male,25,Single,1,Graduate,Unemployed,Professional,Rent,Urban,96554,2901,756,0,9157,15681,0,23737,124,Vehicle,9.97,Unsecured,Yes,7,10,0.07,0
+358,Male,47,Married,0,Graduate,Employed,Salaried,Own,Suburban,147293,1403,741,1,44533,26355,0,24124,92,Home,8.76,Secured,Yes,9,12,0.32,0
+359,Male,24,Single,0,High School,Self-Employed,Professional,Own,Rural,25863,2269,515,0,22402,10337,1,7965,44,Personal,13.74,Unsecured,Yes,2,23,0.77,0
+360,Male,32,Single,2,Graduate,Employed,Freelancer,Own,Urban,77935,4219,712,0,41635,2875,0,22463,47,Home,7.85,Unsecured,Yes,3,13,0.09,1
+361,Female,31,Single,3,High School,Employed,Business,Rent,Urban,54295,3694,748,2,20782,16860,0,20000,209,Personal,3.68,Secured,Yes,3,7,0.11,1
+362,Female,39,Married,3,High School,Employed,Business,Own,Urban,118928,3113,722,2,22205,6957,0,29468,77,Education,6.06,Secured,Yes,9,20,0.44,0
+363,Male,40,Single,0,Graduate,Employed,Freelancer,Own,Urban,62511,2384,814,2,5289,21276,0,20000,56,Vehicle,14.17,Secured,No,3,21,0.93,1
+364,Female,46,Divorced,0,High School,Unemployed,Business,Other,Rural,63111,2260,730,2,41733,21631,0,20000,224,Vehicle,8.76,Secured,Yes,8,13,0.05,1
+365,Female,44,Single,1,High School,Self-Employed,Salaried,Own,Suburban,50059,1569,406,1,43355,2320,1,17609,224,Home,12.09,Unsecured,No,7,15,0.73,0
+366,Male,32,Single,1,Postgraduate,Employed,Business,Own,Urban,50199,4390,835,1,11655,27712,0,20000,123,Personal,10.13,Secured,No,7,16,0.2,1
+367,Male,59,Single,2,High School,Self-Employed,Salaried,Own,Suburban,29428,3324,414,1,33359,5061,0,8539,134,Education,7.98,Unsecured,Yes,7,18,0.39,0
+368,Male,53,Single,2,Graduate,Self-Employed,Business,Rent,Suburban,66630,4349,496,0,39500,10734,1,17064,121,Vehicle,13.26,Unsecured,No,0,6,0.65,1
+369,Male,37,Single,1,Graduate,Employed,Salaried,Rent,Urban,135828,1715,776,1,3661,9223,0,22686,54,Personal,11.1,Unsecured,No,1,12,0.32,1
+370,Female,28,Married,1,High School,Unemployed,Freelancer,Rent,Urban,51550,1040,744,1,17674,25911,0,20000,109,Personal,9.19,Secured,Yes,1,27,0.12,1
+371,Female,43,Married,2,Graduate,Employed,Business,Own,Urban,112301,3401,753,1,20698,23629,0,30387,118,Home,6.18,Unsecured,No,8,27,0.83,1
+372,Male,48,Single,3,Graduate,Employed,Salaried,Own,Urban,51665,1844,839,0,9013,19446,0,20000,100,Education,6.1,Secured,No,9,10,0.97,1
+373,Female,30,Single,1,High School,Self-Employed,Freelancer,Other,Urban,125219,3345,805,1,1608,10103,0,33240,26,Home,11.99,Unsecured,Yes,6,21,0.95,1
+374,Male,40,Single,1,Graduate,Self-Employed,Professional,Own,Urban,94003,2267,836,2,27912,7622,1,23773,184,Education,14.69,Secured,No,9,13,0.02,1
+375,Male,48,Divorced,0,Postgraduate,Unemployed,Freelancer,Own,Urban,92664,1024,781,2,20810,3085,0,21460,217,Home,5.18,Unsecured,Yes,0,13,0.79,1
+376,Female,48,Married,3,Graduate,Employed,Professional,Own,Urban,83766,3404,831,1,31827,12009,0,20532,88,Education,7.45,Secured,No,1,27,0.6,1
+377,Male,47,Divorced,0,High School,Employed,Professional,Own,Urban,45314,3231,593,0,41666,24052,0,6836,71,Personal,9.77,Secured,No,7,24,0.31,0
+378,Female,31,Married,2,High School,Employed,Freelancer,Own,Urban,52983,3727,744,1,32222,24777,0,20000,190,Home,14.77,Unsecured,Yes,4,9,0.7,1
+379,Female,62,Single,2,High School,Unemployed,Salaried,Own,Urban,47579,1521,528,0,36697,29941,0,16884,113,Home,8.71,Unsecured,Yes,5,12,0.53,0
+380,Female,27,Divorced,3,Postgraduate,Unemployed,Freelancer,Own,Urban,120380,3816,829,0,47657,11877,0,35716,119,Home,5.66,Secured,No,1,6,0.01,1
+381,Female,45,Married,3,Graduate,Employed,Salaried,Own,Rural,80090,519,809,1,34182,21825,0,23714,82,Vehicle,5.03,Secured,Yes,4,23,0.34,1
+382,Female,42,Divorced,0,Graduate,Self-Employed,Professional,Own,Suburban,88275,1731,841,2,38230,3748,0,26225,104,Home,5.72,Secured,No,7,19,0.13,1
+383,Female,41,Divorced,0,Graduate,Employed,Salaried,Rent,Urban,91627,1840,816,1,16356,20910,0,23663,233,Home,14.91,Secured,No,2,10,0.71,1
+384,Male,52,Single,0,High School,Self-Employed,Freelancer,Own,Urban,24897,2451,498,1,29467,8707,0,8439,31,Home,4.81,Unsecured,No,6,20,0.92,0
+385,Female,37,Single,0,High School,Employed,Salaried,Own,Urban,47807,3837,381,0,4318,15496,0,13557,134,Home,7.3,Secured,Yes,8,28,0.41,0
+386,Female,53,Married,3,Graduate,Employed,Freelancer,Own,Urban,31505,4317,460,2,42829,6954,0,8680,33,Vehicle,4.93,Secured,No,4,26,0.59,0
+387,Female,35,Married,3,Postgraduate,Employed,Salaried,Own,Rural,131068,3568,796,2,9813,10079,0,21946,51,Home,6.79,Secured,Yes,8,18,0.93,1
+388,Male,42,Married,1,Graduate,Employed,Business,Own,Rural,86231,4410,818,2,9712,11608,0,20316,86,Personal,13.97,Secured,Yes,8,9,0.71,1
+389,Female,36,Single,2,Graduate,Employed,Business,Rent,Suburban,23962,1000,565,0,33167,20825,0,8398,193,Education,7.84,Secured,Yes,7,24,0.26,1
+390,Male,57,Single,2,Graduate,Employed,Freelancer,Own,Urban,67300,1617,596,1,6600,15499,0,13619,200,Home,7.27,Secured,Yes,4,17,0.83,0
+391,Female,62,Married,1,Graduate,Self-Employed,Business,Own,Urban,50237,4475,354,2,14408,3556,0,15153,152,Home,14.84,Unsecured,Yes,7,17,0.19,0
+392,Female,49,Married,0,Graduate,Employed,Freelancer,Own,Suburban,148838,4368,741,2,2321,16305,0,28423,13,Home,11.94,Unsecured,Yes,4,26,0.61,1
+393,Male,42,Single,3,High School,Employed,Salaried,Own,Rural,100461,2055,729,0,45248,14854,0,20738,184,Home,7.72,Unsecured,Yes,5,11,0.07,0
+394,Male,39,Single,1,Graduate,Self-Employed,Business,Own,Suburban,32648,2468,367,2,12447,28996,0,6816,193,Vehicle,14.34,Unsecured,No,7,12,0.92,0
+395,Female,25,Married,2,Graduate,Employed,Salaried,Own,Rural,73318,977,818,0,36340,23114,0,20418,230,Education,8.58,Secured,Yes,8,28,0.56,1
+396,Female,37,Single,3,High School,Self-Employed,Business,Own,Suburban,50936,1971,558,2,39200,26564,0,15930,225,Education,12.31,Unsecured,No,7,19,0.54,1
+397,Female,66,Single,3,Postgraduate,Employed,Salaried,Rent,Urban,69598,4150,437,1,34716,27261,0,11332,81,Education,13.48,Secured,Yes,7,18,0.12,0
+398,Male,27,Single,2,Graduate,Unemployed,Salaried,Rent,Suburban,133635,4156,790,2,34188,22431,1,29238,162,Home,14.33,Unsecured,Yes,5,28,0.53,1
+399,Female,40,Married,2,High School,Unemployed,Professional,Rent,Suburban,59375,3042,546,2,49912,27545,0,8301,143,Education,5.87,Secured,No,9,19,0.49,0
+400,Female,41,Married,1,Graduate,Employed,Professional,Own,Urban,56659,2059,463,0,49797,3908,0,21424,80,Home,3.84,Secured,No,0,6,0.42,1
+401,Female,31,Single,0,Graduate,Self-Employed,Salaried,Own,Urban,101764,1357,762,2,44759,20634,0,26618,71,Home,14.36,Secured,No,4,19,0.25,0
+402,Female,40,Single,0,Graduate,Employed,Salaried,Own,Urban,40715,3013,448,1,11333,1143,1,11624,61,Vehicle,14.12,Secured,No,3,5,0.56,0
+403,Female,30,Single,0,Graduate,Employed,Business,Rent,Urban,93544,2332,720,2,33881,4350,0,27142,172,Home,6.73,Unsecured,Yes,5,14,0.03,1
+404,Male,64,Single,1,Graduate,Self-Employed,Professional,Rent,Urban,56659,4737,510,0,22619,8029,0,9932,202,Education,14.3,Secured,Yes,1,12,0.31,0
+405,Male,31,Married,3,High School,Unemployed,Freelancer,Own,Suburban,73663,4137,733,0,35932,26645,0,20226,45,Home,10.02,Unsecured,Yes,1,10,0.02,1
+406,Female,56,Married,2,High School,Employed,Business,Other,Suburban,37679,4793,396,1,6475,2528,0,14848,218,Education,10.51,Secured,Yes,8,9,0.07,0
+407,Female,36,Married,1,High School,Employed,Professional,Own,Urban,50047,4847,724,1,18256,5268,1,20000,222,Home,6.6,Secured,Yes,1,28,0.43,1
+408,Male,33,Married,3,Graduate,Employed,Salaried,Own,Suburban,103744,2049,727,0,13939,823,0,28510,69,Home,9.35,Unsecured,Yes,3,19,0.94,1
+409,Male,46,Divorced,0,Graduate,Self-Employed,Salaried,Own,Urban,49957,3772,480,2,27102,18130,0,18415,160,Education,7.64,Unsecured,Yes,8,12,0.23,0
+410,Female,33,Married,2,High School,Unemployed,Salaried,Own,Urban,70335,2236,796,1,7195,14278,1,20593,117,Education,11.39,Unsecured,Yes,5,29,0.45,1
+411,Male,35,Single,1,Graduate,Employed,Freelancer,Rent,Urban,71551,3858,700,2,45985,12994,1,20241,49,Personal,8.28,Unsecured,No,7,8,0.0,1
+412,Female,59,Single,3,High School,Self-Employed,Business,Own,Rural,33286,3404,462,2,28555,15080,0,11390,158,Vehicle,13.18,Unsecured,No,9,26,0.66,0
+413,Female,27,Married,3,Postgraduate,Self-Employed,Freelancer,Other,Urban,46840,4044,503,1,43621,22665,0,18359,165,Home,9.48,Unsecured,Yes,5,18,0.47,1
+414,Female,39,Single,0,Graduate,Self-Employed,Freelancer,Rent,Urban,116955,3893,747,2,40704,24556,0,34881,164,Home,4.02,Unsecured,No,8,29,0.15,1
+415,Male,40,Single,1,High School,Employed,Freelancer,Rent,Urban,66352,4803,807,2,6369,29115,0,20000,217,Home,7.79,Secured,No,1,26,0.12,1
+416,Female,32,Married,0,High School,Employed,Salaried,Own,Suburban,86165,4260,795,1,36287,24174,1,22226,188,Personal,4.08,Secured,No,7,12,0.43,1
+417,Male,37,Married,2,High School,Employed,Business,Rent,Suburban,132287,834,761,0,33642,7209,0,31974,115,Home,10.94,Secured,Yes,1,16,0.56,1
+418,Male,33,Married,2,Graduate,Employed,Business,Rent,Urban,71638,1031,798,0,15361,26889,0,20413,159,Vehicle,9.44,Secured,No,5,23,0.68,1
+419,Male,38,Married,3,Postgraduate,Unemployed,Freelancer,Rent,Suburban,135592,2582,794,0,29862,20433,0,36274,65,Vehicle,5.54,Secured,Yes,9,9,0.82,1
+420,Male,39,Single,2,High School,Self-Employed,Freelancer,Own,Urban,61823,842,475,2,27265,25306,0,21929,145,Personal,10.08,Unsecured,No,2,23,0.13,0
+421,Male,37,Married,1,High School,Employed,Business,Own,Urban,69738,4756,436,1,35785,1525,0,5777,62,Personal,6.91,Unsecured,No,0,5,0.89,0
+422,Male,35,Married,1,Graduate,Self-Employed,Salaried,Own,Urban,57880,2083,496,2,6762,21587,0,16951,97,Education,4.6,Secured,Yes,7,28,0.7,1
+423,Male,48,Divorced,2,High School,Self-Employed,Freelancer,Rent,Suburban,96762,4089,816,2,26304,26843,0,28341,18,Home,11.6,Secured,No,8,19,0.71,1
+424,Male,26,Single,2,Graduate,Employed,Freelancer,Own,Urban,106682,4558,831,1,28677,1839,0,25605,30,Home,4.47,Secured,Yes,0,7,0.29,0
+425,Male,47,Married,2,High School,Self-Employed,Freelancer,Rent,Urban,93850,4714,750,2,6430,24720,1,20740,218,Personal,12.05,Secured,Yes,1,10,0.13,1
+426,Male,33,Single,1,High School,Employed,Freelancer,Rent,Urban,85283,736,703,1,3891,17966,0,22454,193,Home,12.69,Unsecured,No,5,25,0.3,1
+427,Male,34,Single,1,Graduate,Employed,Salaried,Own,Suburban,92686,911,808,0,11262,11801,0,20988,62,Home,12.88,Secured,Yes,2,17,0.61,1
+428,Male,69,Married,0,High School,Employed,Salaried,Rent,Urban,58035,1928,308,1,2983,28624,1,16778,151,Vehicle,6.48,Secured,No,6,28,0.75,0
+429,Female,35,Single,3,Graduate,Unemployed,Professional,Own,Suburban,126671,1918,707,1,17472,20761,1,25211,54,Education,12.87,Unsecured,No,7,24,0.69,1
+430,Male,48,Married,0,High School,Self-Employed,Freelancer,Own,Urban,75915,4064,787,0,41958,21249,0,20161,63,Home,12.48,Unsecured,Yes,3,24,0.54,1
+431,Female,47,Married,3,High School,Employed,Freelancer,Own,Urban,87553,4943,737,1,29345,26509,0,20070,54,Personal,9.65,Unsecured,No,4,20,0.42,1
+432,Male,27,Divorced,0,High School,Self-Employed,Business,Own,Suburban,38668,2365,358,1,17058,19873,0,10054,19,Education,10.17,Secured,Yes,7,29,0.95,0
+433,Female,43,Married,1,Graduate,Employed,Salaried,Own,Urban,83985,4942,822,2,7664,6656,0,21784,239,Education,5.56,Secured,Yes,8,5,0.11,0
+434,Male,25,Single,0,High School,Employed,Salaried,Own,Urban,85389,2483,826,1,5864,21570,0,21698,113,Home,6.41,Unsecured,Yes,8,20,0.25,1
+435,Male,48,Married,0,Graduate,Employed,Freelancer,Own,Urban,128755,1232,828,2,9127,83,1,24966,23,Education,12.09,Unsecured,No,2,27,0.63,1
+436,Female,46,Single,3,Graduate,Unemployed,Salaried,Rent,Urban,32785,3594,521,0,48563,23348,0,12785,102,Vehicle,13.94,Unsecured,Yes,1,18,0.77,0
+437,Male,38,Married,3,Graduate,Self-Employed,Freelancer,Other,Urban,103392,787,709,0,20091,26941,0,30508,196,Home,8.65,Secured,Yes,3,25,0.6,1
+438,Female,58,Married,0,High School,Unemployed,Professional,Rent,Urban,33681,1846,535,1,23080,26928,0,12854,49,Home,12.84,Unsecured,Yes,1,26,0.69,1
+439,Male,22,Single,3,High School,Employed,Salaried,Own,Suburban,46615,4056,343,0,7374,18068,0,7374,110,Home,10.9,Unsecured,No,7,18,0.88,0
+440,Male,36,Single,2,Graduate,Employed,Freelancer,Rent,Suburban,97080,2207,746,1,7376,3072,0,23654,194,Personal,5.4,Secured,Yes,3,18,0.23,1
+441,Male,44,Single,2,Postgraduate,Unemployed,Freelancer,Own,Suburban,67130,4739,717,0,34882,23200,0,20055,115,Education,3.68,Secured,Yes,4,11,0.26,1
+442,Female,67,Married,1,High School,Employed,Professional,Rent,Urban,68832,4534,473,0,29816,17218,0,14981,86,Personal,8.56,Secured,Yes,9,16,0.19,0
+443,Female,41,Married,0,High School,Employed,Business,Own,Urban,127183,2679,785,2,47784,22228,1,24339,174,Home,9.69,Secured,Yes,7,10,0.2,1
+444,Female,44,Single,3,High School,Unemployed,Freelancer,Own,Urban,93046,2989,755,2,4811,26367,1,26136,234,Education,5.73,Unsecured,Yes,5,20,0.41,1
+445,Male,25,Married,0,Graduate,Self-Employed,Salaried,Rent,Urban,60695,3743,494,0,1053,29860,1,6426,115,Home,8.1,Secured,Yes,4,20,0.05,0
+446,Female,42,Married,2,High School,Employed,Professional,Own,Suburban,25661,2198,548,0,11978,9454,0,8327,197,Vehicle,12.47,Unsecured,Yes,4,22,0.13,1
+447,Male,18,Married,3,Postgraduate,Self-Employed,Business,Other,Rural,31049,4348,503,2,8258,22218,0,11894,71,Personal,7.53,Secured,No,0,17,0.99,0
+448,Male,53,Divorced,3,Graduate,Employed,Business,Own,Suburban,25777,3198,383,0,43690,27465,0,8518,51,Home,6.49,Unsecured,Yes,4,6,0.14,0
+449,Female,36,Single,1,Postgraduate,Self-Employed,Professional,Own,Urban,119057,4601,778,1,2406,11234,1,34365,189,Home,10.11,Secured,Yes,2,7,0.21,1
+450,Female,40,Married,0,Graduate,Unemployed,Professional,Own,Urban,138315,1197,708,2,23614,5651,0,20264,32,Education,8.74,Secured,No,8,11,0.24,0
+451,Male,22,Single,3,High School,Self-Employed,Business,Rent,Urban,61491,729,433,2,37376,11648,0,21609,228,Education,10.91,Unsecured,No,9,28,0.76,0
+452,Male,42,Single,0,High School,Employed,Freelancer,Own,Urban,98377,4047,782,0,48816,23597,0,20937,202,Home,11.08,Unsecured,Yes,4,25,0.8,1
+453,Male,42,Married,1,High School,Employed,Freelancer,Own,Urban,54803,776,718,1,43764,16006,0,20000,42,Personal,9.63,Unsecured,Yes,0,20,0.67,0
+454,Female,68,Married,3,High School,Unemployed,Business,Own,Suburban,39468,3831,504,2,42632,11650,0,9617,230,Home,4.72,Unsecured,No,2,25,0.78,0
+455,Female,37,Single,0,High School,Self-Employed,Business,Own,Urban,116407,2090,716,2,37066,5119,0,26658,175,Personal,11.56,Unsecured,No,3,15,0.99,1
+456,Female,25,Single,3,High School,Employed,Professional,Own,Urban,108721,4182,702,2,31829,22240,0,30339,183,Vehicle,9.2,Unsecured,No,9,5,0.05,1
+457,Female,32,Married,3,Graduate,Unemployed,Freelancer,Own,Urban,57478,3496,792,0,38969,23418,0,20000,136,Home,5.71,Unsecured,Yes,8,24,0.74,0
+458,Female,25,Married,0,Graduate,Employed,Business,Own,Suburban,127781,1317,821,0,48756,21962,1,34445,144,Vehicle,7.09,Secured,Yes,2,18,0.23,1
+459,Female,44,Single,3,Graduate,Self-Employed,Professional,Own,Urban,95337,4424,753,0,22095,11407,0,26250,13,Home,3.76,Secured,Yes,1,15,0.79,0
+460,Male,31,Single,3,High School,Self-Employed,Salaried,Own,Suburban,64593,4206,848,0,27188,17753,0,20000,180,Personal,12.17,Secured,No,5,17,0.49,1
+461,Female,43,Divorced,3,Graduate,Self-Employed,Professional,Rent,Urban,110673,4422,842,0,12618,1222,0,31674,100,Home,6.7,Secured,Yes,7,22,0.35,1
+462,Female,49,Married,3,Graduate,Unemployed,Salaried,Own,Urban,87411,4004,847,1,42381,1392,1,20919,108,Home,8.83,Unsecured,Yes,9,23,0.09,1
+463,Male,46,Single,2,High School,Self-Employed,Business,Other,Urban,51788,1642,497,1,44188,26503,0,20445,177,Education,14.25,Secured,Yes,9,5,0.94,1
+464,Male,27,Married,3,Postgraduate,Employed,Salaried,Rent,Rural,52478,2868,790,1,3771,17928,0,20000,139,Home,12.99,Unsecured,No,7,20,0.99,1
+465,Male,46,Single,0,High School,Employed,Professional,Other,Urban,61495,1387,423,1,5932,9658,0,13659,34,Home,8.49,Unsecured,No,3,13,0.64,0
+466,Female,42,Married,1,Postgraduate,Self-Employed,Business,Rent,Suburban,134664,3018,809,1,15773,8343,0,20667,202,Personal,5.52,Secured,No,6,6,0.24,1
+467,Male,45,Married,3,Postgraduate,Unemployed,Freelancer,Own,Urban,50605,1663,735,2,32654,2017,0,20000,157,Personal,11.32,Unsecured,Yes,1,9,0.5,1
+468,Female,35,Single,3,Postgraduate,Employed,Salaried,Own,Suburban,20415,953,455,2,13339,16947,0,7501,29,Home,13.57,Unsecured,No,3,11,0.7,0
+469,Female,48,Married,3,High School,Employed,Professional,Own,Rural,56925,4008,731,2,41564,2518,0,20000,134,Home,13.01,Unsecured,Yes,2,11,0.62,1
+470,Male,23,Single,2,High School,Self-Employed,Professional,Rent,Rural,30145,4801,573,2,5353,889,1,10779,191,Vehicle,5.31,Unsecured,No,6,28,0.28,0
+471,Female,44,Single,3,Postgraduate,Employed,Professional,Rent,Urban,75994,678,765,1,11346,27816,0,22513,230,Education,8.66,Unsecured,No,0,23,0.72,1
+472,Male,31,Single,1,Graduate,Employed,Freelancer,Rent,Urban,25029,1115,339,1,21737,4382,0,5006,207,Personal,6.68,Secured,No,1,15,0.28,0
+473,Female,31,Married,0,Graduate,Self-Employed,Freelancer,Rent,Rural,110814,3448,718,0,38726,13173,0,25393,205,Home,8.89,Unsecured,No,2,13,0.79,1
+474,Male,28,Single,2,Graduate,Unemployed,Professional,Own,Urban,58009,2497,473,0,45669,12850,0,6958,157,Education,4.0,Unsecured,No,1,11,0.73,0
+475,Female,45,Divorced,3,Graduate,Employed,Business,Own,Urban,138344,2330,834,0,20394,24742,1,26277,236,Home,9.96,Unsecured,Yes,3,8,0.95,1
+476,Female,22,Married,2,High School,Employed,Salaried,Other,Suburban,25412,2315,439,0,1021,15042,1,8672,125,Personal,10.08,Unsecured,No,6,9,0.82,0
+477,Male,37,Married,2,Graduate,Employed,Salaried,Own,Urban,52631,4743,724,0,11855,22540,0,20000,171,Home,12.24,Secured,Yes,7,17,0.82,1
+478,Male,37,Divorced,3,Graduate,Employed,Business,Own,Urban,146340,4592,785,1,38801,27927,1,20466,141,Personal,13.06,Unsecured,Yes,2,15,0.82,1
+479,Female,44,Divorced,3,High School,Self-Employed,Freelancer,Own,Suburban,58267,3714,507,2,19598,14086,0,8844,196,Personal,4.17,Unsecured,Yes,3,21,0.25,0
+480,Female,25,Single,0,High School,Unemployed,Business,Own,Rural,69568,1953,707,2,27372,28142,0,20441,213,Vehicle,5.89,Unsecured,Yes,5,28,0.6,0
+481,Female,26,Married,1,Graduate,Employed,Business,Own,Urban,129880,504,752,2,3250,26443,1,32198,143,Vehicle,9.67,Unsecured,Yes,6,7,0.51,1
+482,Male,42,Single,3,High School,Unemployed,Freelancer,Own,Rural,73330,3288,797,0,44013,14854,1,20173,126,Home,13.14,Secured,No,2,28,0.76,1
+483,Male,28,Single,3,Graduate,Self-Employed,Professional,Own,Urban,129823,3926,741,1,39545,15473,0,32268,28,Home,12.11,Unsecured,Yes,3,27,0.05,0
+484,Male,38,Single,1,Graduate,Unemployed,Professional,Own,Suburban,54118,4996,781,2,40680,24258,0,20000,92,Vehicle,8.54,Secured,Yes,7,25,0.26,0
+485,Male,29,Divorced,2,High School,Unemployed,Freelancer,Own,Urban,58758,1342,817,2,31320,12595,0,20000,71,Personal,11.69,Secured,Yes,6,21,0.8,1
+486,Female,43,Married,2,Graduate,Self-Employed,Freelancer,Rent,Urban,34915,3513,334,0,45480,4887,0,7054,162,Home,14.92,Secured,Yes,9,6,0.59,0
+487,Female,40,Married,3,Graduate,Self-Employed,Professional,Own,Urban,136454,1978,747,1,21949,15594,0,25111,121,Home,8.13,Secured,No,7,12,0.37,1
+488,Female,44,Single,3,Graduate,Unemployed,Professional,Own,Urban,127821,837,817,1,35505,15401,0,36601,178,Home,3.7,Unsecured,No,3,13,0.91,0
+489,Female,52,Married,0,High School,Employed,Professional,Rent,Suburban,28216,556,397,1,21968,11383,0,9563,87,Education,11.68,Unsecured,Yes,1,17,0.39,0
+490,Male,37,Single,1,Graduate,Unemployed,Salaried,Own,Urban,27612,1887,368,2,39759,26270,0,8597,174,Education,9.41,Unsecured,Yes,1,24,0.77,0
+491,Male,38,Single,3,Postgraduate,Self-Employed,Freelancer,Own,Urban,113869,4236,837,2,8319,1324,0,21067,226,Home,11.02,Secured,Yes,8,29,0.66,0
+492,Male,29,Married,2,High School,Self-Employed,Freelancer,Rent,Suburban,115625,3546,742,0,2209,10180,1,33081,115,Home,12.68,Secured,No,2,25,0.08,1
+493,Male,36,Married,2,Graduate,Self-Employed,Salaried,Own,Urban,62616,1191,747,0,7996,17192,0,20000,40,Home,5.14,Secured,No,2,7,0.23,1
+494,Female,37,Married,2,Graduate,Employed,Business,Own,Rural,130634,3052,733,2,23512,17012,0,37407,49,Personal,8.78,Secured,Yes,9,28,0.37,1
+495,Female,40,Single,3,High School,Self-Employed,Professional,Own,Urban,63021,3241,784,0,30445,23418,1,20000,89,Education,10.35,Secured,Yes,5,19,0.54,1
+496,Male,40,Married,3,Graduate,Employed,Freelancer,Own,Urban,146200,3114,849,2,35160,25963,0,22151,133,Home,14.22,Secured,Yes,4,9,0.69,1
+497,Female,43,Married,1,Postgraduate,Employed,Freelancer,Rent,Urban,89748,2936,718,1,49944,5548,0,26414,39,Home,5.27,Secured,No,4,15,0.49,1
+498,Female,46,Single,1,High School,Employed,Professional,Own,Suburban,107662,3029,737,2,43919,11372,0,20669,238,Vehicle,11.08,Unsecured,No,2,10,0.51,0
+499,Female,21,Single,2,Graduate,Self-Employed,Freelancer,Own,Urban,62190,4407,425,1,13780,7105,0,12364,17,Education,13.03,Unsecured,No,7,29,0.5,0
+500,Male,30,Married,3,High School,Employed,Salaried,Own,Urban,52251,2187,397,2,13108,16715,1,19289,62,Home,9.55,Secured,No,1,21,0.13,0
+501,Female,42,Single,1,Graduate,Employed,Business,Own,Suburban,134507,3435,759,0,33248,24968,1,28337,118,Home,8.92,Unsecured,Yes,7,17,0.61,1
+502,Male,37,Divorced,2,Postgraduate,Employed,Freelancer,Own,Urban,135230,3174,749,2,40156,4991,0,30962,224,Vehicle,11.43,Unsecured,Yes,8,11,0.11,1
+503,Male,36,Married,3,Postgraduate,Employed,Professional,Rent,Suburban,87709,4117,755,0,5361,25703,1,20251,85,Personal,10.96,Unsecured,No,3,9,0.7,1
+504,Female,36,Married,2,High School,Self-Employed,Business,Rent,Suburban,67327,3113,465,1,32886,16264,0,5676,96,Personal,10.81,Unsecured,No,6,16,0.3,0
+505,Male,41,Single,1,Postgraduate,Employed,Business,Other,Rural,127341,1263,794,2,39126,21237,0,23631,41,Vehicle,11.68,Unsecured,No,0,15,0.86,1
+506,Male,34,Divorced,2,Graduate,Employed,Freelancer,Own,Rural,109905,3890,798,0,14995,1345,0,20789,196,Education,12.86,Secured,No,6,27,0.58,1
+507,Male,24,Married,1,Graduate,Self-Employed,Salaried,Rent,Suburban,33158,2168,378,0,1155,3118,0,7832,81,Education,6.02,Unsecured,No,2,27,0.15,0
+508,Male,38,Single,2,Graduate,Employed,Professional,Own,Urban,39095,1789,401,1,6254,1842,0,8105,185,Home,12.08,Unsecured,No,8,9,0.79,0
+509,Male,63,Married,1,Graduate,Employed,Salaried,Own,Urban,28116,2209,523,0,47489,5778,0,8351,34,Personal,8.46,Unsecured,No,4,19,0.89,1
+510,Male,56,Single,3,Graduate,Self-Employed,Professional,Own,Suburban,27050,3813,547,2,39989,21738,0,6747,197,Education,11.31,Secured,Yes,6,14,0.36,0
+511,Male,45,Married,0,High School,Unemployed,Business,Own,Urban,147799,1020,779,2,39395,18734,1,24460,71,Personal,9.61,Unsecured,No,1,27,0.64,1
+512,Male,25,Single,0,Postgraduate,Self-Employed,Freelancer,Own,Suburban,106438,4778,842,0,3207,25026,1,27891,209,Vehicle,4.35,Secured,No,5,17,0.49,1
+513,Male,31,Married,3,Postgraduate,Self-Employed,Freelancer,Own,Suburban,22894,2863,585,0,23463,16677,0,6693,234,Vehicle,7.25,Unsecured,No,6,22,0.25,1
+514,Male,20,Married,1,High School,Employed,Business,Other,Urban,30042,4839,411,2,23103,23656,0,10458,105,Home,10.42,Secured,Yes,6,5,0.79,0
+515,Female,33,Single,3,Graduate,Self-Employed,Business,Rent,Suburban,87916,859,711,1,13916,5612,0,24951,148,Home,11.21,Secured,Yes,7,14,0.85,1
+516,Female,35,Married,2,Postgraduate,Employed,Freelancer,Rent,Urban,136723,4041,846,2,36543,3180,0,23589,238,Home,13.6,Unsecured,Yes,0,19,0.4,1
+517,Male,47,Divorced,0,High School,Employed,Freelancer,Rent,Urban,103559,3010,710,1,38249,25595,1,21111,34,Home,12.04,Unsecured,Yes,5,23,0.41,1
+518,Male,47,Married,3,Postgraduate,Unemployed,Business,Rent,Urban,63112,3115,561,2,33089,9119,0,11091,190,Vehicle,5.36,Secured,No,9,12,0.09,0
+519,Female,64,Single,2,Graduate,Employed,Freelancer,Own,Suburban,64942,1166,536,1,4791,22758,0,16892,93,Education,10.68,Secured,No,5,24,0.96,0
+520,Male,47,Divorced,3,High School,Employed,Professional,Rent,Suburban,64199,4988,807,1,530,4019,0,20000,222,Vehicle,3.59,Secured,Yes,6,13,0.93,1
+521,Male,29,Married,1,Postgraduate,Employed,Business,Rent,Urban,87390,4217,821,0,10922,3720,0,23269,116,Home,4.58,Secured,Yes,9,16,0.7,1
+522,Female,43,Divorced,2,Graduate,Employed,Salaried,Own,Urban,98072,1307,707,0,19520,13861,1,23825,136,Home,12.35,Secured,No,3,29,0.16,1
+523,Female,43,Married,3,High School,Unemployed,Freelancer,Other,Rural,53750,3043,365,2,48294,10977,0,14695,239,Personal,14.33,Secured,No,0,16,0.67,0
+524,Female,21,Single,1,High School,Unemployed,Freelancer,Rent,Urban,30429,1869,421,0,38641,17258,0,10361,130,Personal,13.19,Secured,No,3,28,0.06,0
+525,Male,69,Married,2,Graduate,Employed,Professional,Rent,Urban,59328,2314,473,2,47483,9553,0,17136,88,Home,8.73,Secured,No,5,25,0.2,0
+526,Female,37,Married,3,High School,Unemployed,Salaried,Own,Suburban,72911,4049,838,2,2118,4500,0,21680,29,Home,12.38,Secured,No,4,13,0.49,1
+527,Female,30,Married,2,Postgraduate,Employed,Freelancer,Own,Suburban,75847,2230,719,1,26735,20034,0,22251,22,Home,5.49,Secured,Yes,4,15,0.86,1
+528,Female,46,Married,3,Postgraduate,Unemployed,Business,Rent,Suburban,108868,2155,788,2,16292,12277,0,27672,203,Home,13.06,Unsecured,No,9,6,0.25,1
+529,Male,31,Divorced,2,High School,Unemployed,Salaried,Rent,Rural,121665,623,764,2,35257,3457,0,24208,148,Education,7.14,Secured,Yes,2,10,0.21,1
+530,Female,33,Single,3,Postgraduate,Employed,Freelancer,Other,Suburban,64806,4036,432,2,42239,11585,0,18922,120,Home,8.11,Unsecured,No,1,26,0.84,0
+531,Female,25,Married,0,High School,Unemployed,Salaried,Rent,Urban,20190,1680,469,1,42121,9074,0,6773,215,Personal,11.58,Secured,Yes,1,29,0.68,1
+532,Male,42,Single,1,High School,Unemployed,Professional,Rent,Suburban,32639,3276,429,1,8356,28553,0,7864,39,Vehicle,14.77,Secured,No,4,15,0.22,1
+533,Male,41,Single,3,High School,Self-Employed,Professional,Rent,Urban,44654,3610,306,1,33007,19903,0,12265,172,Vehicle,6.54,Secured,No,4,21,0.07,0
+534,Male,33,Divorced,3,High School,Self-Employed,Freelancer,Own,Urban,94938,718,810,1,48638,2388,0,25933,141,Personal,5.92,Secured,No,4,26,0.63,0
+535,Male,58,Married,0,Postgraduate,Employed,Freelancer,Other,Urban,62942,791,527,1,12114,14578,0,15964,219,Personal,9.34,Unsecured,No,7,28,0.96,1
+536,Male,68,Single,2,Graduate,Employed,Salaried,Rent,Suburban,37516,1466,494,2,8794,20178,0,12211,61,Home,7.2,Secured,Yes,0,5,0.56,0
+537,Male,68,Married,3,Graduate,Self-Employed,Business,Own,Urban,28804,1591,324,2,46579,6169,1,5973,142,Personal,7.18,Secured,No,5,17,0.81,0
+538,Male,45,Single,0,Graduate,Employed,Professional,Own,Urban,94225,1012,732,2,31940,13534,0,24212,168,Education,3.61,Secured,Yes,0,5,0.09,0
+539,Female,35,Single,2,Postgraduate,Unemployed,Business,Other,Urban,89565,2172,762,2,8150,8622,0,25287,237,Personal,7.67,Secured,Yes,7,26,0.54,1
+540,Female,40,Single,1,Graduate,Unemployed,Business,Own,Urban,135023,1177,799,2,28021,24408,0,31017,218,Vehicle,3.73,Secured,Yes,7,20,0.54,1
+541,Male,58,Single,2,Graduate,Unemployed,Freelancer,Own,Urban,64821,1339,590,0,42219,24034,1,7211,28,Home,4.82,Unsecured,No,9,17,0.73,1
+542,Female,39,Married,1,Graduate,Employed,Professional,Own,Urban,127135,1593,777,1,46692,15296,1,29487,81,Home,11.7,Unsecured,Yes,5,15,0.61,1
+543,Female,35,Married,0,Graduate,Unemployed,Professional,Rent,Urban,59015,4461,733,0,28454,5382,1,20000,94,Personal,4.43,Unsecured,Yes,1,15,0.91,1
+544,Male,32,Married,0,High School,Employed,Freelancer,Rent,Urban,53880,4536,730,1,2293,15640,0,20000,43,Personal,6.33,Secured,Yes,4,17,0.15,1
+545,Female,27,Single,0,Graduate,Unemployed,Business,Rent,Rural,70273,3926,731,0,48174,12514,0,20686,192,Education,9.02,Secured,Yes,3,11,0.9,0
+546,Female,38,Divorced,2,High School,Unemployed,Business,Own,Urban,115174,711,716,0,44984,10032,0,29682,182,Education,10.71,Unsecured,No,1,15,0.72,0
+547,Female,30,Married,2,Graduate,Self-Employed,Freelancer,Own,Urban,51928,3047,845,2,37702,6771,0,20000,234,Home,9.1,Secured,Yes,3,18,0.2,1
+548,Female,29,Married,2,Postgraduate,Employed,Professional,Own,Urban,61253,3709,844,1,25654,17501,0,20000,96,Vehicle,4.27,Unsecured,No,6,29,0.75,1
+549,Female,35,Married,3,High School,Unemployed,Professional,Own,Urban,139731,1953,721,2,16847,13494,0,28335,25,Home,4.25,Secured,Yes,1,7,0.73,1
+550,Female,45,Married,0,Graduate,Employed,Freelancer,Own,Urban,62914,803,568,1,20790,15527,1,14234,137,Vehicle,7.84,Secured,Yes,8,24,0.27,0
+551,Female,34,Single,1,Graduate,Employed,Salaried,Rent,Suburban,116381,1044,734,2,46577,26700,0,32561,53,Home,9.13,Unsecured,No,0,10,0.98,0
+552,Male,69,Single,1,High School,Employed,Salaried,Rent,Suburban,34415,1227,378,0,6961,15952,0,10828,167,Personal,6.0,Secured,No,2,10,0.01,0
+553,Male,35,Married,1,Postgraduate,Employed,Salaried,Other,Urban,92085,2463,760,2,12590,11891,0,24850,66,Home,12.97,Unsecured,No,9,29,0.7,1
+554,Female,30,Single,1,Graduate,Unemployed,Professional,Own,Suburban,136426,4234,807,2,47072,21116,0,24350,208,Personal,10.64,Unsecured,Yes,9,8,0.47,1
+555,Female,57,Single,3,Postgraduate,Self-Employed,Salaried,Own,Urban,52649,3829,348,0,6989,532,0,10393,167,Home,5.61,Secured,Yes,6,17,0.72,0
+556,Male,48,Married,1,Graduate,Employed,Professional,Own,Suburban,50576,4610,704,1,11096,492,0,20000,231,Vehicle,7.72,Unsecured,No,3,20,0.46,1
+557,Female,38,Married,2,High School,Employed,Business,Own,Rural,128458,4350,804,0,3165,4584,0,24032,69,Education,8.9,Secured,No,9,23,0.49,1
+558,Male,37,Single,0,Postgraduate,Employed,Professional,Own,Urban,75988,4759,747,0,16683,5261,0,20889,230,Vehicle,7.63,Secured,No,1,6,0.76,1
+559,Female,52,Single,3,Graduate,Employed,Business,Own,Urban,29242,1077,476,0,18606,17610,0,5168,84,Personal,7.62,Secured,No,6,28,0.09,0
+560,Female,30,Divorced,2,Postgraduate,Employed,Professional,Rent,Urban,74022,4740,771,0,27538,15535,0,21288,229,Home,10.0,Secured,Yes,4,26,0.47,1
+561,Male,66,Single,1,High School,Unemployed,Business,Rent,Urban,68854,3400,319,0,46210,18198,1,24944,55,Vehicle,4.94,Unsecured,Yes,5,5,0.91,0
+562,Male,25,Married,2,Graduate,Employed,Professional,Own,Urban,70297,990,738,1,21248,5399,0,20079,213,Personal,5.1,Unsecured,Yes,1,25,0.25,1
+563,Female,35,Single,3,Graduate,Self-Employed,Freelancer,Own,Urban,142510,766,786,0,34074,15591,0,25844,133,Personal,12.14,Secured,Yes,7,17,0.6,1
+564,Female,25,Single,2,High School,Self-Employed,Professional,Rent,Rural,141589,2941,768,0,23025,8266,1,30149,48,Personal,12.93,Secured,Yes,6,14,0.3,1
+565,Male,49,Divorced,0,Graduate,Self-Employed,Professional,Own,Urban,102116,4163,724,0,13257,10359,1,26044,223,Vehicle,8.11,Unsecured,Yes,8,5,0.62,1
+566,Female,38,Married,0,High School,Self-Employed,Professional,Own,Urban,119620,1258,796,2,24998,2348,0,33988,233,Home,9.43,Unsecured,No,6,14,0.57,1
+567,Female,33,Married,1,Graduate,Self-Employed,Salaried,Own,Rural,111346,3243,708,0,9613,16721,0,28666,95,Education,5.1,Secured,No,0,23,0.48,1
+568,Female,34,Married,3,Graduate,Self-Employed,Freelancer,Rent,Urban,63368,4346,813,1,34638,5341,1,20000,75,Home,4.18,Secured,No,4,12,0.43,0
+569,Male,29,Married,1,High School,Unemployed,Salaried,Own,Urban,48254,2415,465,2,20906,10031,0,18005,192,Vehicle,14.51,Unsecured,Yes,4,10,0.48,1
+570,Female,45,Married,1,High School,Employed,Business,Own,Urban,110079,3634,772,2,5643,24946,0,27879,84,Education,14.64,Secured,No,8,27,0.94,1
+571,Male,47,Divorced,1,Graduate,Unemployed,Professional,Own,Urban,61410,4123,754,0,30611,7766,0,20000,149,Vehicle,9.11,Unsecured,Yes,5,21,0.13,1
+572,Female,53,Single,0,Graduate,Employed,Freelancer,Own,Suburban,21703,4978,332,0,43302,14526,0,5017,148,Home,10.32,Secured,No,2,27,0.77,0
+573,Female,42,Married,2,Graduate,Employed,Freelancer,Rent,Urban,109483,869,745,2,9111,26975,0,24545,13,Personal,12.94,Unsecured,No,6,18,0.97,1
+574,Female,35,Married,2,High School,Employed,Salaried,Other,Suburban,110155,3806,728,2,13874,333,0,26416,214,Education,7.6,Unsecured,No,2,20,0.22,1
+575,Female,39,Divorced,3,Graduate,Employed,Professional,Rent,Urban,29575,3762,376,2,10226,19074,0,5895,231,Home,10.6,Secured,Yes,6,25,0.36,0
+576,Male,33,Married,3,Graduate,Employed,Professional,Own,Suburban,66692,841,382,0,7637,22215,1,22399,167,Home,4.83,Unsecured,Yes,4,27,0.56,0
+577,Male,42,Married,0,Graduate,Self-Employed,Professional,Other,Urban,69627,3824,778,1,43267,9079,0,20630,93,Personal,6.13,Secured,Yes,4,20,0.16,1
+578,Female,24,Single,2,Postgraduate,Unemployed,Salaried,Own,Urban,28337,2058,485,2,30712,11861,0,8486,36,Home,12.31,Unsecured,Yes,8,7,0.1,0
+579,Female,44,Single,3,Postgraduate,Self-Employed,Professional,Own,Rural,147344,4706,740,2,36732,29043,0,22254,202,Personal,10.12,Secured,Yes,4,5,0.43,1
+580,Female,28,Divorced,3,High School,Unemployed,Professional,Own,Suburban,107615,4439,811,0,33950,23573,0,28948,90,Education,11.94,Secured,No,6,8,0.83,1
+581,Male,26,Divorced,3,Graduate,Employed,Salaried,Rent,Suburban,107519,4021,756,2,29547,29361,0,26033,46,Home,6.5,Unsecured,Yes,2,11,0.91,1
+582,Female,26,Single,1,High School,Employed,Freelancer,Rent,Urban,69826,1695,592,1,10083,4965,0,27156,219,Education,7.3,Secured,No,7,26,0.16,0
+583,Male,36,Married,3,Graduate,Unemployed,Business,Own,Suburban,69967,1002,818,2,1807,2258,1,20812,102,Home,8.31,Secured,Yes,5,9,0.95,1
+584,Male,43,Single,1,Graduate,Employed,Business,Own,Suburban,132891,4618,833,0,34223,22968,0,33624,227,Home,7.38,Unsecured,No,9,19,0.29,1
+585,Female,46,Single,0,High School,Employed,Professional,Own,Urban,65694,2106,721,0,31302,18685,0,20000,29,Home,12.57,Secured,Yes,2,11,0.01,1
+586,Male,33,Married,0,High School,Employed,Business,Other,Urban,61314,4103,761,0,21336,24323,1,20000,196,Education,14.51,Secured,No,8,6,0.31,1
+587,Female,48,Married,1,Graduate,Unemployed,Business,Own,Urban,108316,2889,804,0,8494,28524,0,26408,214,Home,3.57,Unsecured,Yes,3,11,0.49,1
+588,Male,49,Single,3,Postgraduate,Employed,Business,Own,Rural,126000,2244,772,0,47754,28320,1,26449,204,Home,5.16,Secured,No,8,8,0.38,1
+589,Female,47,Married,0,Graduate,Self-Employed,Salaried,Own,Urban,136664,4665,800,2,8541,28168,0,22319,102,Home,11.08,Unsecured,No,6,17,0.07,1
+590,Male,49,Single,3,High School,Self-Employed,Professional,Own,Rural,94697,1517,793,0,49235,7392,0,21267,34,Vehicle,12.11,Unsecured,No,4,28,0.26,1
+591,Female,34,Married,0,Graduate,Self-Employed,Salaried,Other,Rural,130136,2648,724,0,37968,13451,0,30950,42,Education,11.27,Secured,Yes,4,25,0.87,1
+592,Male,33,Married,1,High School,Employed,Freelancer,Own,Urban,89772,4342,747,2,2893,4626,1,25546,92,Education,12.56,Secured,No,2,11,0.59,1
+593,Male,29,Married,0,High School,Employed,Freelancer,Rent,Suburban,84451,739,803,1,35727,4194,0,20090,55,Home,5.61,Secured,No,9,10,0.52,0
+594,Female,47,Single,0,Graduate,Self-Employed,Salaried,Own,Urban,69163,650,837,2,23731,3564,0,20133,147,Home,4.34,Secured,Yes,8,15,0.29,1
+595,Female,50,Married,3,High School,Unemployed,Professional,Rent,Urban,67805,2129,370,1,26452,14913,0,27094,204,Personal,4.85,Unsecured,No,0,8,0.01,0
+596,Male,40,Divorced,2,Graduate,Self-Employed,Business,Own,Urban,86038,2495,750,1,40106,28870,1,21395,84,Home,6.47,Secured,Yes,8,9,0.03,1
+597,Male,47,Single,3,Graduate,Employed,Freelancer,Own,Urban,73882,2693,794,0,42283,25153,1,20808,129,Education,6.71,Secured,Yes,1,19,0.73,1
+598,Male,33,Married,3,Postgraduate,Employed,Freelancer,Own,Rural,97766,2244,745,1,41495,2981,0,29178,119,Education,10.63,Secured,Yes,7,15,0.36,1
+599,Male,29,Single,3,High School,Employed,Professional,Own,Urban,149285,3354,733,0,47174,6274,0,39619,30,Home,12.94,Unsecured,Yes,1,10,0.58,1
+600,Male,28,Married,0,High School,Employed,Professional,Rent,Suburban,113246,988,802,2,697,3293,0,24049,120,Vehicle,13.78,Secured,No,8,6,0.8,1
+601,Female,29,Single,2,Postgraduate,Employed,Freelancer,Own,Suburban,79262,945,748,1,48399,5328,0,21195,73,Education,11.08,Unsecured,No,4,8,0.18,1
+602,Male,28,Single,2,High School,Unemployed,Business,Other,Urban,79966,1155,826,0,9140,29532,0,22072,201,Home,12.15,Unsecured,Yes,1,6,0.81,1
+603,Male,49,Single,2,Graduate,Self-Employed,Professional,Rent,Rural,79962,852,772,1,47602,22923,1,21419,235,Vehicle,6.97,Unsecured,No,5,11,0.27,1
+604,Male,38,Single,0,Graduate,Employed,Freelancer,Own,Rural,63241,752,726,1,3749,19504,1,20000,218,Personal,6.21,Secured,Yes,5,23,0.02,1
+605,Male,32,Married,0,Graduate,Unemployed,Freelancer,Own,Suburban,126238,2722,784,2,1564,11721,0,28771,166,Education,10.3,Unsecured,Yes,3,7,0.05,1
+606,Female,37,Married,1,Graduate,Unemployed,Salaried,Own,Suburban,83785,2440,726,0,39300,7429,0,23776,216,Home,12.09,Unsecured,No,5,10,0.15,1
+607,Female,45,Married,3,Graduate,Employed,Professional,Own,Urban,136337,896,740,1,7131,11761,1,37302,200,Education,12.02,Secured,No,2,13,0.58,1
+608,Male,35,Married,1,Graduate,Employed,Business,Own,Urban,72100,4590,847,1,18384,3431,0,20092,91,Personal,7.91,Unsecured,Yes,6,11,0.45,1
+609,Male,45,Married,2,Graduate,Employed,Professional,Rent,Suburban,116884,4459,742,1,10281,14751,0,22241,94,Home,5.51,Unsecured,Yes,2,17,0.22,1
+610,Male,45,Single,1,Graduate,Employed,Professional,Rent,Suburban,127475,3881,800,0,49041,22048,0,29625,223,Personal,7.53,Secured,No,8,11,0.8,1
+611,Male,47,Married,3,High School,Employed,Salaried,Rent,Urban,56622,1661,799,2,42611,15232,0,20000,101,Education,13.67,Secured,No,4,29,0.96,0
+612,Female,45,Married,1,Graduate,Self-Employed,Salaried,Own,Urban,68398,1267,387,0,1588,10105,1,20212,139,Home,5.08,Secured,Yes,0,16,0.7,1
+613,Female,38,Divorced,1,Graduate,Self-Employed,Salaried,Own,Urban,122797,2201,701,2,21411,5011,0,28550,147,Home,8.26,Secured,No,9,10,0.31,1
+614,Female,34,Single,2,High School,Self-Employed,Business,Own,Urban,99628,1783,732,2,23879,24544,0,27130,16,Personal,14.1,Unsecured,No,0,6,0.33,0
+615,Male,24,Married,1,High School,Self-Employed,Professional,Other,Urban,61730,4241,507,1,14891,28661,1,16221,25,Education,11.12,Unsecured,Yes,5,27,0.79,0
+616,Male,68,Single,3,Graduate,Employed,Business,Rent,Suburban,43651,4489,505,0,32471,18340,0,10959,152,Vehicle,12.64,Secured,Yes,6,12,0.46,0
+617,Male,41,Single,0,Graduate,Employed,Freelancer,Own,Urban,124494,1796,758,0,29124,2511,0,26855,203,Home,9.9,Unsecured,Yes,1,13,0.19,1
+618,Male,48,Married,2,Postgraduate,Unemployed,Business,Own,Urban,78972,710,713,0,33475,17980,0,20921,222,Home,13.82,Unsecured,No,2,13,0.35,1
+619,Female,43,Single,3,Graduate,Employed,Salaried,Rent,Urban,31641,1775,329,0,44344,3763,0,7292,159,Home,6.93,Unsecured,Yes,7,21,0.92,0
+620,Male,53,Divorced,2,High School,Employed,Salaried,Rent,Urban,67386,3083,505,2,4624,19085,0,26428,69,Home,10.65,Secured,Yes,8,18,0.33,0
+621,Male,44,Married,2,Graduate,Employed,Professional,Own,Suburban,88436,3792,704,2,21987,25478,0,23520,178,Vehicle,10.75,Secured,Yes,5,24,0.47,1
+622,Female,49,Single,1,Postgraduate,Unemployed,Freelancer,Rent,Suburban,93904,2612,805,0,48035,14360,0,22592,113,Home,8.47,Secured,Yes,2,16,0.23,1
+623,Male,38,Single,0,Graduate,Unemployed,Business,Other,Urban,68046,2513,802,2,29753,3737,0,20389,171,Vehicle,12.42,Unsecured,No,1,15,0.74,1
+624,Male,47,Married,2,Graduate,Employed,Business,Own,Urban,148385,1716,741,2,25062,2915,1,29375,27,Personal,6.79,Secured,No,7,29,0.68,0
+625,Male,36,Single,2,Postgraduate,Self-Employed,Salaried,Own,Suburban,70505,3984,761,0,6160,17587,0,20970,204,Home,4.91,Secured,No,0,18,0.85,0
+626,Male,35,Single,3,High School,Employed,Business,Own,Urban,103019,1328,817,0,11148,20064,0,20195,190,Home,4.02,Unsecured,No,3,14,0.72,1
+627,Female,47,Single,1,Postgraduate,Employed,Professional,Rent,Urban,84993,1951,801,0,39670,14766,0,23227,176,Personal,8.57,Secured,No,8,19,0.3,1
+628,Female,41,Single,0,High School,Unemployed,Professional,Own,Suburban,23227,1309,387,1,21170,28491,0,8509,235,Education,9.51,Secured,Yes,7,10,0.24,0
+629,Male,25,Single,3,High School,Employed,Professional,Rent,Urban,84929,784,804,2,14596,1174,0,22522,104,Home,5.55,Unsecured,No,0,23,0.37,1
+630,Female,33,Married,2,Graduate,Unemployed,Professional,Own,Suburban,138399,945,761,2,5877,22847,0,26672,31,Home,6.32,Secured,No,5,16,0.62,1
+631,Male,44,Married,2,High School,Self-Employed,Business,Own,Urban,29573,4174,362,1,12374,24978,1,9423,186,Home,9.82,Secured,No,9,5,0.73,0
+632,Female,18,Divorced,0,Graduate,Employed,Salaried,Own,Rural,24114,1158,314,2,37127,5246,0,8620,119,Home,4.42,Secured,Yes,9,24,0.26,0
+633,Female,34,Single,1,Graduate,Self-Employed,Professional,Rent,Suburban,144556,4997,736,2,42127,25441,0,28076,217,Vehicle,5.33,Secured,Yes,6,24,0.26,1
+634,Female,35,Single,0,Graduate,Unemployed,Salaried,Rent,Suburban,79101,2924,836,2,9213,6716,0,22023,192,Home,4.52,Secured,Yes,6,14,0.26,1
+635,Male,29,Single,1,High School,Self-Employed,Freelancer,Rent,Urban,137976,2997,832,2,44667,28841,0,20551,72,Home,13.59,Secured,Yes,8,28,0.13,1
+636,Male,33,Single,3,Graduate,Employed,Salaried,Own,Urban,97208,923,771,0,38421,8059,1,25838,50,Home,6.66,Unsecured,No,1,12,0.77,1
+637,Male,27,Married,2,Graduate,Employed,Salaried,Own,Suburban,122676,1182,750,1,39244,23586,0,23007,35,Personal,13.54,Secured,Yes,0,23,0.25,1
+638,Male,26,Married,2,Graduate,Employed,Salaried,Rent,Urban,99950,671,831,1,20,6591,0,26650,211,Education,9.37,Secured,No,6,27,0.5,0
+639,Female,42,Single,2,High School,Employed,Professional,Other,Urban,129441,2718,707,0,17288,13043,0,23375,233,Home,13.77,Secured,Yes,0,14,0.44,1
+640,Female,38,Married,2,High School,Employed,Salaried,Rent,Urban,110791,562,752,1,19686,4874,0,29148,73,Home,8.26,Secured,No,2,17,0.86,1
+641,Male,47,Married,0,Postgraduate,Unemployed,Freelancer,Rent,Urban,148313,4813,704,1,16649,17898,0,22638,197,Education,9.0,Secured,No,7,7,0.8,1
+642,Female,29,Married,2,High School,Employed,Salaried,Own,Urban,142358,1083,727,1,22914,746,0,26602,92,Home,5.28,Unsecured,No,4,6,0.85,1
+643,Female,48,Single,2,Graduate,Unemployed,Salaried,Own,Rural,125165,2000,748,2,27814,7905,0,33650,61,Education,6.31,Secured,Yes,6,6,0.91,0
+644,Female,38,Married,3,High School,Self-Employed,Salaried,Rent,Urban,145565,4621,758,1,30772,12622,0,24989,101,Home,10.37,Secured,No,6,8,0.83,1
+645,Male,29,Single,3,High School,Employed,Freelancer,Own,Suburban,129460,1831,723,0,41615,11945,0,22111,107,Vehicle,13.15,Unsecured,No,5,19,0.89,1
+646,Male,19,Married,1,Postgraduate,Self-Employed,Professional,Own,Urban,44856,3260,301,2,13027,10427,1,6361,207,Vehicle,4.4,Secured,No,9,21,0.85,0
+647,Female,31,Married,2,High School,Employed,Salaried,Rent,Urban,55183,792,774,0,45301,13205,0,20000,118,Vehicle,5.66,Unsecured,No,8,23,0.28,0
+648,Male,47,Married,1,Graduate,Employed,Business,Own,Suburban,81637,4442,737,2,25209,13242,0,20596,227,Education,5.83,Secured,No,3,24,0.57,1
+649,Male,48,Married,2,Postgraduate,Employed,Professional,Own,Suburban,42215,4042,575,0,6822,17540,0,12983,155,Home,6.57,Unsecured,Yes,2,14,0.67,0
+650,Female,42,Married,0,High School,Self-Employed,Professional,Rent,Rural,86545,507,789,1,7046,18401,0,21954,227,Vehicle,8.75,Unsecured,No,8,25,0.84,1
+651,Male,40,Single,2,High School,Unemployed,Salaried,Own,Suburban,116694,2472,833,0,11681,17352,0,25115,211,Home,8.43,Secured,Yes,1,14,0.49,1
+652,Female,46,Married,1,Graduate,Employed,Freelancer,Other,Urban,88706,2690,775,1,41397,5194,0,24018,87,Home,4.04,Unsecured,No,7,10,0.0,1
+653,Male,29,Single,2,Graduate,Unemployed,Salaried,Own,Urban,110506,3308,843,1,11830,5050,0,27141,74,Home,14.64,Unsecured,Yes,1,19,0.59,1
+654,Male,69,Single,0,Postgraduate,Employed,Salaried,Rent,Urban,28115,1888,545,1,6974,29253,0,7639,209,Personal,4.6,Unsecured,No,3,6,0.06,0
+655,Female,36,Single,3,High School,Employed,Professional,Own,Suburban,66037,2730,835,0,48147,10283,0,20000,63,Personal,10.33,Unsecured,Yes,7,5,0.96,1
+656,Male,37,Married,1,Graduate,Self-Employed,Salaried,Own,Rural,142193,2580,830,0,24120,19763,0,27681,206,Personal,10.24,Unsecured,No,6,17,0.18,1
+657,Male,32,Married,0,Postgraduate,Unemployed,Salaried,Rent,Urban,132087,2569,795,0,25912,8195,0,30306,217,Personal,7.72,Secured,No,4,9,0.88,1
+658,Female,38,Married,0,Graduate,Unemployed,Professional,Rent,Urban,86820,4507,792,1,30228,28040,1,20468,213,Home,8.97,Unsecured,No,2,20,0.14,1
+659,Male,48,Married,0,High School,Self-Employed,Salaried,Own,Urban,74291,2155,730,1,48308,14952,0,20708,131,Home,10.4,Unsecured,Yes,9,28,0.83,1
+660,Male,29,Married,1,Postgraduate,Employed,Professional,Own,Urban,87146,4356,793,2,28151,25064,0,21191,113,Vehicle,12.88,Unsecured,Yes,8,24,0.84,1
+661,Female,28,Single,3,Postgraduate,Unemployed,Professional,Own,Suburban,102084,3141,700,1,2928,18111,0,23390,114,Home,9.07,Unsecured,No,2,21,0.11,1
+662,Female,26,Married,0,Postgraduate,Self-Employed,Business,Rent,Urban,38309,3526,456,0,1527,6851,0,14509,157,Home,3.55,Unsecured,No,2,27,0.98,0
+663,Female,39,Single,1,High School,Unemployed,Professional,Own,Urban,110548,4290,766,1,18189,22581,0,24196,158,Education,9.9,Unsecured,Yes,6,26,0.27,1
+664,Female,38,Married,1,High School,Employed,Salaried,Own,Urban,58683,3409,727,0,21256,178,0,20000,162,Vehicle,10.65,Unsecured,No,4,28,0.66,1
+665,Female,29,Single,2,High School,Self-Employed,Business,Own,Rural,84093,4081,734,0,46708,21226,0,20683,136,Personal,7.69,Secured,No,4,27,0.33,1
+666,Female,39,Single,1,High School,Employed,Salaried,Own,Urban,124906,1744,784,1,19605,6473,0,30467,176,Education,12.79,Secured,No,1,13,0.31,0
+667,Female,28,Divorced,0,Postgraduate,Employed,Freelancer,Other,Urban,145798,2927,774,2,42306,9396,0,27286,179,Vehicle,7.82,Unsecured,Yes,0,17,0.09,1
+668,Female,42,Married,1,Graduate,Employed,Salaried,Rent,Suburban,50191,4374,764,0,35732,18238,0,20000,233,Education,4.17,Secured,Yes,7,10,0.3,1
+669,Male,46,Married,2,Postgraduate,Employed,Freelancer,Other,Rural,73358,3672,772,2,12666,28572,0,21367,137,Education,3.68,Unsecured,Yes,4,27,0.51,1
+670,Male,29,Married,0,High School,Self-Employed,Business,Rent,Urban,52072,4185,805,1,37135,17386,0,20000,112,Home,6.71,Unsecured,Yes,0,5,0.4,1
+671,Female,46,Married,3,High School,Employed,Business,Own,Urban,146479,4012,783,1,37360,22671,1,28085,232,Vehicle,5.26,Secured,No,9,20,0.86,1
+672,Male,34,Single,2,High School,Employed,Freelancer,Own,Suburban,30965,2799,419,2,43451,937,1,10534,43,Personal,6.1,Unsecured,Yes,1,5,0.8,0
+673,Female,46,Married,1,Graduate,Employed,Freelancer,Other,Urban,129967,4589,754,1,46736,18891,0,34970,64,Home,9.42,Secured,No,0,15,0.19,0
+674,Female,45,Married,0,Graduate,Self-Employed,Freelancer,Other,Suburban,87490,4416,793,0,38329,20798,0,21510,144,Education,7.72,Secured,Yes,4,21,0.95,1
+675,Male,38,Single,0,Graduate,Employed,Professional,Rent,Urban,96248,4368,750,1,37996,15844,0,27796,133,Education,14.05,Secured,No,6,23,0.33,1
+676,Female,40,Married,0,Graduate,Employed,Freelancer,Rent,Urban,67715,2615,454,0,3143,7326,0,25299,128,Vehicle,10.46,Secured,Yes,2,15,0.39,0
+677,Male,41,Single,1,Graduate,Self-Employed,Salaried,Rent,Urban,51570,588,735,0,1146,17228,0,20000,154,Home,5.48,Secured,No,7,25,0.81,1
+678,Female,43,Married,1,Graduate,Employed,Salaried,Own,Urban,52286,4095,811,0,30456,20198,0,20000,139,Personal,8.28,Unsecured,Yes,7,20,0.26,1
+679,Female,30,Single,1,Graduate,Unemployed,Freelancer,Own,Suburban,62446,2947,301,1,41076,11850,0,13657,149,Education,11.7,Secured,Yes,7,13,0.25,0
+680,Male,62,Single,2,High School,Employed,Professional,Rent,Urban,26660,3054,359,1,2694,845,0,7426,201,Home,6.81,Unsecured,No,8,26,0.21,1
+681,Female,62,Single,2,Graduate,Self-Employed,Professional,Own,Urban,22216,1440,549,0,30895,11859,1,8282,171,Personal,10.16,Unsecured,No,3,8,0.1,0
+682,Female,26,Married,2,High School,Unemployed,Salaried,Other,Urban,100960,4395,772,0,12124,7278,0,22031,205,Home,13.59,Secured,No,0,17,0.79,1
+683,Male,39,Married,3,Graduate,Self-Employed,Freelancer,Own,Suburban,56274,2372,763,1,6435,18776,0,20000,142,Home,7.0,Unsecured,No,6,19,0.73,1
+684,Female,46,Married,2,Graduate,Self-Employed,Business,Other,Urban,68945,4531,793,0,36073,13598,0,20244,94,Home,11.7,Secured,Yes,3,15,1.0,1
+685,Female,50,Divorced,2,Postgraduate,Self-Employed,Professional,Own,Urban,66973,2874,382,1,9515,21116,0,7660,101,Home,6.82,Unsecured,Yes,5,26,0.54,0
+686,Male,39,Single,2,Graduate,Self-Employed,Professional,Own,Rural,118473,3788,774,0,48163,21037,0,28309,113,Home,4.19,Secured,No,1,19,0.92,1
+687,Female,40,Married,0,Graduate,Self-Employed,Business,Own,Urban,109081,2580,800,0,31844,4780,1,25170,38,Education,6.46,Unsecured,No,8,19,0.58,1
+688,Female,35,Single,0,Graduate,Employed,Professional,Other,Suburban,143435,3199,825,0,9094,2320,0,35056,46,Personal,3.82,Unsecured,No,9,15,0.41,0
+689,Male,47,Married,2,Graduate,Employed,Salaried,Other,Suburban,43258,932,401,1,36753,4288,1,8057,33,Home,7.92,Unsecured,No,2,7,0.83,0
+690,Female,27,Single,0,Graduate,Employed,Salaried,Own,Urban,102097,2746,789,0,3555,17215,0,27533,130,Home,7.57,Secured,Yes,9,17,0.46,1
+691,Female,44,Single,0,High School,Self-Employed,Professional,Own,Suburban,66900,3431,772,0,29212,6894,0,20044,168,Home,5.95,Unsecured,No,1,22,0.9,1
+692,Female,46,Single,3,Graduate,Unemployed,Freelancer,Own,Urban,116832,3245,709,0,33289,13446,0,28798,208,Home,6.9,Unsecured,No,3,26,0.49,1
+693,Female,45,Single,3,High School,Employed,Business,Rent,Rural,93748,1692,762,0,45900,14366,1,25213,47,Vehicle,14.26,Unsecured,Yes,0,10,0.95,0
+694,Female,38,Single,0,High School,Employed,Professional,Own,Suburban,140941,2532,771,1,28278,10182,0,31226,153,Home,5.32,Unsecured,Yes,2,24,0.43,1
+695,Male,45,Married,2,Graduate,Employed,Professional,Other,Urban,106278,2123,796,1,26791,17767,0,24749,47,Vehicle,10.46,Unsecured,Yes,5,11,0.54,1
+696,Male,29,Married,0,Graduate,Employed,Salaried,Rent,Urban,74820,4270,802,0,43863,26971,0,20109,225,Personal,4.4,Unsecured,Yes,1,15,0.25,1
+697,Female,41,Divorced,1,Graduate,Employed,Business,Own,Urban,70644,3556,748,2,8811,6532,0,20214,224,Personal,10.52,Secured,Yes,5,28,0.73,1
+698,Female,48,Married,1,High School,Self-Employed,Professional,Own,Urban,91187,2689,775,1,36516,4623,0,22992,127,Education,11.1,Unsecured,Yes,7,10,0.26,1
+699,Female,26,Divorced,3,Graduate,Employed,Business,Other,Suburban,58614,1417,781,2,10911,29078,1,20000,234,Personal,7.43,Secured,Yes,6,9,0.72,1
+700,Female,46,Married,3,Graduate,Employed,Salaried,Own,Urban,76658,746,829,2,33660,22937,0,22689,217,Home,8.07,Secured,No,8,9,0.97,1
+701,Male,31,Single,3,Graduate,Employed,Professional,Own,Suburban,127311,4767,797,1,5106,3393,0,20354,161,Home,14.98,Unsecured,Yes,7,6,0.75,1
+702,Female,34,Married,0,Graduate,Employed,Salaried,Rent,Urban,112248,563,832,0,29960,22890,1,26728,161,Education,4.03,Unsecured,Yes,5,6,0.77,1
+703,Male,34,Divorced,1,Graduate,Unemployed,Salaried,Own,Urban,54828,4864,844,2,30696,10926,0,20000,119,Home,4.45,Unsecured,Yes,2,22,0.03,1
+704,Female,44,Single,1,High School,Employed,Business,Own,Urban,132512,4248,760,0,40624,215,0,33278,75,Vehicle,12.77,Secured,No,3,23,0.9,1
+705,Female,32,Married,3,High School,Employed,Freelancer,Own,Suburban,148709,2678,841,2,25841,29446,0,35032,91,Personal,12.44,Secured,No,3,19,0.33,1
+706,Female,18,Single,1,High School,Self-Employed,Salaried,Rent,Rural,45548,3367,385,1,46288,6005,0,11652,84,Home,7.82,Unsecured,Yes,2,27,0.07,0
+707,Female,40,Married,3,Graduate,Employed,Salaried,Own,Urban,119866,2106,840,1,34454,9109,0,32575,191,Home,13.29,Unsecured,Yes,0,7,0.56,1
+708,Female,58,Single,2,Postgraduate,Self-Employed,Professional,Own,Urban,60913,1101,512,2,33448,9187,0,5538,29,Home,8.47,Unsecured,Yes,9,21,0.13,0
+709,Female,40,Married,0,High School,Unemployed,Freelancer,Rent,Suburban,66386,2827,802,2,11762,14327,0,20000,56,Personal,7.7,Secured,No,9,13,0.18,1
+710,Male,44,Divorced,2,High School,Self-Employed,Professional,Own,Suburban,76215,1541,761,2,28619,15062,0,22238,71,Education,13.82,Unsecured,No,5,13,0.29,1
+711,Male,43,Married,0,Graduate,Employed,Freelancer,Own,Urban,37405,4752,508,0,35601,28487,0,7804,229,Home,12.53,Secured,Yes,4,22,0.41,0
+712,Male,39,Divorced,2,Postgraduate,Employed,Professional,Rent,Urban,64191,1121,810,0,43913,17303,0,20000,142,Home,14.75,Secured,No,3,16,0.59,1
+713,Female,33,Married,1,High School,Employed,Professional,Rent,Urban,135297,1958,701,2,37687,5581,0,31123,141,Education,13.22,Secured,Yes,3,6,0.66,1
+714,Female,36,Married,3,Graduate,Self-Employed,Business,Rent,Suburban,111961,1062,810,0,25136,7196,0,29806,159,Vehicle,14.32,Secured,No,0,9,0.11,1
+715,Male,26,Married,3,Graduate,Employed,Professional,Own,Suburban,91500,1963,795,0,39047,29542,0,24427,62,Education,12.31,Unsecured,No,1,16,0.21,0
+716,Male,27,Married,0,High School,Employed,Salaried,Rent,Urban,44574,2898,475,2,4448,22816,0,16852,41,Personal,5.25,Secured,Yes,6,28,0.7,0
+717,Male,44,Married,3,Graduate,Unemployed,Professional,Rent,Suburban,42507,4610,460,1,42819,10843,0,16102,148,Vehicle,5.9,Unsecured,No,2,20,0.07,0
+718,Female,38,Single,3,Graduate,Employed,Freelancer,Rent,Suburban,53321,2324,314,2,45686,15545,0,18386,157,Education,8.95,Unsecured,Yes,2,6,0.85,0
+719,Female,47,Single,1,High School,Employed,Salaried,Rent,Suburban,52016,1711,843,2,11072,23949,0,20000,40,Education,6.77,Unsecured,Yes,4,17,0.99,0
+720,Female,33,Single,3,Graduate,Self-Employed,Business,Own,Suburban,63136,720,574,2,36354,19530,1,5589,207,Home,9.24,Secured,Yes,8,17,0.16,0
+721,Male,54,Divorced,2,Postgraduate,Employed,Freelancer,Own,Urban,54628,1835,474,1,33059,23151,0,5108,69,Vehicle,6.84,Secured,Yes,7,24,0.08,0
+722,Female,37,Single,3,High School,Unemployed,Salaried,Own,Urban,137244,3428,842,1,45864,22713,1,24807,105,Education,12.93,Unsecured,No,8,12,0.03,1
+723,Female,46,Single,2,Graduate,Employed,Professional,Own,Urban,99870,966,728,1,42686,2938,0,28291,130,Vehicle,10.04,Unsecured,No,8,12,0.84,1
+724,Male,56,Single,2,High School,Unemployed,Business,Rent,Suburban,58884,2423,356,1,39516,25323,0,5692,151,Personal,13.56,Secured,No,4,8,0.9,0
+725,Male,33,Married,3,High School,Self-Employed,Business,Own,Rural,142540,3669,834,0,36380,9828,0,40419,171,Personal,9.82,Secured,Yes,8,8,0.94,1
+726,Male,39,Married,0,High School,Self-Employed,Business,Own,Urban,55416,2588,587,2,12478,14150,0,21797,61,Home,7.12,Unsecured,No,1,28,0.08,0
+727,Female,41,Single,3,Postgraduate,Employed,Freelancer,Own,Urban,80577,4464,805,1,44325,16195,0,22171,233,Home,9.84,Secured,No,0,23,0.03,0
+728,Male,34,Married,3,High School,Self-Employed,Business,Other,Rural,46375,810,327,2,42175,22086,0,17911,127,Home,9.05,Secured,Yes,1,25,0.96,0
+729,Female,41,Married,0,Graduate,Self-Employed,Salaried,Own,Suburban,58500,2841,743,0,42156,18050,0,20000,77,Home,11.86,Secured,No,0,20,0.72,1
+730,Female,29,Single,2,High School,Employed,Professional,Rent,Urban,134556,547,810,0,30726,20875,0,35478,82,Education,12.91,Unsecured,No,4,23,0.69,1
+731,Female,30,Divorced,0,Graduate,Employed,Salaried,Own,Urban,73707,2653,807,1,11681,15712,0,20282,184,Home,3.89,Secured,Yes,9,6,0.41,1
+732,Female,55,Single,2,Graduate,Employed,Salaried,Other,Suburban,64160,3029,344,0,17736,28338,0,19465,63,Vehicle,9.57,Unsecured,No,9,11,0.47,0
+733,Female,33,Single,2,Graduate,Self-Employed,Salaried,Own,Urban,118219,4478,818,2,43254,22774,1,31572,156,Personal,9.32,Secured,No,3,29,0.47,1
+734,Male,34,Married,0,High School,Employed,Salaried,Own,Suburban,71621,2941,783,1,36338,2275,1,20927,175,Home,10.28,Unsecured,Yes,2,24,0.88,1
+735,Male,41,Single,3,Postgraduate,Unemployed,Business,Rent,Rural,64456,4064,789,2,11842,11104,0,20000,86,Personal,10.0,Secured,Yes,2,22,0.38,1
+736,Male,20,Married,2,Postgraduate,Employed,Professional,Other,Rural,63734,3445,429,1,24016,24250,0,22843,111,Home,13.66,Unsecured,No,8,28,0.8,0
+737,Male,44,Single,1,High School,Employed,Professional,Own,Urban,55371,1763,704,1,39550,2313,0,20000,136,Education,13.92,Unsecured,Yes,0,17,0.22,1
+738,Female,26,Married,3,Graduate,Employed,Salaried,Own,Urban,60357,4316,592,1,40794,5117,1,22283,78,Home,13.1,Secured,No,8,23,0.75,1
+739,Male,25,Married,0,Graduate,Self-Employed,Freelancer,Other,Urban,116670,711,838,2,4737,24686,0,21720,202,Home,11.76,Secured,No,7,17,0.13,1
+740,Female,48,Married,2,Graduate,Self-Employed,Salaried,Rent,Suburban,87617,2085,809,2,31774,29730,0,21354,72,Vehicle,14.3,Unsecured,No,0,21,0.88,1
+741,Male,43,Single,3,Postgraduate,Unemployed,Freelancer,Own,Suburban,115938,2705,797,1,22385,9136,0,22008,207,Personal,9.75,Unsecured,Yes,2,6,0.1,1
+742,Female,38,Single,0,Graduate,Employed,Business,Own,Urban,79651,830,754,1,17659,24609,0,22311,201,Personal,10.46,Secured,No,8,21,0.12,1
+743,Female,57,Married,0,High School,Unemployed,Freelancer,Own,Urban,50484,4632,329,0,11700,6691,0,9956,197,Home,4.52,Secured,Yes,4,5,0.3,0
+744,Female,42,Single,0,Postgraduate,Unemployed,Professional,Rent,Urban,131471,4989,759,0,1078,26480,0,24250,136,Home,11.17,Unsecured,Yes,7,15,0.9,1
+745,Male,30,Single,3,Graduate,Employed,Salaried,Own,Suburban,115272,1093,785,0,3293,21319,0,21511,18,Vehicle,7.21,Unsecured,Yes,2,6,0.74,1
+746,Female,19,Married,1,Postgraduate,Self-Employed,Freelancer,Own,Urban,30659,1600,350,2,5880,25504,0,11911,97,Home,7.77,Unsecured,Yes,3,22,0.29,0
+747,Male,31,Married,3,Graduate,Self-Employed,Professional,Own,Suburban,109224,1738,752,1,11399,11244,0,30228,58,Vehicle,13.2,Secured,Yes,4,18,0.7,1
+748,Female,30,Married,2,High School,Unemployed,Freelancer,Own,Urban,138896,3554,718,1,40724,3417,0,26027,180,Vehicle,4.88,Unsecured,No,7,11,0.05,1
+749,Female,60,Married,3,Postgraduate,Employed,Salaried,Rent,Suburban,37893,1553,446,2,8311,28110,0,9058,41,Personal,10.31,Unsecured,Yes,0,16,0.1,0
+750,Female,47,Married,1,Graduate,Employed,Freelancer,Own,Suburban,106837,1063,755,0,44253,312,0,31399,224,Vehicle,3.77,Secured,No,1,20,0.63,1
+751,Male,49,Single,0,High School,Self-Employed,Freelancer,Own,Suburban,67485,3171,784,0,6975,26216,0,20126,36,Home,7.78,Unsecured,No,3,17,0.35,1
+752,Female,45,Single,2,Graduate,Unemployed,Business,Rent,Urban,31881,4240,462,1,17921,24120,0,11720,189,Personal,14.65,Secured,Yes,8,29,0.2,1
+753,Male,34,Divorced,0,Graduate,Employed,Salaried,Rent,Suburban,139546,4323,765,0,36543,9920,0,29264,105,Personal,5.91,Unsecured,No,3,8,0.84,1
+754,Male,49,Married,1,High School,Self-Employed,Freelancer,Rent,Urban,125929,1464,771,2,898,10894,0,26106,59,Vehicle,10.13,Unsecured,Yes,2,15,0.99,0
+755,Male,46,Single,2,Graduate,Employed,Freelancer,Own,Suburban,131323,3472,846,0,30828,23072,0,35152,75,Vehicle,10.7,Secured,Yes,0,22,0.39,1
+756,Female,28,Married,1,Graduate,Self-Employed,Business,Own,Suburban,53121,3867,430,0,1241,23822,1,5997,23,Home,4.41,Secured,No,7,18,0.11,0
+757,Female,32,Single,3,High School,Employed,Business,Own,Suburban,111655,841,736,2,12575,11843,0,24736,224,Home,14.98,Secured,No,3,10,0.67,1
+758,Male,37,Married,0,High School,Employed,Professional,Other,Suburban,138696,1207,729,2,7118,1110,0,21948,202,Home,11.42,Secured,Yes,0,6,0.55,1
+759,Male,55,Married,1,Graduate,Employed,Business,Own,Suburban,42377,4693,337,0,43751,18999,0,13971,149,Education,7.62,Secured,Yes,0,6,0.69,0
+760,Female,27,Married,0,Graduate,Self-Employed,Business,Own,Suburban,35733,1552,549,2,42742,12258,0,12489,175,Education,11.61,Secured,Yes,5,18,0.13,0
+761,Female,42,Single,0,Graduate,Employed,Freelancer,Own,Suburban,79859,4922,704,1,39533,5416,0,21925,69,Home,8.73,Unsecured,Yes,6,15,0.35,1
+762,Female,39,Married,0,Graduate,Employed,Business,Own,Suburban,121058,2316,800,1,14260,5846,0,23750,138,Home,4.58,Unsecured,Yes,6,29,0.62,1
+763,Female,29,Married,3,Graduate,Employed,Freelancer,Own,Suburban,148151,2124,727,0,41985,10404,0,32405,52,Home,10.3,Secured,Yes,9,10,0.59,1
+764,Female,28,Single,0,High School,Self-Employed,Business,Own,Urban,69081,716,359,0,44501,5911,0,16886,105,Education,9.05,Secured,Yes,2,18,0.44,0
+765,Male,45,Single,0,Graduate,Unemployed,Freelancer,Own,Urban,149664,2477,773,2,45737,20716,0,31117,170,Home,6.82,Secured,Yes,0,5,0.35,1
+766,Female,28,Married,2,High School,Unemployed,Freelancer,Other,Urban,50167,1073,767,2,35970,6607,0,20000,14,Home,10.87,Secured,Yes,1,21,0.02,1
+767,Male,30,Single,0,Postgraduate,Self-Employed,Salaried,Own,Suburban,34502,3325,573,1,42088,18710,0,11615,22,Vehicle,3.67,Secured,No,1,29,0.78,0
+768,Female,64,Married,1,Graduate,Self-Employed,Freelancer,Rent,Urban,30951,4564,394,1,23997,20700,0,11544,218,Home,8.68,Unsecured,No,5,17,0.49,0
+769,Female,26,Divorced,3,Graduate,Unemployed,Salaried,Own,Urban,82164,2763,756,1,47719,25816,0,22597,78,Vehicle,3.96,Unsecured,No,9,27,0.13,0
+770,Female,24,Married,1,High School,Unemployed,Freelancer,Own,Suburban,33124,1598,539,1,14466,467,0,9066,224,Education,10.5,Unsecured,Yes,0,11,0.57,0
+771,Male,30,Divorced,1,Graduate,Self-Employed,Professional,Rent,Urban,122363,4966,739,0,7490,6513,0,31371,100,Education,12.64,Unsecured,Yes,4,9,0.62,1
+772,Male,36,Married,0,High School,Employed,Freelancer,Own,Suburban,35615,2258,314,2,28895,26816,0,8961,22,Home,11.23,Secured,Yes,3,19,0.87,0
+773,Male,39,Single,2,High School,Unemployed,Business,Own,Urban,136120,4370,825,1,26247,23955,0,35417,136,Personal,11.08,Secured,Yes,1,27,0.58,1
+774,Male,47,Married,2,Postgraduate,Unemployed,Salaried,Other,Urban,52117,4751,752,0,17448,15378,1,20000,59,Home,13.6,Unsecured,Yes,7,13,0.04,1
+775,Female,41,Divorced,2,Graduate,Self-Employed,Professional,Rent,Suburban,33298,3711,558,2,35427,9923,0,11325,32,Education,12.84,Secured,Yes,9,9,1.0,0
+776,Female,38,Married,1,Graduate,Unemployed,Business,Other,Rural,146398,511,723,0,11361,25606,0,24906,203,Education,12.13,Secured,Yes,6,6,0.78,0
+777,Female,40,Married,2,Graduate,Unemployed,Professional,Own,Suburban,118918,2201,824,2,1331,10673,1,20587,152,Home,12.02,Secured,Yes,5,29,0.34,1
+778,Female,69,Married,3,Postgraduate,Self-Employed,Freelancer,Own,Suburban,64891,3116,429,2,437,20044,1,13697,169,Home,9.91,Unsecured,Yes,8,29,0.86,0
+779,Female,45,Single,3,Postgraduate,Self-Employed,Freelancer,Own,Urban,59831,3021,585,2,4289,993,0,12238,215,Home,11.67,Secured,No,9,11,0.69,0
+780,Male,48,Married,0,High School,Unemployed,Freelancer,Own,Urban,147546,3203,716,1,3773,29463,0,39471,31,Education,6.88,Unsecured,No,0,23,0.23,1
+781,Female,46,Single,2,Graduate,Self-Employed,Business,Other,Urban,148454,881,754,2,41753,25210,0,36224,99,Home,6.71,Unsecured,No,5,13,0.91,1
+782,Male,45,Married,3,High School,Unemployed,Salaried,Own,Suburban,93386,2687,738,0,23035,9297,1,22604,105,Home,6.57,Secured,No,1,19,0.57,1
+783,Male,48,Married,3,Graduate,Self-Employed,Business,Other,Urban,109200,2848,847,0,33162,24655,0,20658,67,Vehicle,9.16,Unsecured,No,5,21,0.76,1
+784,Male,46,Divorced,0,Graduate,Self-Employed,Salaried,Own,Urban,78752,2327,793,0,23399,2608,0,21867,81,Personal,6.02,Secured,No,8,8,0.4,1
+785,Male,34,Single,3,High School,Unemployed,Professional,Rent,Suburban,76841,2564,736,0,30714,28964,0,20734,179,Personal,8.66,Unsecured,No,2,19,0.45,1
+786,Male,23,Married,3,Postgraduate,Unemployed,Salaried,Other,Urban,54945,1549,580,2,4535,11331,0,18054,79,Personal,7.21,Unsecured,Yes,6,14,0.01,0
+787,Male,39,Married,3,High School,Self-Employed,Professional,Rent,Urban,137915,4158,741,1,9810,7405,1,37369,97,Home,10.92,Secured,Yes,9,12,0.08,1
+788,Female,28,Married,2,High School,Employed,Salaried,Own,Rural,124831,531,814,0,29670,17337,1,21115,15,Education,11.06,Secured,No,2,26,0.2,1
+789,Female,26,Single,3,High School,Unemployed,Freelancer,Own,Suburban,98921,2903,760,0,42611,27980,0,22873,208,Education,12.86,Unsecured,Yes,5,28,0.79,1
+790,Female,68,Single,0,High School,Unemployed,Business,Own,Urban,40227,4103,392,2,22653,22552,0,13612,151,Home,11.34,Secured,Yes,2,12,0.13,0
+791,Female,31,Single,2,Graduate,Employed,Professional,Rent,Suburban,100757,3254,840,1,17065,28522,0,23516,232,Home,7.35,Unsecured,Yes,3,10,0.67,1
+792,Male,35,Married,0,Postgraduate,Employed,Business,Other,Urban,60811,3619,838,2,48659,5870,1,20000,219,Vehicle,12.13,Secured,No,5,15,0.38,1
+793,Female,46,Single,1,Graduate,Employed,Salaried,Own,Rural,55985,2072,778,2,39563,24593,0,20000,71,Home,4.13,Secured,Yes,6,10,0.94,1
+794,Male,39,Married,0,High School,Employed,Salaried,Rent,Suburban,91899,2753,836,0,39165,2098,0,26361,212,Home,10.22,Unsecured,No,3,28,0.09,1
+795,Male,46,Single,0,Graduate,Employed,Salaried,Own,Rural,89278,3502,807,1,9142,21291,0,24036,171,Personal,13.8,Secured,No,0,5,0.48,1
+796,Female,33,Single,0,High School,Employed,Professional,Own,Urban,49264,2914,491,0,636,18490,0,9195,40,Vehicle,7.3,Secured,No,9,21,0.69,0
+797,Male,49,Single,1,Postgraduate,Employed,Business,Rent,Urban,53416,3182,302,1,1056,1643,0,15547,151,Home,5.81,Secured,No,8,21,0.58,1
+798,Female,49,Married,3,High School,Employed,Business,Own,Urban,124864,3797,798,2,117,2969,0,22270,209,Vehicle,6.92,Unsecured,Yes,6,21,0.05,0
+799,Female,29,Married,1,High School,Employed,Salaried,Own,Urban,76416,2667,846,2,1744,15900,0,21732,195,Home,9.49,Secured,Yes,0,29,0.82,0
+800,Female,58,Divorced,2,High School,Unemployed,Salaried,Own,Urban,27281,742,427,0,26170,14621,0,6279,196,Education,7.81,Unsecured,No,3,7,0.76,0
+801,Female,50,Married,3,Graduate,Unemployed,Freelancer,Own,Urban,65134,3857,375,1,34692,13403,0,15682,193,Vehicle,12.18,Secured,Yes,1,18,0.27,0
+802,Female,37,Married,2,Graduate,Self-Employed,Freelancer,Own,Suburban,106708,551,785,2,25082,19364,0,31633,19,Education,9.91,Secured,Yes,3,12,0.98,1
+803,Female,27,Single,2,Graduate,Unemployed,Freelancer,Rent,Urban,122337,3045,841,1,29882,13770,0,31273,56,Personal,5.26,Secured,Yes,8,8,0.73,0
+804,Female,29,Single,3,Graduate,Employed,Salaried,Own,Rural,105755,1145,803,0,49538,20003,0,23373,174,Vehicle,11.44,Unsecured,No,2,5,0.28,1
+805,Female,47,Married,3,Postgraduate,Employed,Salaried,Own,Suburban,89347,3443,719,1,24119,8790,0,20622,119,Personal,14.19,Unsecured,Yes,3,17,0.19,1
+806,Male,63,Married,0,Graduate,Employed,Business,Rent,Urban,21655,4292,550,1,12565,16296,0,5424,180,Home,11.36,Secured,No,7,10,0.01,0
+807,Female,54,Single,2,High School,Self-Employed,Professional,Own,Suburban,41678,1687,505,0,10459,16216,0,6112,54,Vehicle,10.02,Unsecured,Yes,1,14,0.61,0
+808,Male,49,Divorced,2,Postgraduate,Employed,Professional,Own,Urban,42124,1126,320,0,10126,11489,0,16759,60,Education,9.5,Unsecured,Yes,2,13,0.41,0
+809,Male,44,Single,0,Graduate,Self-Employed,Freelancer,Other,Suburban,77703,2568,811,0,38478,28958,0,22512,42,Home,11.38,Secured,No,1,11,0.68,1
+810,Female,38,Married,3,Graduate,Employed,Salaried,Own,Suburban,91626,2063,772,2,20803,12746,0,26215,60,Home,13.83,Unsecured,No,8,25,0.34,1
+811,Female,50,Single,0,Graduate,Self-Employed,Business,Own,Urban,46433,4019,389,1,10144,28074,1,16820,146,Home,9.16,Unsecured,No,2,12,0.77,1
+812,Female,60,Single,0,High School,Employed,Salaried,Own,Urban,66428,4168,435,2,35639,29670,0,10599,106,Vehicle,6.27,Secured,Yes,8,18,0.31,0
+813,Female,29,Single,0,Graduate,Self-Employed,Professional,Own,Urban,132345,1056,802,1,12593,8448,0,34109,73,Vehicle,14.17,Secured,No,5,11,0.98,1
+814,Female,52,Married,2,Graduate,Self-Employed,Salaried,Own,Urban,20852,1172,590,1,748,17685,0,7667,39,Home,12.7,Secured,Yes,3,29,0.48,1
+815,Male,59,Married,2,High School,Employed,Freelancer,Other,Urban,45377,2535,443,2,6688,10348,0,11414,101,Home,4.62,Secured,Yes,0,20,0.94,0
+816,Female,46,Married,0,High School,Employed,Business,Own,Urban,115829,731,734,0,6085,666,1,21688,126,Vehicle,8.79,Secured,Yes,1,6,0.53,1
+817,Female,33,Married,1,Postgraduate,Employed,Business,Own,Suburban,124746,3577,716,2,43331,9871,0,21694,193,Home,5.7,Unsecured,Yes,1,15,0.54,1
+818,Male,39,Married,1,High School,Employed,Salaried,Other,Rural,106325,3367,772,2,17717,21547,0,28886,200,Home,7.53,Secured,No,5,29,0.22,1
+819,Male,30,Married,0,High School,Employed,Salaried,Rent,Rural,146983,4998,706,0,13267,24970,0,36480,206,Vehicle,8.18,Secured,Yes,5,23,0.49,1
+820,Male,46,Single,3,Graduate,Unemployed,Business,Own,Urban,135507,4321,848,2,32797,11020,0,23049,29,Home,14.06,Unsecured,No,9,17,0.73,1
+821,Male,23,Single,3,High School,Self-Employed,Business,Own,Urban,26451,1546,449,0,27366,15780,0,5405,79,Home,11.19,Secured,Yes,8,21,0.54,0
+822,Male,47,Divorced,1,High School,Employed,Freelancer,Own,Suburban,87064,4126,739,2,12279,20610,1,24695,91,Vehicle,8.12,Unsecured,No,6,17,0.58,1
+823,Female,46,Married,2,Graduate,Employed,Freelancer,Rent,Urban,106187,757,800,2,7373,19121,1,24912,61,Vehicle,4.93,Unsecured,Yes,9,12,0.85,1
+824,Female,32,Single,0,High School,Employed,Salaried,Rent,Suburban,62021,2029,711,2,26565,18585,0,20000,210,Personal,6.25,Unsecured,Yes,3,5,0.64,1
+825,Male,26,Married,3,Postgraduate,Self-Employed,Business,Own,Urban,59249,2535,755,1,13493,18043,0,20000,37,Vehicle,10.09,Secured,Yes,0,27,0.13,1
+826,Male,21,Single,3,Graduate,Employed,Professional,Own,Urban,54075,718,577,2,42305,18596,1,9997,93,Vehicle,7.75,Unsecured,Yes,6,10,0.24,0
+827,Female,26,Married,1,Graduate,Unemployed,Salaried,Rent,Suburban,85400,4202,772,2,8748,9046,0,24902,97,Vehicle,8.91,Secured,Yes,5,7,0.86,1
+828,Male,33,Married,2,High School,Employed,Salaried,Rent,Urban,112223,4818,832,0,28390,4193,0,21730,20,Personal,4.98,Secured,Yes,7,21,0.28,0
+829,Male,47,Married,0,Graduate,Employed,Salaried,Own,Suburban,43705,3781,425,2,47984,4179,0,13680,171,Personal,14.8,Unsecured,No,3,25,0.75,0
+830,Male,29,Married,2,Graduate,Self-Employed,Freelancer,Own,Suburban,113194,2087,726,0,10847,16109,1,30633,73,Home,12.79,Unsecured,No,3,17,0.38,0
+831,Male,43,Married,3,High School,Employed,Professional,Own,Urban,68324,3105,814,0,11678,11838,0,20434,157,Home,12.53,Secured,Yes,7,26,0.32,1
+832,Female,43,Married,2,Postgraduate,Employed,Salaried,Rent,Rural,67913,811,824,1,45904,9463,0,20083,57,Home,6.52,Unsecured,No,3,22,0.13,0
+833,Male,33,Married,1,Graduate,Employed,Freelancer,Own,Suburban,141810,2615,765,2,12795,15910,0,40117,36,Home,14.76,Unsecured,No,8,13,0.58,1
+834,Male,29,Single,2,High School,Unemployed,Salaried,Own,Urban,92913,3853,846,0,4677,15837,1,23974,89,Education,9.28,Unsecured,No,8,9,0.47,1
+835,Male,40,Divorced,2,Graduate,Employed,Professional,Own,Urban,101724,3046,721,2,1457,7882,0,20322,51,Vehicle,6.4,Unsecured,Yes,1,16,0.24,1
+836,Male,31,Single,1,Graduate,Self-Employed,Professional,Other,Urban,109585,1885,806,1,18948,21710,0,26593,41,Education,13.47,Unsecured,No,3,11,0.94,1
+837,Male,19,Single,3,High School,Employed,Business,Own,Suburban,44992,1098,599,2,33529,21883,0,9150,52,Home,8.58,Secured,No,6,28,0.46,0
+838,Female,38,Married,1,Graduate,Self-Employed,Freelancer,Own,Urban,105332,1950,740,1,10862,22751,1,30623,64,Personal,12.55,Secured,Yes,4,28,0.66,1
+839,Female,46,Single,1,High School,Unemployed,Freelancer,Rent,Suburban,145903,4099,782,2,39780,23006,1,28617,86,Home,11.31,Secured,Yes,7,19,0.07,0
+840,Female,25,Married,0,Graduate,Employed,Business,Rent,Urban,98645,1869,736,2,42995,13354,0,26386,94,Personal,7.98,Secured,Yes,9,29,0.1,1
+841,Female,32,Single,3,High School,Employed,Business,Own,Urban,56093,3134,755,2,8880,22156,0,20000,124,Home,10.31,Secured,No,5,19,0.1,1
+842,Female,41,Single,0,Graduate,Self-Employed,Business,Rent,Rural,56426,1194,707,1,12344,19591,0,20000,110,Personal,6.89,Secured,No,3,18,0.94,1
+843,Male,43,Married,1,Graduate,Employed,Business,Own,Suburban,124498,2208,807,1,41825,14986,0,32115,227,Education,8.37,Secured,Yes,5,25,0.91,1
+844,Male,23,Divorced,2,Postgraduate,Unemployed,Freelancer,Rent,Rural,27782,666,307,0,11501,2809,0,11110,209,Personal,12.98,Unsecured,Yes,1,14,0.14,1
+845,Female,38,Married,2,Graduate,Self-Employed,Salaried,Own,Urban,140449,4931,820,2,40906,19332,0,30070,206,Home,14.11,Secured,No,3,8,0.31,1
+846,Female,32,Married,3,Postgraduate,Employed,Salaried,Other,Urban,53396,1400,736,2,32902,22556,0,20000,44,Personal,6.1,Secured,No,0,28,0.56,1
+847,Male,35,Single,0,High School,Self-Employed,Professional,Own,Urban,55831,3919,776,2,34107,8255,0,20000,27,Home,6.59,Secured,Yes,5,11,0.83,1
+848,Female,63,Single,0,High School,Unemployed,Professional,Own,Urban,49386,929,457,2,11577,28976,0,9436,125,Vehicle,4.87,Unsecured,No,5,11,0.56,0
+849,Female,34,Married,2,High School,Employed,Salaried,Rent,Suburban,137366,4915,822,0,35271,12935,0,34080,163,Personal,11.38,Secured,No,0,18,0.13,1
+850,Female,41,Married,3,Postgraduate,Employed,Freelancer,Rent,Urban,111775,872,768,2,32414,3326,0,20659,33,Personal,5.58,Unsecured,No,2,18,0.9,1
+851,Female,36,Single,1,Postgraduate,Unemployed,Salaried,Own,Suburban,95606,1398,761,0,14875,23828,0,23375,112,Personal,14.18,Unsecured,No,0,21,0.82,1
+852,Male,43,Single,1,High School,Unemployed,Salaried,Own,Urban,21460,3459,518,2,12677,4707,0,5249,209,Education,8.43,Secured,No,1,23,0.8,1
+853,Female,28,Married,3,Graduate,Unemployed,Salaried,Own,Urban,101164,4612,744,0,45493,21610,1,29760,56,Personal,11.41,Secured,Yes,9,23,0.32,1
+854,Female,68,Married,2,High School,Self-Employed,Business,Own,Urban,21724,4702,573,1,26945,24819,0,5212,118,Vehicle,3.62,Unsecured,Yes,8,16,0.14,0
+855,Female,41,Married,1,Graduate,Employed,Business,Own,Suburban,59909,3913,705,0,44802,1549,1,20000,118,Home,4.6,Unsecured,Yes,0,27,0.09,1
+856,Female,29,Single,1,High School,Employed,Salaried,Own,Urban,58524,943,822,1,21495,12121,0,20000,187,Home,14.2,Unsecured,Yes,8,20,0.98,1
+857,Male,48,Single,2,High School,Employed,Business,Own,Urban,122044,3337,767,2,14512,26588,0,33658,127,Personal,9.9,Unsecured,No,1,19,0.33,0
+858,Male,38,Single,1,Graduate,Self-Employed,Salaried,Own,Urban,106545,3142,796,1,49460,16359,1,27512,28,Home,12.94,Secured,No,5,25,0.92,1
+859,Male,31,Single,0,Graduate,Unemployed,Business,Own,Urban,143846,2707,819,1,21108,992,0,22316,164,Personal,8.92,Secured,Yes,1,9,0.67,1
+860,Male,27,Married,3,Graduate,Employed,Salaried,Rent,Suburban,97112,2035,779,0,46016,24807,0,26326,51,Education,3.87,Unsecured,No,3,16,0.0,1
+861,Female,22,Married,1,High School,Employed,Professional,Other,Urban,32622,2518,498,0,32095,7391,0,6070,208,Education,4.9,Secured,Yes,1,9,0.64,0
+862,Male,29,Married,1,Postgraduate,Employed,Business,Rent,Suburban,62468,1001,800,2,25557,5673,0,20000,236,Education,3.96,Secured,Yes,8,24,0.36,1
+863,Female,32,Married,0,High School,Employed,Freelancer,Own,Rural,88655,3255,823,0,25315,26968,0,22050,191,Education,4.81,Unsecured,No,1,28,0.02,1
+864,Male,46,Divorced,1,Graduate,Employed,Professional,Own,Urban,111352,4307,747,1,13193,4713,0,25379,131,Vehicle,9.72,Secured,No,2,21,0.57,1
+865,Male,27,Single,3,Postgraduate,Unemployed,Freelancer,Own,Suburban,88031,4709,759,2,6116,26073,0,24632,191,Personal,8.81,Unsecured,Yes,8,18,0.03,0
+866,Female,47,Single,0,Graduate,Self-Employed,Freelancer,Rent,Urban,64597,963,829,2,3579,5919,0,20000,178,Personal,10.83,Unsecured,Yes,4,18,0.76,0
+867,Female,25,Single,3,High School,Unemployed,Freelancer,Own,Rural,78586,4415,829,2,38073,3751,0,22543,70,Home,9.57,Unsecured,No,3,26,0.55,1
+868,Male,26,Married,3,Postgraduate,Employed,Salaried,Rent,Suburban,74185,3161,824,0,4263,16336,0,20110,125,Home,10.42,Secured,Yes,6,16,0.19,1
+869,Male,24,Married,2,High School,Unemployed,Business,Rent,Urban,46944,1381,349,1,45185,9089,1,7923,199,Home,6.65,Unsecured,No,5,14,1.0,0
+870,Female,32,Single,2,Graduate,Unemployed,Business,Rent,Suburban,36866,3225,446,2,9806,8867,0,12723,182,Personal,8.64,Secured,Yes,4,27,0.22,0
+871,Female,38,Single,0,Postgraduate,Unemployed,Business,Own,Urban,95367,4301,824,0,21350,450,0,21574,168,Education,9.44,Secured,Yes,2,18,0.9,1
+872,Female,37,Married,1,High School,Employed,Professional,Rent,Urban,54488,3082,827,1,15336,12142,1,20000,130,Personal,9.18,Secured,No,0,19,0.95,0
+873,Female,36,Married,1,Postgraduate,Unemployed,Salaried,Rent,Urban,66415,3552,790,2,21713,13763,0,20000,174,Vehicle,12.16,Secured,Yes,3,16,0.47,1
+874,Female,42,Single,2,Graduate,Employed,Salaried,Own,Urban,131829,2235,846,1,11919,2220,0,28273,136,Vehicle,14.94,Secured,Yes,8,8,0.02,0
+875,Female,26,Married,3,High School,Self-Employed,Business,Own,Suburban,61279,2735,709,0,22903,8380,0,20000,167,Home,11.84,Unsecured,Yes,7,14,0.39,1
+876,Female,31,Single,1,High School,Employed,Salaried,Own,Rural,110250,2170,825,0,8423,29566,0,22016,32,Education,10.64,Unsecured,Yes,7,10,0.98,1
+877,Female,27,Married,0,Graduate,Unemployed,Salaried,Own,Suburban,39802,1774,557,2,12474,21860,1,9513,18,Personal,7.92,Unsecured,Yes,6,16,0.63,0
+878,Male,44,Single,0,Postgraduate,Employed,Professional,Own,Urban,136652,3466,806,0,27964,22596,1,24630,75,Vehicle,11.48,Unsecured,No,0,28,0.85,0
+879,Female,49,Married,1,High School,Employed,Freelancer,Other,Rural,50156,1966,707,1,5478,4882,0,20000,120,Home,8.23,Secured,No,9,7,0.88,1
+880,Female,47,Single,2,Graduate,Employed,Salaried,Rent,Urban,89664,2560,749,0,14449,22352,0,23375,77,Home,11.26,Secured,Yes,8,10,0.03,1
+881,Male,34,Married,2,High School,Self-Employed,Professional,Own,Urban,120248,1961,844,2,10842,3524,0,27982,171,Personal,7.48,Unsecured,Yes,0,19,0.1,1
+882,Female,30,Married,3,High School,Unemployed,Business,Other,Suburban,130673,1581,818,1,43150,10828,0,32547,65,Home,9.03,Unsecured,No,9,23,0.22,1
+883,Female,28,Divorced,1,Graduate,Employed,Freelancer,Own,Urban,54504,3409,751,1,44633,19766,0,20000,59,Home,14.25,Unsecured,Yes,3,24,0.66,1
+884,Female,32,Married,0,Graduate,Self-Employed,Salaried,Own,Suburban,75113,3063,797,2,28387,12892,0,20289,109,Home,8.79,Secured,Yes,6,24,0.61,1
+885,Male,30,Married,1,Postgraduate,Employed,Salaried,Own,Urban,40021,1332,535,1,18033,27273,0,11503,78,Personal,4.19,Secured,No,8,9,0.99,0
+886,Female,29,Single,0,Graduate,Employed,Professional,Rent,Urban,127382,2435,705,0,32578,19183,0,32153,235,Personal,4.29,Unsecured,Yes,7,8,0.91,0
+887,Male,32,Divorced,2,Postgraduate,Self-Employed,Professional,Other,Suburban,147157,674,702,1,13240,2643,0,36351,65,Home,6.47,Secured,Yes,9,14,0.99,0
+888,Female,32,Single,0,Postgraduate,Employed,Salaried,Rent,Suburban,57491,2965,764,1,11278,12027,0,20000,129,Home,5.94,Unsecured,Yes,5,19,0.49,1
+889,Male,33,Married,0,Postgraduate,Employed,Business,Rent,Urban,125598,1377,744,2,5542,12843,0,23933,27,Home,11.82,Unsecured,Yes,9,9,0.21,1
+890,Male,38,Married,3,High School,Self-Employed,Freelancer,Own,Suburban,106458,2175,732,2,18282,11967,1,21813,27,Education,4.2,Unsecured,Yes,4,19,0.86,1
+891,Female,28,Single,2,High School,Employed,Business,Rent,Suburban,22141,1914,455,0,11214,26023,1,8278,65,Home,10.44,Secured,Yes,6,27,0.39,1
+892,Male,42,Single,0,Postgraduate,Self-Employed,Salaried,Rent,Suburban,64049,4001,407,2,12093,1075,0,17319,117,Personal,7.23,Secured,Yes,7,15,0.96,1
+893,Male,40,Married,2,Graduate,Self-Employed,Professional,Rent,Suburban,54083,4622,539,0,41662,12760,0,10853,229,Home,14.6,Unsecured,Yes,1,24,0.95,0
+894,Male,34,Single,3,High School,Self-Employed,Salaried,Own,Rural,93506,1327,799,2,37254,4038,0,24317,228,Vehicle,11.65,Unsecured,Yes,1,19,0.55,0
+895,Male,31,Married,0,High School,Employed,Professional,Own,Rural,78188,1032,737,2,44210,15422,0,20765,182,Vehicle,4.64,Secured,Yes,7,11,0.59,1
+896,Male,37,Married,0,Graduate,Self-Employed,Professional,Own,Suburban,106852,1924,712,0,3641,25488,1,25855,39,Home,8.58,Unsecured,Yes,3,8,0.61,1
+897,Female,46,Divorced,3,Postgraduate,Employed,Business,Rent,Rural,141962,2305,818,1,10215,11725,1,21285,58,Vehicle,6.68,Unsecured,No,7,10,0.29,1
+898,Female,58,Single,3,High School,Employed,Freelancer,Own,Urban,65869,2012,371,1,40570,11211,0,5891,181,Home,4.75,Unsecured,Yes,6,29,0.73,0
+899,Female,32,Married,2,High School,Employed,Freelancer,Rent,Urban,73442,631,763,1,43225,20907,0,22028,202,Personal,13.76,Unsecured,No,1,8,0.15,1
+900,Male,41,Married,2,Graduate,Self-Employed,Salaried,Other,Urban,102751,1073,764,1,30628,27026,1,28471,71,Personal,12.23,Secured,No,2,21,0.56,1
+901,Female,48,Single,2,Graduate,Employed,Professional,Other,Suburban,120065,3610,807,0,29211,5375,1,26179,226,Home,10.37,Secured,No,5,24,0.04,0
+902,Male,38,Divorced,1,Graduate,Self-Employed,Salaried,Rent,Urban,112784,3037,757,2,16146,4226,0,30306,223,Education,9.24,Secured,No,1,22,0.73,0
+903,Male,42,Married,0,Graduate,Employed,Salaried,Own,Suburban,88513,2557,797,2,12534,12975,1,26105,78,Vehicle,12.39,Unsecured,No,0,18,0.04,1
+904,Male,33,Married,0,Graduate,Employed,Business,Rent,Urban,70565,2911,747,2,4772,12434,0,20351,36,Home,6.46,Unsecured,No,4,16,0.75,1
+905,Male,46,Married,1,Postgraduate,Self-Employed,Salaried,Other,Urban,90956,1572,770,1,33129,24617,0,22486,146,Vehicle,4.12,Secured,No,1,12,0.22,1
+906,Male,64,Single,1,Graduate,Employed,Professional,Rent,Suburban,57832,1409,478,2,38749,9422,0,13276,163,Home,5.31,Unsecured,No,7,13,0.62,1
+907,Male,65,Married,1,Graduate,Employed,Freelancer,Rent,Urban,44908,2681,563,1,28606,11947,0,14758,208,Personal,14.54,Secured,Yes,8,15,0.94,0
+908,Female,44,Married,3,Graduate,Employed,Business,Own,Suburban,144943,4731,750,0,10472,11523,0,29334,36,Home,11.3,Secured,No,2,19,0.89,1
+909,Male,33,Single,3,High School,Employed,Freelancer,Own,Suburban,105848,2582,705,1,37346,9311,0,31725,87,Personal,12.96,Unsecured,Yes,9,5,0.01,0
+910,Female,34,Married,2,Postgraduate,Employed,Salaried,Own,Rural,116104,3539,754,1,34344,28942,0,23623,105,Education,11.56,Secured,Yes,7,7,0.7,1
+911,Female,38,Married,3,High School,Unemployed,Freelancer,Own,Urban,87526,1368,812,2,15590,21654,0,20587,160,Vehicle,12.14,Secured,Yes,1,7,0.2,1
+912,Male,36,Married,3,Postgraduate,Self-Employed,Professional,Own,Suburban,143347,3487,720,1,42055,7512,0,33143,179,Vehicle,8.92,Unsecured,Yes,4,8,0.24,1
+913,Male,32,Married,1,High School,Self-Employed,Business,Rent,Urban,114017,798,732,1,42421,9383,1,31959,144,Home,9.33,Unsecured,No,9,17,0.8,1
+914,Male,41,Married,0,High School,Employed,Professional,Own,Urban,74819,4326,749,2,33924,29563,0,20350,221,Vehicle,12.84,Secured,No,4,17,0.74,1
+915,Female,41,Single,2,Graduate,Unemployed,Freelancer,Rent,Urban,113732,4193,839,1,38651,204,0,31394,200,Home,6.86,Unsecured,Yes,5,13,0.85,1
+916,Male,43,Married,2,Graduate,Unemployed,Professional,Other,Urban,66371,1638,822,1,23290,19554,0,20000,130,Education,12.09,Unsecured,No,2,10,0.23,1
+917,Male,48,Single,2,High School,Employed,Salaried,Own,Urban,132786,4407,785,2,8738,13340,1,35663,90,Home,11.05,Secured,Yes,5,24,0.58,1
+918,Female,41,Single,0,Postgraduate,Employed,Business,Own,Rural,40995,1359,524,2,13506,18407,0,16053,129,Vehicle,8.54,Secured,Yes,1,27,0.77,0
+919,Female,67,Single,3,High School,Self-Employed,Business,Own,Suburban,25949,4745,566,1,11616,11060,0,5550,22,Vehicle,14.99,Secured,No,5,21,0.7,0
+920,Male,37,Married,2,Postgraduate,Employed,Freelancer,Rent,Rural,101555,4483,811,1,37783,9357,0,23122,227,Home,4.08,Secured,Yes,3,28,0.85,0
+921,Male,66,Single,3,Graduate,Self-Employed,Freelancer,Rent,Suburban,53692,3946,571,1,41420,413,0,13749,169,Vehicle,8.16,Unsecured,Yes,7,20,0.12,0
+922,Female,28,Single,0,High School,Self-Employed,Business,Other,Urban,75973,3220,827,2,22594,1452,0,20958,94,Personal,9.6,Unsecured,No,1,10,0.16,1
+923,Male,35,Single,3,High School,Unemployed,Freelancer,Own,Suburban,22531,649,368,2,45909,19799,1,5916,137,Home,11.59,Secured,Yes,5,23,0.24,0
+924,Female,47,Single,1,Postgraduate,Self-Employed,Business,Own,Urban,69462,2324,347,1,26103,22622,0,25653,206,Personal,11.0,Unsecured,No,1,15,0.93,0
+925,Male,47,Married,0,High School,Employed,Professional,Rent,Urban,102728,1300,727,0,48981,28983,0,30606,170,Education,11.73,Secured,Yes,1,9,0.57,1
+926,Female,34,Single,0,Postgraduate,Employed,Professional,Own,Suburban,109474,1343,841,1,9924,10873,0,31792,69,Home,10.44,Secured,Yes,6,26,0.03,1
+927,Male,34,Single,1,Graduate,Self-Employed,Salaried,Own,Suburban,122652,3693,801,2,13469,20406,0,23599,229,Personal,7.27,Unsecured,Yes,7,26,0.54,1
+928,Female,29,Married,2,High School,Employed,Salaried,Own,Suburban,65379,948,710,2,34313,989,1,20000,196,Home,10.75,Unsecured,Yes,1,17,0.04,1
+929,Male,25,Married,1,High School,Self-Employed,Professional,Own,Urban,103137,1907,714,0,13387,18366,0,29729,93,Education,5.48,Secured,No,3,7,0.89,1
+930,Female,38,Divorced,0,Postgraduate,Employed,Professional,Rent,Urban,144261,803,703,1,34930,22850,0,26249,108,Home,9.83,Unsecured,No,3,27,0.38,1
+931,Female,34,Married,2,High School,Self-Employed,Business,Own,Urban,145862,910,828,1,3750,15849,0,27580,101,Vehicle,4.23,Secured,No,1,8,0.46,0
+932,Male,22,Married,3,Graduate,Unemployed,Professional,Rent,Urban,50251,4919,502,0,31024,10281,1,10899,69,Vehicle,9.54,Secured,No,6,21,0.42,0
+933,Female,39,Single,0,Graduate,Self-Employed,Salaried,Own,Urban,47059,1289,565,2,26836,9165,1,7550,131,Vehicle,3.97,Unsecured,No,1,24,0.74,0
+934,Male,33,Married,0,High School,Unemployed,Business,Rent,Suburban,67146,1474,765,2,45133,23892,0,20119,164,Personal,10.55,Secured,No,1,29,0.5,1
+935,Female,41,Married,2,Postgraduate,Self-Employed,Business,Own,Urban,117707,3900,820,1,20160,731,0,22111,77,Education,13.49,Unsecured,No,6,8,0.43,1
+936,Female,43,Married,0,Graduate,Employed,Salaried,Own,Urban,74973,594,812,0,43403,21066,1,20533,87,Education,8.87,Secured,No,2,7,0.89,1
+937,Male,29,Married,1,High School,Employed,Salaried,Own,Suburban,58574,2668,837,1,29481,22452,0,20000,18,Home,14.62,Secured,Yes,6,20,0.71,0
+938,Female,50,Divorced,0,High School,Employed,Salaried,Rent,Urban,40356,987,435,0,48796,16306,0,12562,158,Home,6.48,Unsecured,Yes,2,27,0.74,0
+939,Male,31,Single,2,Graduate,Employed,Business,Own,Urban,127519,2948,712,1,44667,23321,0,36875,41,Home,7.15,Secured,Yes,7,12,0.61,1
+940,Male,25,Single,0,High School,Employed,Business,Own,Rural,65434,1674,776,0,10062,18692,1,20000,192,Vehicle,4.81,Unsecured,Yes,8,19,0.16,0
+941,Male,34,Married,0,Postgraduate,Employed,Freelancer,Rent,Urban,109070,951,785,2,49007,17274,1,24274,43,Education,6.89,Unsecured,Yes,3,12,0.68,1
+942,Male,27,Single,1,Graduate,Employed,Freelancer,Own,Urban,120733,3148,811,1,29378,2796,0,29062,92,Personal,11.96,Unsecured,No,6,26,0.8,0
+943,Female,41,Married,0,Postgraduate,Employed,Salaried,Other,Urban,88113,2125,739,0,23509,2452,0,25327,171,Home,14.84,Secured,Yes,4,10,0.45,1
+944,Male,45,Married,0,Graduate,Self-Employed,Freelancer,Rent,Rural,60947,1388,489,2,11481,4267,0,12647,113,Vehicle,5.58,Unsecured,Yes,8,21,0.77,0
+945,Female,47,Married,0,Graduate,Self-Employed,Business,Other,Urban,122880,4046,767,1,30106,25484,1,21199,51,Home,12.36,Secured,No,5,11,0.56,1
+946,Female,34,Married,1,High School,Self-Employed,Salaried,Rent,Suburban,149541,865,787,1,42542,9176,0,21175,216,Home,11.25,Unsecured,Yes,8,22,0.87,0
+947,Female,33,Single,2,High School,Unemployed,Professional,Rent,Urban,79589,1593,715,1,24786,20218,0,22589,221,Vehicle,4.4,Secured,No,9,26,0.68,1
+948,Female,58,Divorced,1,High School,Employed,Professional,Own,Urban,62262,1912,542,0,45978,22554,0,19664,80,Personal,14.49,Unsecured,Yes,1,18,0.69,0
+949,Male,28,Married,0,High School,Unemployed,Freelancer,Own,Urban,68453,806,478,2,25499,26446,1,24558,74,Vehicle,10.44,Secured,Yes,9,8,0.44,0
+950,Male,37,Divorced,1,Postgraduate,Employed,Salaried,Other,Rural,70590,3684,819,1,18227,6850,0,21090,84,Education,5.99,Secured,No,3,23,0.85,1
+951,Male,33,Single,3,Graduate,Employed,Business,Rent,Urban,80904,2524,787,2,49699,15521,0,22539,232,Education,13.22,Unsecured,No,5,18,0.33,1
+952,Male,45,Married,1,High School,Employed,Freelancer,Rent,Suburban,64733,1444,731,2,21377,13068,1,20000,54,Education,13.25,Unsecured,No,0,22,0.87,1
+953,Female,36,Single,0,High School,Self-Employed,Freelancer,Own,Suburban,99113,3230,752,0,25687,24942,1,28429,152,Education,8.2,Unsecured,Yes,1,5,0.97,1
+954,Female,24,Married,3,Graduate,Unemployed,Salaried,Own,Urban,49471,1370,527,2,42288,21062,0,16478,43,Education,4.66,Unsecured,No,1,19,0.98,0
+955,Male,46,Married,2,High School,Employed,Freelancer,Own,Urban,79034,4446,740,1,9761,29056,0,21271,227,Vehicle,8.81,Secured,Yes,7,21,0.78,1
+956,Female,46,Married,0,High School,Unemployed,Professional,Own,Urban,115222,3177,844,1,48328,18478,0,26578,108,Home,4.46,Secured,Yes,7,13,0.69,1
+957,Male,27,Divorced,3,High School,Employed,Salaried,Own,Rural,99681,1597,758,0,43286,8743,0,21501,49,Vehicle,14.84,Secured,Yes,5,5,0.2,1
+958,Female,36,Divorced,2,Graduate,Employed,Business,Own,Urban,128999,2494,772,1,47852,28181,0,38341,184,Education,4.03,Secured,No,3,18,0.95,0
+959,Male,37,Married,1,Graduate,Unemployed,Professional,Own,Urban,119299,4013,767,2,12318,24660,0,22291,38,Vehicle,13.11,Unsecured,No,8,25,0.14,1
+960,Female,39,Married,3,Graduate,Self-Employed,Salaried,Rent,Suburban,24896,2856,340,2,49051,19992,0,8908,205,Education,7.08,Unsecured,Yes,4,5,0.96,0
+961,Male,34,Married,1,High School,Self-Employed,Freelancer,Rent,Urban,59699,3622,809,1,14445,11005,0,20000,77,Education,4.45,Unsecured,No,9,12,0.37,1
+962,Male,30,Married,1,Graduate,Self-Employed,Professional,Rent,Suburban,135947,1505,781,0,33100,17443,0,30152,220,Home,3.82,Unsecured,No,5,13,0.64,0
+963,Female,45,Single,3,Graduate,Self-Employed,Professional,Other,Urban,64206,3112,798,0,25769,13599,0,20000,130,Home,6.24,Unsecured,Yes,4,14,0.27,1
+964,Female,44,Married,3,Postgraduate,Employed,Salaried,Own,Suburban,143747,1753,844,2,43219,16745,0,27475,225,Home,3.92,Secured,Yes,7,27,0.91,1
+965,Female,29,Single,1,Postgraduate,Unemployed,Salaried,Own,Suburban,83237,977,845,1,7488,7313,0,23545,173,Vehicle,10.83,Unsecured,No,0,13,0.65,1
+966,Female,47,Married,0,High School,Self-Employed,Professional,Own,Urban,56389,3837,743,0,46056,20603,0,20000,196,Personal,10.3,Unsecured,No,1,9,0.57,1
+967,Female,49,Single,0,High School,Self-Employed,Business,Own,Urban,25502,3455,492,0,5104,13864,0,7739,38,Education,12.04,Secured,Yes,0,20,0.46,0
+968,Male,37,Single,2,Postgraduate,Unemployed,Freelancer,Own,Urban,67208,1369,726,2,8939,28996,0,20137,165,Vehicle,4.27,Secured,No,4,12,0.72,1
+969,Female,44,Married,0,High School,Employed,Freelancer,Own,Suburban,149252,1217,775,0,20780,20721,0,32855,116,Home,7.85,Secured,No,6,27,0.79,1
+970,Male,49,Married,0,Graduate,Employed,Salaried,Own,Urban,119942,3875,836,1,20368,23002,1,30911,159,Vehicle,9.23,Unsecured,Yes,0,13,0.37,1
+971,Female,44,Married,3,High School,Employed,Salaried,Own,Suburban,126307,4448,779,1,48750,22109,0,36675,64,Vehicle,4.24,Unsecured,No,0,14,0.14,1
+972,Male,58,Married,3,High School,Self-Employed,Professional,Other,Urban,31303,4907,412,2,20969,13690,0,10128,62,Education,9.49,Unsecured,Yes,0,19,0.86,0
+973,Female,26,Single,2,Graduate,Employed,Business,Other,Suburban,60080,2804,450,1,35497,14119,0,8031,103,Education,6.76,Unsecured,No,7,23,0.5,0
+974,Female,31,Married,1,High School,Self-Employed,Business,Other,Urban,66185,4606,845,0,2322,7659,0,20000,61,Vehicle,8.62,Unsecured,No,7,19,0.58,1
+975,Male,31,Married,1,High School,Employed,Business,Rent,Urban,55189,2705,720,0,3631,15006,0,20000,178,Vehicle,9.68,Unsecured,No,2,7,0.63,1
+976,Female,25,Single,3,Graduate,Employed,Salaried,Other,Suburban,80297,4270,843,1,41050,16103,0,20188,228,Home,3.99,Unsecured,No,2,16,0.53,1
+977,Female,42,Single,2,Graduate,Employed,Freelancer,Own,Urban,65442,901,759,1,44211,11724,0,20000,232,Home,11.44,Unsecured,Yes,2,14,0.94,1
+978,Male,36,Single,2,High School,Employed,Freelancer,Rent,Suburban,50351,4578,810,1,31019,25686,1,20000,239,Education,9.46,Unsecured,Yes,7,13,0.1,1
+979,Male,38,Married,1,High School,Self-Employed,Business,Own,Suburban,144698,2312,766,2,27117,8691,0,41844,212,Home,8.13,Secured,No,7,26,0.71,1
+980,Male,39,Married,2,Graduate,Self-Employed,Professional,Rent,Suburban,119073,969,832,1,29719,16326,1,35660,28,Education,4.39,Unsecured,No,5,26,0.92,0
+981,Male,27,Divorced,0,Graduate,Self-Employed,Salaried,Own,Suburban,78987,2084,719,2,32130,7658,0,23226,204,Vehicle,4.8,Unsecured,Yes,3,21,0.31,1
+982,Male,47,Married,1,Postgraduate,Employed,Salaried,Own,Urban,20966,3083,519,0,36922,16649,0,8188,219,Education,10.87,Unsecured,Yes,0,23,0.94,0
+983,Male,27,Married,0,Graduate,Unemployed,Salaried,Other,Urban,127754,3528,720,0,35003,19996,1,26684,136,Home,12.07,Secured,Yes,8,5,0.46,1
+984,Male,43,Single,2,Postgraduate,Self-Employed,Business,Own,Urban,106756,3084,748,2,14617,18090,0,27534,188,Home,14.21,Secured,No,7,5,0.09,0
+985,Male,26,Single,1,Graduate,Employed,Freelancer,Rent,Urban,31697,4779,594,0,19993,16197,0,12300,40,Education,4.46,Secured,No,4,20,0.46,0
+986,Female,42,Married,3,Graduate,Employed,Freelancer,Rent,Suburban,82778,3976,807,0,24145,17028,0,23483,36,Home,7.7,Secured,No,9,6,0.58,1
+987,Male,25,Single,1,High School,Employed,Freelancer,Own,Urban,62760,1461,840,2,2236,27181,0,20000,131,Vehicle,5.58,Secured,Yes,9,15,0.81,0
+988,Female,41,Single,0,Graduate,Unemployed,Salaried,Own,Urban,110353,2352,745,0,24989,20030,0,23396,218,Home,7.1,Unsecured,No,1,22,0.55,1
+989,Female,46,Married,3,Postgraduate,Employed,Business,Own,Urban,147517,4440,843,1,47254,3171,0,42809,19,Vehicle,9.6,Secured,Yes,7,6,0.15,0
+990,Male,29,Single,1,Graduate,Employed,Freelancer,Own,Urban,30686,1583,347,1,22811,29712,0,6671,40,Personal,5.36,Unsecured,No,4,11,0.3,1
+991,Female,35,Married,0,Graduate,Self-Employed,Freelancer,Own,Urban,28513,3205,508,0,40802,14507,0,6348,28,Vehicle,11.42,Unsecured,Yes,4,6,0.51,0
+992,Female,26,Married,1,Graduate,Employed,Freelancer,Rent,Urban,65119,4014,744,1,43215,12366,0,20000,193,Home,11.07,Unsecured,Yes,3,28,0.78,0
+993,Female,48,Single,3,Graduate,Employed,Freelancer,Own,Urban,76477,1094,701,2,8841,1919,0,20954,20,Home,11.73,Secured,Yes,1,5,0.24,1
+994,Female,31,Divorced,0,High School,Employed,Professional,Own,Urban,70847,3322,713,1,21704,27857,0,20908,64,Education,10.08,Secured,No,2,26,0.63,1
+995,Female,28,Married,3,High School,Unemployed,Salaried,Rent,Urban,85619,3164,781,2,23649,28394,0,24414,177,Vehicle,4.93,Secured,No,6,19,0.06,1
+996,Female,47,Married,0,High School,Self-Employed,Business,Rent,Suburban,59730,1247,760,2,45407,12576,1,20000,72,Home,10.89,Secured,Yes,8,11,0.21,1
+997,Male,21,Single,2,Postgraduate,Self-Employed,Freelancer,Own,Rural,28713,4333,300,2,11189,26643,0,10853,162,Home,5.49,Secured,No,5,12,0.17,0
+998,Female,45,Married,0,Postgraduate,Unemployed,Business,Rent,Suburban,58318,2113,762,2,40992,18623,0,20000,78,Home,6.88,Unsecured,Yes,8,22,0.74,1
+999,Female,44,Divorced,3,Graduate,Unemployed,Salaried,Own,Suburban,39761,3311,594,0,41747,24442,0,15054,136,Home,12.83,Unsecured,Yes,8,25,0.4,0
+1000,Female,35,Divorced,0,Graduate,Employed,Business,Rent,Suburban,52301,2154,724,2,44193,25255,0,20000,237,Home,13.02,Secured,Yes,8,22,0.28,1
