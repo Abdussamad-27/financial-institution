@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 1. Load cleaned dataset
-df = pd.read_csv('Loan_Dataset_1000_rows-v2..csv')
+df = pd.read_csv('Loan_Dataset_1000_rows-v2.csv')
 
 # 2. Target Distribution Plot
 plt.figure(figsize=(6, 4))
