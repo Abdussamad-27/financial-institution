@@ -3,28 +3,26 @@ from tkinter import ttk, messagebox
 import pandas as pd
 import numpy as np
 import pickle
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
 
 # =========================================================
 # 1. LOAD PRE-TRAINED ARTIFACTS (PICKLE FILES)
 # =========================================================
 
 try:
-    with open("decision_tree_model.pkl", "rb") as f:
+    with open(BASE_DIR / "decision_tree_model.pkl", "rb") as f:
         decision_tree_model = pickle.load(f)
 
-    with open("knn_model.pkl", "rb") as f:
+    with open(BASE_DIR / "knn_model.pkl", "rb") as f:
         knn_model = pickle.load(f)
 
-    with open("scaler.pkl", "rb") as f:
+    with open(BASE_DIR / "scaler.pkl", "rb") as f:
         scaler = pickle.load(f)
 
-    with open("model_columns.pkl", "rb") as f:
+    with open(BASE_DIR / "model_columns.pkl", "rb") as f:
         feature_columns = pickle.load(f)
-
-    # Recorded test accuracy scores from the trained models
-    # (KNN k=8 scored 81.5%, Decision Tree with depth tuning scored 80.0%)
-    knn_accuracy = 81.5
-    dt_accuracy = 80.0
 
 except FileNotFoundError as e:
     messagebox.showerror(
@@ -59,6 +57,28 @@ def predict_loan():
         credit_score = float(credit_score_entry.get())
         monthly_expenses = float(monthly_expenses_entry.get())
         outstanding_debt = float(outstanding_debt_entry.get())
+
+        numeric_values = {
+            "Annual Income": annual_income,
+            "Loan Amount Requested": loan_amount,
+            "Loan Term": loan_term,
+            "Monthly Expenses": monthly_expenses,
+            "Outstanding Debt": outstanding_debt,
+        }
+        invalid_values = [name for name, value in numeric_values.items() if value <= 0]
+        if invalid_values:
+            messagebox.showwarning(
+                "Input Error",
+                f"These values must be greater than zero: {', '.join(invalid_values)}.",
+            )
+            return
+
+        if not 300 <= credit_score <= 900:
+            messagebox.showwarning(
+                "Input Error",
+                "Credit Score must be between 300 and 900.",
+            )
+            return
 
         # -----------------------------------------
         # Validate dropdown values
@@ -112,16 +132,31 @@ def predict_loan():
         # MODEL PREDICTIONS
         # =====================================================
 
-        if selected_model == "KNN":
-            # Scale features with pickled StandardScaler
-            applicant_scaled = scaler.transform(applicant)
-            prediction = knn_model.predict(applicant_scaled)[0]
-            model_accuracy = knn_accuracy
+        applicant_scaled = scaler.transform(applicant)
+        predictions = {}
+        probabilities = {}
 
-        else:
-            # Decision Tree works directly on unscaled aligned features
-            prediction = decision_tree_model.predict(applicant)[0]
-            model_accuracy = dt_accuracy
+        if selected_model in ("KNN", "Compare Both"):
+            predictions["KNN"] = knn_model.predict(applicant_scaled)[0]
+            probabilities["KNN"] = knn_model.predict_proba(applicant_scaled)[0][1]
+
+        if selected_model in ("Decision Tree", "Compare Both"):
+            predictions["Decision Tree"] = decision_tree_model.predict(applicant)[0]
+            probabilities["Decision Tree"] = decision_tree_model.predict_proba(applicant)[0][1]
+
+        if selected_model == "Compare Both":
+            result_label.config(text="MODEL COMPARISON", fg="black")
+            comparison = []
+            for model_name in ("KNN", "Decision Tree"):
+                status = "APPROVED" if predictions[model_name] == 1 else "NOT APPROVED"
+                comparison.append(
+                    f"{model_name}: {status} ({probabilities[model_name] * 100:.1f}% approval confidence)"
+                )
+            model_result_label.config(text="\n".join(comparison), justify="left")
+            return
+
+        prediction = predictions[selected_model]
+        confidence = probabilities[selected_model]
 
         # -----------------------------------------
         # Explain prediction
@@ -182,7 +217,7 @@ def predict_loan():
         model_result_label.config(
             text=(
                 f"Model Used: {selected_model}\n"
-                f"Model Accuracy: {model_accuracy:.2f}%\n\n"
+                f"Approval Confidence: {confidence * 100:.1f}%\n\n"
                 f"{explanation}"
             ),
             justify="left"
@@ -324,7 +359,7 @@ model_var = tk.StringVar()
 model_combo = ttk.Combobox(
     form_frame,
     textvariable=model_var,
-    values=["KNN", "Decision Tree"],
+    values=["KNN", "Decision Tree", "Compare Both"],
     state="readonly",
     width=28
 )

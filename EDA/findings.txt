@@ -1,7 +1,5 @@
-@"
 Key EDA Findings:
-1. Target Imbalance: Approved loans (1) make up roughly 24% of the dataset, while rejections (0) make up ~76%.
-2. Credit Score: Shows the strongest positive correlation (~0.42) with loan approval.
-3. Loan Amount: Shows a negative correlation (~-0.21) with loan approval status.
-4. Income & Expenses: Annual income and monthly expenses are highly correlated (~0.88).
-"@ | Out-File -FilePath "EDA\findings.txt" -Encoding utf8
+1. Target imbalance: Approved loans (1) make up roughly 24% of the dataset, while rejected loans (0) make up roughly 76%.
+2. Credit score has the strongest positive correlation with loan approval at approximately 0.42.
+3. Requested loan amount has a negative correlation with loan approval at approximately -0.21.
+4. Annual income and monthly expenses are highly correlated at approximately 0.88.

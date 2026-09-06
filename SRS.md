@@ -34,7 +34,7 @@ A machine learning classification project evaluating **K-Nearest Neighbors (KNN)
 - **Data Pipeline:** One-hot encode categorical features; fit and save `StandardScaler` for numeric scaling.
 - **Dual Inference:** Allow users to predict using KNN, Decision Tree, or run a simultaneous comparison.
 - **Probability Scores:** Display approval confidence percentage via `predict_proba()`.
-- **Model Persistence:** Save offline trained pipelines as `scaler.pkl`, `knn_model.pkl`, and `dt_model.pkl`.
+- **Model Persistence:** Save offline trained artifacts as `scaler.pkl`, `knn_model.pkl`, and `decision_tree_model.pkl` in `_loan_prediction/`.
 
 ### Non-Functional Requirements
 - **Inference Latency:** GUI response time under 200 ms per prediction.
