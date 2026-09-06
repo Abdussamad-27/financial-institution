@@ -1,0 +1,135 @@
+[1mdiff --git a/EDA/findings.txt b/EDA/findings.txt[m
+[1mindex 6a3186c..996c6a8 100644[m
+[1m--- a/EDA/findings.txt[m
+[1m+++ b/EDA/findings.txt[m
+[36m@@ -1,7 +1,5 @@[m
+[31m-@"[m
+ Key EDA Findings:[m
+[31m-1. Target Imbalance: Approved loans (1) make up roughly 24% of the dataset, while rejections (0) make up ~76%.[m
+[31m-2. Credit Score: Shows the strongest positive correlation (~0.42) with loan approval.[m
+[31m-3. Loan Amount: Shows a negative correlation (~-0.21) with loan approval status.[m
+[31m-4. Income & Expenses: Annual income and monthly expenses are highly correlated (~0.88).[m
+[31m-"@ | Out-File -FilePath "EDA\findings.txt" -Encoding utf8[m
+\ No newline at end of file[m
+[32m+[m[32m1. Target imbalance: Approved loans (1) make up roughly 24% of the dataset, while rejected loans (0) make up roughly 76%.[m
+[32m+[m[32m2. Credit score has the strongest positive correlation with loan approval at approximately 0.42.[m
+[32m+[m[32m3. Requested loan amount has a negative correlation with loan approval at approximately -0.21.[m
+[32m+[m[32m4. Annual income and monthly expenses are highly correlated at approximately 0.88.[m
+\ No newline at end of file[m
+[1mdiff --git a/SRS.md b/SRS.md[m
+[1mindex 27a25aa..6cc2eee 100644[m
+[1m--- a/SRS.md[m
+[1m+++ b/SRS.md[m
+[36m@@ -34,7 +34,7 @@[m [mA machine learning classification project evaluating **K-Nearest Neighbors (KNN)[m
+ - **Data Pipeline:** One-hot encode categorical features; fit and save `StandardScaler` for numeric scaling.[m
+ - **Dual Inference:** Allow users to predict using KNN, Decision Tree, or run a simultaneous comparison.[m
+ - **Probability Scores:** Display approval confidence percentage via `predict_proba()`.[m
+[31m-- **Model Persistence:** Save offline trained pipelines as `scaler.pkl`, `knn_model.pkl`, and `dt_model.pkl`.[m
+[32m+[m[32m- **Model Persistence:** Save offline trained artifacts as `scaler.pkl`, `knn_model.pkl`, and `decision_tree_model.pkl` in `_loan_prediction/`.[m
+ [m
+ ### Non-Functional Requirements[m
+ - **Inference Latency:** GUI response time under 200 ms per prediction.[m
+[1mdiff --git a/_loan_prediction/GUI_App.py b/_loan_prediction/GUI_App.py[m
+[1mindex b525f07..7322a77 100644[m
+[1m--- a/_loan_prediction/GUI_App.py[m
+[1m+++ b/_loan_prediction/GUI_App.py[m
+[36m@@ -21,11 +21,6 @@[m [mtry:[m
+     with open("model_columns.pkl", "rb") as f:[m
+         feature_columns = pickle.load(f)[m
+ [m
+[31m-    # Recorded test accuracy scores from the trained models[m
+[31m-    # (KNN k=8 scored 81.5%, Decision Tree with depth tuning scored 80.0%)[m
+[31m-    knn_accuracy = 81.5[m
+[31m-    dt_accuracy = 80.0[m
+[31m-[m
+ except FileNotFoundError as e:[m
+     messagebox.showerror([m
+         "File Missing",[m
+[36m@@ -60,6 +55,28 @@[m [mdef predict_loan():[m
+         monthly_expenses = float(monthly_expenses_entry.get())[m
+         outstanding_debt = float(outstanding_debt_entry.get())[m
+ [m
+[32m+[m[32m        numeric_values = {[m[41m[m
+[32m+[m[32m            "Annual Income": annual_income,[m[41m[m
+[32m+[m[32m            "Loan Amount Requested": loan_amount,[m[41m[m
+[32m+[m[32m            "Loan Term": loan_term,[m[41m[m
+[32m+[m[32m            "Monthly Expenses": monthly_expenses,[m[41m[m
+[32m+[m[32m            "Outstanding Debt": outstanding_debt,[m[41m[m
+[32m+[m[32m        }[m[41m[m
+[32m+[m[32m        invalid_values = [name for name, value in numeric_values.items() if value <= 0][m[41m[m
+[32m+[m[32m        if invalid_values:[m[41m[m
+[32m+[m[32m            messagebox.showwarning([m[41m[m
+[32m+[m[32m                "Input Error",[m[41m[m
+[32m+[m[32m                f"These values must be greater than zero: {', '.join(invalid_values)}.",[m[41m[m
+[32m+[m[32m            )[m[41m[m
+[32m+[m[32m            return[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m        if not 300 <= credit_score <= 900:[m[41m[m
+[32m+[m[32m            messagebox.showwarning([m[41m[m
+[32m+[m[32m                "Input Error",[m[41m[m
+[32m+[m[32m                "Credit Score must be between 300 and 900.",[m[41m[m
+[32m+[m[32m            )[m[41m[m
+[32m+[m[32m            return[m[41m[m
+[32m+[m[41m[m
+         # -----------------------------------------[m
+         # Validate dropdown values[m
+         # -----------------------------------------[m
+[36m@@ -112,16 +129,31 @@[m [mdef predict_loan():[m
+         # MODEL PREDICTIONS[m
+         # =====================================================[m
+ [m
+[31m-        if selected_model == "KNN":[m
+[31m-            # Scale features with pickled StandardScaler[m
+[31m-            applicant_scaled = scaler.transform(applicant)[m
+[31m-            prediction = knn_model.predict(applicant_scaled)[0][m
+[31m-            model_accuracy = knn_accuracy[m
+[32m+[m[32m        applicant_scaled = scaler.transform(applicant)[m[41m[m
+[32m+[m[32m        predictions = {}[m[41m[m
+[32m+[m[32m        probabilities = {}[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m        if selected_model in ("KNN", "Compare Both"):[m[41m[m
+[32m+[m[32m            predictions["KNN"] = knn_model.predict(applicant_scaled)[0][m[41m[m
+[32m+[m[32m            probabilities["KNN"] = knn_model.predict_proba(applicant_scaled)[0][1][m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m        if selected_model in ("Decision Tree", "Compare Both"):[m[41m[m
+[32m+[m[32m            predictions["Decision Tree"] = decision_tree_model.predict(applicant)[0][m[41m[m
+[32m+[m[32m            probabilities["Decision Tree"] = decision_tree_model.predict_proba(applicant)[0][1][m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m        if selected_model == "Compare Both":[m[41m[m
+[32m+[m[32m            result_label.config(text="MODEL COMPARISON", fg="black")[m[41m[m
+[32m+[m[32m            comparison = [][m[41m[m
+[32m+[m[32m            for model_name in ("KNN", "Decision Tree"):[m[41m[m
+[32m+[m[32m                status = "APPROVED" if predictions[model_name] == 1 else "NOT APPROVED"[m[41m[m
+[32m+[m[32m                comparison.append([m[41m[m
+[32m+[m[32m                    f"{model_name}: {status} ({probabilities[model_name] * 100:.1f}% approval confidence)"[m[41m[m
+[32m+[m[32m                )[m[41m[m
+[32m+[m[32m            model_result_label.config(text="\n".join(comparison), justify="left")[m[41m[m
+[32m+[m[32m            return[m[41m[m
+ [m
+[31m-        else:[m
+[31m-            # Decision Tree works directly on unscaled aligned features[m
+[31m-            prediction = decision_tree_model.predict(applicant)[0][m
+[31m-            model_accuracy = dt_accuracy[m
+[32m+[m[32m        prediction = predictions[selected_model][m[41m[m
+[32m+[m[32m        confidence = probabilities[selected_model][m[41m[m
+ [m
+         # -----------------------------------------[m
+         # Explain prediction[m
+[36m@@ -182,7 +214,7 @@[m [mdef predict_loan():[m
+         model_result_label.config([m
+             text=([m
+                 f"Model Used: {selected_model}\n"[m
+[31m-                f"Model Accuracy: {model_accuracy:.2f}%\n\n"[m
+[32m+[m[32m                f"Approval Confidence: {confidence * 100:.1f}%\n\n"[m[41m[m
+                 f"{explanation}"[m
+             ),[m
+             justify="left"[m
+[36m@@ -324,7 +356,7 @@[m [mmodel_var = tk.StringVar()[m
+ model_combo = ttk.Combobox([m
+     form_frame,[m
+     textvariable=model_var,[m
+[31m-    values=["KNN", "Decision Tree"],[m
+[32m+[m[32m    values=["KNN", "Decision Tree", "Compare Both"],[m[41m[m
+     state="readonly",[m
+     width=28[m
+ )[m
