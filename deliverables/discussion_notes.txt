@@ -1,0 +1,17 @@
+Project: Customer Loan Approval Prediction
+
+
+Goal: Predict loan approval
+
+
+Dataset: src/Kaggle — Loan Approval Dataset (Arbaaz Tamboli)
+
+ML models: KNN and Decision Tree
+
+
+Data analysis: Cleaning + EDA
+
+
+Final output: Model prediction and evaluation
+
+
